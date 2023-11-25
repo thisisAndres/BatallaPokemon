@@ -8,6 +8,7 @@ namespace Proyecto.Models
 {
     public class objetoJugador
     {
+        public bool isBot = false;
         public int IdJugador { get; set; }
         public List<string> nombrePokemones { get; set; } = new List<string>();
         public List<objetoPokemon> pokemones { get; set; } = new List<objetoPokemon>();
@@ -24,6 +25,16 @@ namespace Proyecto.Models
             }
 
             return Jugadores;
+        }
+
+        public void setBot()
+        {
+            this.isBot = true;
+        }
+
+        public bool getIsBot()
+        {
+            return this.isBot;
         }
 
     }

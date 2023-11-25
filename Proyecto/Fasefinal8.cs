@@ -65,6 +65,7 @@ namespace Pokemons
 
             if (rutasImagenes != null && rutasImagenes.Count >= 8)
             {
+                
                 pictureBox2.Image = Image.FromFile(rutasImagenes[0]);
                 pictureBox3.Image = Image.FromFile(rutasImagenes[1]);
                 pictureBox4.Image = Image.FromFile(rutasImagenes[2]);

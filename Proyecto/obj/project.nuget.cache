@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YnpI/xEJLuPxLwtzHwva6vo9ZYuzCplSNIe1zvE7pN3CewJNb9Ask1PKEJE7EArOaKVi6zPFtoCIphwqRB7z9w==",
+  "dgSpecHash": "LRt3aQ6JkqByNjZV+C2LgFgyfk0gKDHn07mKEbGCkuILx9xJaOUC5S2AiN78dvgbedBr60kpU/FrQJzn+jjuMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\50686\\OneDrive - Universidad Internacional de las Américas (UIA)\\UIA\\Programacion IV\\ProyectoProgra4\\ProyectoV6\\Proyecto\\Proyecto.csproj",
+  "projectFilePath": "C:\\Users\\50686\\OneDrive - Universidad Internacional de las Américas (UIA)\\UIA\\Programacion IV\\ProyectoProgra4\\BatallaPokemon\\Proyecto\\Proyecto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\50686\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\50686\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

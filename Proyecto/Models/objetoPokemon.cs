@@ -59,15 +59,16 @@ namespace Proyecto.Models
             this.mov4Poder = pm4;
 
             //seteando potenciadores
-            this.eficiente = 0.15;
+            this.eficiente = 1.15;
             this.neutral = 1;
-            this.pocoEficiente = -0.15;
+            this.pocoEficiente = 0.15;
             this.inmune = 0;
             this.valor = 0.0;
 
             //seteando vida del pokemon
             this.vida = 100;
         }
+
 
         public objetoPokemon(string id, string nom, string desc, string tipo1, string tipo2)
         {
@@ -82,6 +83,24 @@ namespace Proyecto.Models
         public objetoPokemon(string desc)
         {
             this.desc = desc;
+        }
+
+        public void restarVida(int danioAtaque)
+        {
+            if (danioAtaque >= this.vida)
+            {
+                this.vida = 0;
+            }
+            else
+            {
+                this.vida -= danioAtaque;
+            }
+            
+        }
+
+        public int getVidaRestante()
+        {
+            return this.vida;
         }
 
         public override bool Equals(object obj)

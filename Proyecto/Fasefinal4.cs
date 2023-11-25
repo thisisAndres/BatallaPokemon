@@ -18,6 +18,8 @@ namespace Proyecto
         List<objetoJugador> jugadores = new List<objetoJugador>();
         Controlador imagenesrnd = new Controlador();
         int cantidadbots;
+        public List<string> rutasImagenesAleatorias;
+
         public Fasefinal4()
         {
             InitializeComponent();
@@ -30,6 +32,10 @@ namespace Proyecto
             this.cantidadbots = cantidadbots;
             this.jugadores = listaJugadores;
         }
+        public List<string> RutasImagenesAleatorias
+        {
+            get { return rutasImagenesAleatorias; }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -41,7 +47,7 @@ namespace Proyecto
         private void Fasefinal4_Load(object sender, EventArgs e)
         {
             mostrarImagenes();
-            mostrarImagenesAleatorias();
+            MostrarImagenesAleatorias();
             reproducirSonido();
         }
 
@@ -53,25 +59,62 @@ namespace Proyecto
             BackgroundImageLayout = ImageLayout.Stretch;
 
             pictureBox1.Image = Image.FromFile(ruta + "\\imagenes\\" + "copa.jpg");
-
             pictureBox9.Image = Image.FromFile(ruta + "\\imagenes\\" + "fasetexto.gif");
         }
 
-        public void mostrarImagenesAleatorias()
+        public List<string> MostrarImagenesAleatorias()
         {
+            rutasImagenesAleatorias = imagenesrnd.ObtenerImagenesEntrenadores();
+
+            if (rutasImagenesAleatorias != null && rutasImagenesAleatorias.Count >= 4)
+            {
+                pictureBox2.Image = Image.FromFile(rutasImagenesAleatorias[0]);
+                pictureBox3.Image = Image.FromFile(rutasImagenesAleatorias[1]);
+                pictureBox4.Image = Image.FromFile(rutasImagenesAleatorias[2]);
+                pictureBox5.Image = Image.FromFile(rutasImagenesAleatorias[3]);
+
+
+                return rutasImagenesAleatorias;
+            }
+            else
+            {
+                MessageBox.Show("No hay suficientes imágenes.");
+                return null;
+            }
+            /*rutasImagenesAleatorias = imagenesrnd.ObtenerImagenesEntrenadores();
+            List<string> pictureBoxes = new List<string>();
+
+            if (rutasImagenesAleatorias != null && rutasImagenesAleatorias.Count >= 4)
+            {
+                pictureBox2.Image = Image.FromFile(rutasImagenesAleatorias[0]);
+                pictureBox3.Image = Image.FromFile(rutasImagenesAleatorias[1]);
+                pictureBox4.Image = Image.FromFile(rutasImagenesAleatorias[2]);
+                pictureBox5.Image = Image.FromFile(rutasImagenesAleatorias[3]);
+
+                return rutasImagenesAleatorias;
+            }
+            else
+            {
+                MessageBox.Show("No hay suficientes imágenes.");
+                return null;
+            }
             List<string> rutasImagenes = imagenesrnd.ObtenerImagenesEntrenadores();
+            List<string> pictureBoxes = new List<string>();
 
             if (rutasImagenes != null && rutasImagenes.Count >= 4)
             {
                 pictureBox2.Image = Image.FromFile(rutasImagenes[0]);
                 pictureBox3.Image = Image.FromFile(rutasImagenes[1]);
-                pictureBox5.Image = Image.FromFile(rutasImagenes[2]);
-                pictureBox6.Image = Image.FromFile(rutasImagenes[3]);
+                pictureBox4.Image = Image.FromFile(rutasImagenes[2]);
+                pictureBox5.Image = Image.FromFile(rutasImagenes[3]);
+
+                return rutasImagenes; // Retornamos las rutas de las imágenes
             }
             else
             {
                 MessageBox.Show("No hay suficientes imágenes.");
-            }
+                return null;
+            }*/
         }
 
         public void reproducirSonido()

@@ -79,6 +79,9 @@ namespace Pokemons
                 pictureBox15.Image = Image.FromFile(rutasImagenes[13]);
                 pictureBox16.Image = Image.FromFile(rutasImagenes[14]);
                 pictureBox17.Image = Image.FromFile(rutasImagenes[15]);
+
+
+
             }
             else
             {

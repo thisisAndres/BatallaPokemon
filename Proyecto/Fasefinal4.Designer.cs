@@ -83,7 +83,7 @@
             // pictureBox4
             // 
             pictureBox4.BackColor = Color.Transparent;
-            pictureBox4.Location = new Point(309, 316);
+            pictureBox4.Location = new Point(777, 215);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(75, 75);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -93,7 +93,7 @@
             // pictureBox5
             // 
             pictureBox5.BackColor = Color.Transparent;
-            pictureBox5.Location = new Point(777, 215);
+            pictureBox5.Location = new Point(777, 412);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(75, 75);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -103,7 +103,7 @@
             // pictureBox6
             // 
             pictureBox6.BackColor = Color.Transparent;
-            pictureBox6.Location = new Point(777, 412);
+            pictureBox6.Location = new Point(313, 316);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(75, 75);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
