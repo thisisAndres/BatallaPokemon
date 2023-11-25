@@ -90,7 +90,7 @@ namespace Proyecto
         {
             if (jugadores.Count == indiceJugadorActual)
             {
-                Batallapokemon VistaCampoBatalla = new Batallapokemon(jugadores);
+                Batallapokemon VistaCampoBatalla = new Batallapokemon(jugadores, cantidadbots);
                 VistaCampoBatalla.Show();
                 this.Hide();
             }
@@ -122,7 +122,7 @@ namespace Proyecto
                 {
                     int pokemonAleatorio = random.Next(1, 152);
                     jugadores[indiceJugadorActual].pokemones.Add(controlador.obtenerPokemonBot(pokemonAleatorio));
-
+                    jugadores[indiceJugadorActual].setBot();
                 }
 
             }

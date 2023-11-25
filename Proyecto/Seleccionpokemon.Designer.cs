@@ -92,7 +92,7 @@
             // 
             flowLayoutPanel2.AutoScroll = true;
             flowLayoutPanel2.BackColor = Color.White;
-            flowLayoutPanel2.Location = new Point(856, 77);
+            flowLayoutPanel2.Location = new Point(858, 77);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Size = new Size(120, 393);
             flowLayoutPanel2.TabIndex = 3;
