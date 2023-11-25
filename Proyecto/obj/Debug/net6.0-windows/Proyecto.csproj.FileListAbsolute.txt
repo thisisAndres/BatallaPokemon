@@ -1,0 +1,819 @@
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyecto\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\Proyecto\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\Proyectojose\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form2.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV1\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form2.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form2.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PantallaInicio.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form2.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.ingreso.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PantallaInicio.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form2.resources
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.ingreso.resources
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PantallaInicio.resources
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\XPC\Downloads\ProyectoV3\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form2.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.ingreso.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.PantallaInicio.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal16.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal8.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form2.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.ingreso.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.PantallaInicio.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV4\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal16.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal8.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form1.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Form2.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.ingreso.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PantallaInicio.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal16.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal8.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Batallapokemon.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Pantallainicial.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionjugadores.resources
+C:\Users\XPC\OneDrive\Escritorio\UIA\UIA2023\TERCER CUATRI\Programacion 4\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionpokemon.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Batallapokemon.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal16.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal8.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Pantallainicial.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionjugadores.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionpokemon.resources
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\jluis\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Batallapokemon.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal16.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal8.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Pantallainicial.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionjugadores.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionpokemon.resources
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\jluis\OneDrive\Documentos\UIA ING SISTEMAS\Programación IV\Proyecto\Proyecto\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Batallapokemon.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal16.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal8.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Pantallainicial.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionjugadores.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionpokemon.resources
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\XPC\Downloads\ProyectoV5\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Proyecto.exe
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Proyecto.deps.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Proyecto.runtimeconfig.json
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.Batallapokemon.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal16.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.Fasefinal4.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Pokemons.Fasefinal8.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.Pantallainicial.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVista.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaEnemigo.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.PokeVistaJugador.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionjugadores.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.Seleccionpokemon.resources
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\refint\Proyecto.dll
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.pdb
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\50686\OneDrive - Universidad Internacional de las Américas (UIA)\UIA\Programacion IV\ProyectoProgra4\ProyectoV6\Proyecto\obj\Debug\net6.0-windows\ref\Proyecto.dll
