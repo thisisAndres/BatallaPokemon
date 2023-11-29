@@ -8,6 +8,7 @@ namespace Proyecto.Models
 {
     public class objetoJugador
     {
+        public bool isGanador;
         public bool isBot = false;
         public int IdJugador { get; set; }
         public List<string> nombrePokemones { get; set; } = new List<string>();
@@ -36,6 +37,22 @@ namespace Proyecto.Models
         {
             return this.isBot;
         }
+
+        public void setGanador()
+        {
+            this.isGanador = true;
+        }
+
+        public void setPerdedor()
+        {
+            this.isGanador = false;
+        }
+
+        public bool getIsGanador()
+        {
+            return (this.isGanador);
+        }
+
 
     }
 
