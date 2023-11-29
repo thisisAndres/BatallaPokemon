@@ -36,6 +36,10 @@ namespace Proyecto.Models
         private double inmune;
         private double valor;
         
+        private string rutaArena;
+        private double arenaSuma;
+        private double arenaResta;
+        Controlador controlador = new Controlador();
 
         private string desc;
 
@@ -59,12 +63,14 @@ namespace Proyecto.Models
             this.mov4Poder = pm4;
 
             //seteando potenciadores
-            this.eficiente = 1.15;
-            this.neutral = 1;
-            this.pocoEficiente = 0.15;
+            this.eficiente = 0.15;
+            this.neutral = 0;
+            this.pocoEficiente = -0.15;
             this.inmune = 0;
             this.valor = 0.0;
-
+            
+            this.arenaSuma = 0.05;
+            this.arenaResta = -0.05;
             //seteando vida del pokemon
             this.vida = 100;
         }
@@ -80,22 +86,94 @@ namespace Proyecto.Models
             this.tipo2 = tipo2;
         }
 
-        public objetoPokemon(string desc)
+
+        
+        private double bonificacionArena(int numArena, string atacante)
         {
-            this.desc = desc;
+
+            switch (numArena)
+            {
+                case 12:
+                    valor = arenaNormal(atacante);
+                    break;
+                case 11:
+                    valor = arenaFuego(atacante);
+                    break;
+                case 4:
+                    valor = arenaAgua(atacante);
+                    break;
+                case 2:
+                    valor = arenaPlanta(atacante);
+                    break;
+                case 13:
+                    valor = arenaElectrico(atacante);
+                    break;
+                case 14:
+                    valor = arenaHielo(atacante);
+                    break;
+                case 5:
+                    valor = arenaLucha(atacante);
+                    break;
+                case 10:
+                    valor = arenaVeneno(atacante);
+                    break;
+                case 15:
+                    valor = arenaTierra(atacante);
+                    break;
+                case 7:
+                    valor = arenaVolador(atacante);
+                    break;
+                case 16:
+                    valor = arenaPsiquico(atacante);
+                    break;
+                case 17:
+                    valor = arenaBicho(atacante);
+                    break;
+                case 6:
+                    valor = arenaRoca(atacante);
+                    break;
+                case 9:
+                    valor = arenaFantasma(atacante);
+                    break;
+                case 3:
+                    valor = arenaDragón(atacante);
+                    break;
+                case 8:
+                    valor = arenaAcero(atacante);
+                    break;
+                case 1:
+                    valor = arenaHada(atacante);
+                    break;
+                default:
+
+                    break;
+
+            }
+            return valor;
+
         }
 
-        public void restarVida(int danioAtaque)
+        public void restarVida(double danioAtaque, string atacante, string tipoEnemigo,int arena)
         {
+
+            double bonusTipo = danioAtaque * Efectividad(atacante, tipoEnemigo);
+            MessageBox.Show("bonus de tipo "+Convert.ToString(bonusTipo));
+            double bonusArena = danioAtaque * bonificacionArena(arena, atacante);
+            MessageBox.Show("bonus de arena "+Convert.ToString(bonusArena));
+
+            danioAtaque += bonusTipo;
+            danioAtaque += bonusArena;
+
+            MessageBox.Show("daño total "+Convert.ToString(danioAtaque));
             if (danioAtaque >= this.vida)
             {
                 this.vida = 0;
             }
             else
             {
-                this.vida -= danioAtaque;
+                this.vida -= Convert.ToInt32(danioAtaque);
             }
-            
+
         }
 
         public int getVidaRestante()
@@ -114,23 +192,15 @@ namespace Proyecto.Models
             return this.nombre.Equals(otherPokemon.nombre);
         }
 
-        public int TakeDamage(string ataque, double power, string tipoEnemigo)
-        {
-            double effectiveness = GetEffectiveness(ataque, tipoEnemigo);
-
-            double damage = power * effectiveness;
-            int HP = -(int)damage;
-
-            return HP;
-        }
-
         /* normal, fuego, agua, planta, eléctrico,
          * hielo, lucha, veneno, tierra, volador, psíquico, 
          * bicho, roca, fantasma, dragón, hada, acero*/
-        private double GetEffectiveness(string ataque, string tipoEnemigo)
+
+
+        private double Efectividad(string atacante, string tipoEnemigo)
         {
 
-            switch (ataque)
+            switch (atacante)
             {
                 case "Normal":
                     valor = TipoNormal(tipoEnemigo);
@@ -174,8 +244,8 @@ namespace Proyecto.Models
                 case "Fantasma":
                     valor = TipoFantasma(tipoEnemigo);
                     break;
-                case "Dragon":
-                    valor = TipoDragon(tipoEnemigo);
+                case "Dragón":
+                    valor = TipoDragón(tipoEnemigo);
                     break;
                 case "Acero":
                     valor = TipoAcero(tipoEnemigo);
@@ -209,14 +279,13 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoFuego(string tipoEnemigo)
         {
             if (tipoEnemigo == "Planta" || tipoEnemigo == "Hielo" || tipoEnemigo == "Bicho" || tipoEnemigo == "Acero")
             {
                 return eficiente;
             }
-            else if (tipoEnemigo == "Agua" || tipoEnemigo == "Dragon" || tipoEnemigo == "Fuego" || tipoEnemigo == "Roca")
+            else if (tipoEnemigo == "Agua" || tipoEnemigo == "Dragón" || tipoEnemigo == "Fuego" || tipoEnemigo == "Roca")
             {
                 return pocoEficiente;
             }
@@ -225,14 +294,13 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoAgua(string tipoEnemigo)
         {
             if (tipoEnemigo == "Fuego" || tipoEnemigo == "Roca" || tipoEnemigo == "Tierra")
             {
                 return eficiente;
             }
-            else if (tipoEnemigo == "Agua" || tipoEnemigo == "Dragon" || tipoEnemigo == "Planta")
+            else if (tipoEnemigo == "Agua" || tipoEnemigo == "Dragón" || tipoEnemigo == "Planta")
             {
                 return pocoEficiente;
             }
@@ -241,14 +309,13 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoPlanta(string tipoEnemigo)
         {
             if (tipoEnemigo == "Agua" || tipoEnemigo == "Roca" || tipoEnemigo == "Tierra")
             {
                 return eficiente;
             }
-            else if (tipoEnemigo == "Acero" || tipoEnemigo == "Bicho" || tipoEnemigo == "Dragon" || tipoEnemigo == "Fuego" || tipoEnemigo == "Planta" || tipoEnemigo == "Veneno" || tipoEnemigo == "Volador")
+            else if (tipoEnemigo == "Acero" || tipoEnemigo == "Bicho" || tipoEnemigo == "Dragón" || tipoEnemigo == "Fuego" || tipoEnemigo == "Planta" || tipoEnemigo == "Veneno" || tipoEnemigo == "Volador")
             {
                 return pocoEficiente;
             }
@@ -257,14 +324,13 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoElectrico(string tipoEnemigo)
         {
             if (tipoEnemigo == "Agua" || tipoEnemigo == "Volador")
             {
                 return eficiente;
             }
-            else if (tipoEnemigo == "Electrico" || tipoEnemigo == "Dragon" || tipoEnemigo == "Planta")
+            else if (tipoEnemigo == "Electrico" || tipoEnemigo == "Dragón" || tipoEnemigo == "Planta")
             {
                 return pocoEficiente;
             }
@@ -277,10 +343,9 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoHielo(string tipoEnemigo)
         {
-            if (tipoEnemigo == "Dragon" || tipoEnemigo == "Planta" || tipoEnemigo == "Tierra" || tipoEnemigo == "Volador")
+            if (tipoEnemigo == "Dragón" || tipoEnemigo == "Planta" || tipoEnemigo == "Tierra" || tipoEnemigo == "Volador")
             {
                 return eficiente;
             }
@@ -293,7 +358,6 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoLucha(string tipoEnemigo)
         {
             if (tipoEnemigo == "Acero" || tipoEnemigo == "Hielo" || tipoEnemigo == "Normal" || tipoEnemigo == "Roca")
@@ -313,7 +377,6 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoVeneno(string tipoEnemigo)
         {
             if (tipoEnemigo == "Hada" || tipoEnemigo == "Planta")
@@ -333,7 +396,6 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoTierra(string tipoEnemigo)
         {
             if (tipoEnemigo == "Acero" || tipoEnemigo == "Electrico" || tipoEnemigo == "Fuego" || tipoEnemigo == "Roca" || tipoEnemigo == "Veneno")
@@ -353,7 +415,6 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoVolador(string tipoEnemigo)
         {
             if (tipoEnemigo == "Bicho" || tipoEnemigo == "Lucha" || tipoEnemigo == "Planta")
@@ -369,7 +430,6 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoPsiquico(string tipoEnemigo)
         {
             if (tipoEnemigo == "Lucha" || tipoEnemigo == "Veneno")
@@ -385,7 +445,6 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoBicho(string tipoEnemigo)
         {
             if (tipoEnemigo == "Planta" || tipoEnemigo == "Psiquico")
@@ -401,7 +460,6 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoRoca(string tipoEnemigo)
         {
             if (tipoEnemigo == "Bicho" || tipoEnemigo == "Fuego" || tipoEnemigo == "Hielo" || tipoEnemigo == "Volador")
@@ -417,7 +475,6 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoFantasma(string tipoEnemigo)
         {
             if (tipoEnemigo == "Fantasma" || tipoEnemigo == "Psiquico")
@@ -429,10 +486,9 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
-        private double TipoDragon(string tipoEnemigo)
+        private double TipoDragón(string tipoEnemigo)
         {
-            if (tipoEnemigo == "Dragon")
+            if (tipoEnemigo == "Dragón")
             {
                 return eficiente;
             }
@@ -449,7 +505,6 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoAcero(string tipoEnemigo)
         {
             if (tipoEnemigo == "Hada" || tipoEnemigo == "Hielo" || tipoEnemigo == "Roca")
@@ -465,10 +520,9 @@ namespace Proyecto.Models
                 return neutral;
             }
         }
-
         private double TipoHada(string tipoEnemigo)
         {
-            if (tipoEnemigo == "Dragon" || tipoEnemigo == "Lucha")
+            if (tipoEnemigo == "Dragón" || tipoEnemigo == "Lucha")
             {
                 return eficiente;
             }
@@ -482,5 +536,196 @@ namespace Proyecto.Models
             }
         }
 
+
+        //bonificaciones de arenas
+        private double arenaNormal(string atacante)
+        {
+
+            if (atacante == "Normal")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaFuego(string atacante)
+        {
+            if (atacante == "Fuego")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaAgua(string atacante)
+        {
+            if (atacante == "Agua")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaPlanta(string atacante)
+        {
+            if (atacante == "Planta")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaElectrico(string atacante)
+        {
+            if (atacante == "Electrico")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaHielo(string atacante)
+        {
+            if (atacante == "Hielo")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaLucha(string atacante)
+        {
+            if (atacante == "Lucha")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaVeneno(string atacante)
+        {
+            if (atacante == "Veneno")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaTierra(string atacante)
+        {
+            if (atacante == "Tierra")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaVolador(string atacante)
+        {
+            if (atacante == "Volador")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaPsiquico(string atacante)
+        {
+            if (atacante == "Psiquico")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaBicho(string atacante)
+        {
+            if (atacante == "Bicho")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaRoca(string atacante)
+        {
+            if (atacante == "Roca")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaFantasma(string atacante)
+        {
+            if (atacante == "Fantasma")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaDragón(string atacante)
+        {
+            if (atacante == "Dragón")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaAcero(string atacante)
+        {
+            if (atacante == "Acero")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+        private double arenaHada(string atacante)
+        {
+            if (atacante == "Hada")
+            {
+                return arenaSuma;
+            }
+            else
+            {
+                return arenaResta;
+            }
+        }
+    
     }
-}
+    }

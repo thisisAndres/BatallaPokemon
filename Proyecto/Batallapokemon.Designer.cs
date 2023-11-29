@@ -45,10 +45,13 @@
             flowLayoutPanel3 = new FlowLayoutPanel();
             flowLayoutPanel2 = new FlowLayoutPanel();
             panel1 = new Panel();
+            label4 = new Label();
+            label3 = new Label();
+            progressBar2 = new ProgressBar();
+            progressBar1 = new ProgressBar();
             flowLayoutPanel4 = new FlowLayoutPanel();
             flowLayoutPanel5 = new FlowLayoutPanel();
-            progressBar1 = new ProgressBar();
-            progressBar2 = new ProgressBar();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel1.SuspendLayout();
@@ -198,9 +201,9 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.BackColor = Color.Gainsboro;
-            flowLayoutPanel1.Location = new Point(43, 29);
+            flowLayoutPanel1.Location = new Point(38, 29);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(75, 393);
+            flowLayoutPanel1.Size = new Size(87, 393);
             flowLayoutPanel1.TabIndex = 16;
             flowLayoutPanel1.Paint += flowLayoutPanel1_Paint;
             // 
@@ -209,7 +212,7 @@
             flowLayoutPanel3.BackColor = Color.Gainsboro;
             flowLayoutPanel3.Location = new Point(863, 29);
             flowLayoutPanel3.Name = "flowLayoutPanel3";
-            flowLayoutPanel3.Size = new Size(75, 393);
+            flowLayoutPanel3.Size = new Size(83, 393);
             flowLayoutPanel3.TabIndex = 17;
             flowLayoutPanel3.Paint += flowLayoutPanel3_Paint;
             // 
@@ -223,6 +226,8 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
             panel1.Controls.Add(progressBar2);
             panel1.Controls.Add(progressBar1);
             panel1.Controls.Add(flowLayoutPanel4);
@@ -232,6 +237,41 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(633, 393);
             panel1.TabIndex = 20;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Location = new Point(453, 117);
+            label4.Name = "label4";
+            label4.Size = new Size(48, 15);
+            label4.TabIndex = 25;
+            label4.Text = "100/100";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.Black;
+            label3.Location = new Point(123, 228);
+            label3.Name = "label3";
+            label3.Size = new Size(48, 15);
+            label3.TabIndex = 24;
+            label3.Text = "100/100";
+            // 
+            // progressBar2
+            // 
+            progressBar2.Location = new Point(453, 91);
+            progressBar2.Name = "progressBar2";
+            progressBar2.Size = new Size(100, 23);
+            progressBar2.TabIndex = 23;
+            // 
+            // progressBar1
+            // 
+            progressBar1.Location = new Point(123, 202);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(100, 23);
+            progressBar1.TabIndex = 22;
             // 
             // flowLayoutPanel4
             // 
@@ -249,19 +289,16 @@
             flowLayoutPanel5.Size = new Size(160, 138);
             flowLayoutPanel5.TabIndex = 21;
             // 
-            // progressBar1
+            // label5
             // 
-            progressBar1.Location = new Point(123, 217);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(100, 23);
-            progressBar1.TabIndex = 22;
-            // 
-            // progressBar2
-            // 
-            progressBar2.Location = new Point(453, 109);
-            progressBar2.Name = "progressBar2";
-            progressBar2.Size = new Size(100, 23);
-            progressBar2.TabIndex = 23;
+            label5.AutoSize = true;
+            label5.BackColor = SystemColors.Control;
+            label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(379, 439);
+            label5.Name = "label5";
+            label5.Size = new Size(68, 30);
+            label5.TabIndex = 21;
+            label5.Text = "Arena";
             // 
             // Batallapokemon
             // 
@@ -269,6 +306,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
             ClientSize = new Size(988, 638);
+            Controls.Add(label5);
             Controls.Add(flowLayoutPanel3);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(pictureBox4);
@@ -295,6 +333,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -321,5 +360,8 @@
         private FlowLayoutPanel flowLayoutPanel5;
         private ProgressBar progressBar2;
         private ProgressBar progressBar1;
+        private Label label4;
+        private Label label3;
+        private Label label5;
     }
 }

@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Proyecto.Models;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Proyecto
 {
@@ -21,14 +22,42 @@ namespace Proyecto
         public PictureBox ImagenControl { get { return imagen; } }
         public int IdPokemon { get; private set; }
         string Archivos = Configuracion.Archivos;
+        string desc;
+        string movimiento1;
+        int mov1Poder;
+        string movimiento2;
+        int mov2Poder;
+        string movimiento3;
+        int mov3Poder;
+        string movimiento4;
+        int mov4Poder;
+        private System.Windows.Forms.ToolTip toolTip1;
 
-        public PokeVista(string nombre, Image imagen, string tipo1, string tipo2)
+        public PokeVista(string nombre, Image imagen, string tipo1, string tipo2, string desc, string m1, int p1, string m2, int p2, string m3, int p3, string m4, int p4)
         {
             InitializeComponent();
             this.nombre.Text = nombre;
+
             this.imagen.Image = imagen;
             this.tipo1.Image = tipos(tipo1);
             this.tipo2.Image = tipos(tipo2);
+            this.desc = desc;
+            this.movimiento1 = m1;
+            this.mov1Poder = p1;
+            this.movimiento2 = m2;
+            this.mov2Poder = p2;
+            this.movimiento3 = m3;
+            this.mov3Poder = p3;
+            this.movimiento4 = m4;
+            this.mov4Poder = p4;
+
+            toolTip1 = new System.Windows.Forms.ToolTip();
+
+            // Suscribirse al evento MouseHover de la imagen
+
+
+            // Configurar el mensaje que deseas mostrar
+
 
         }
 
@@ -125,10 +154,6 @@ namespace Proyecto
             return ((CheckBox)Controls[0]).Checked;
         }*/
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void PokeVista_Load(object sender, EventArgs e)
         {
@@ -153,12 +178,24 @@ namespace Proyecto
             reproducirSonido();
         }
 
-        public void reproducirSonido() {
+        public void reproducirSonido()
+        {
 
             string rutasonido = Path.Combine(Archivos, "Resources", "sonidos", "check_pokemon.wav");
             SoundPlayer player = new SoundPlayer();
             player.SoundLocation = rutasonido;
             player.Play();
+        }
+
+      
+
+        private void imagen_MouseHover_1(object sender, EventArgs e)
+        {
+            toolTip1.SetToolTip(imagen, desc + "\n"+
+                                        movimiento1 + ": " + mov1Poder + "\n"+
+                                        movimiento2 + ": " + mov2Poder + "\n"+
+                                        movimiento3 + ": " + mov3Poder + "\n"+
+                                        movimiento4 + ": " + mov4Poder + "\n" );
         }
     }
 }

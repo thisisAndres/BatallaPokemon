@@ -15,6 +15,7 @@ namespace Proyecto
     {
         ConexionDatos db = new ConexionDatos();
         string Archivos = Configuracion.Archivos;
+        private int numeroImagen;
 
         public List<string> ObtenerListaDeImagenes()
         {
@@ -76,26 +77,16 @@ namespace Proyecto
 
         }
 
-        public string ObtenerImagenesCampoBatalla()
+        public int ObtenerImagenesCampoBatalla()
         {
-            // Construir la ruta relativa desde la carpeta del proyecto
-            string directorioImagenes = Path.Combine(Archivos, "Resources", "campos");
-
-
-            if (Directory.Exists(directorioImagenes))
-            {
-                Random rand = new Random();
-                int numeroImagen = rand.Next(1, 16);
-                string ruta = directorioImagenes + "\\" + numeroImagen.ToString() + ".jpg";
-                return ruta;
-            }
-            else
-            {
-                MessageBox.Show("El directorio de imágenes no existe.");
-                return null; // o un valor por defecto, dependiendo de tus necesidades
-            }
+            Random rand = new Random();
+            numeroImagen = rand.Next(1, 18);
+            return numeroImagen;
         }
-
+        public int ObtenerNumeroImagen()
+        {
+            return numeroImagen;
+        }
         public List<string> ObtenerImagenesEntrenadores()
         {
             // Construir la ruta relativa desde la carpeta del proyecto

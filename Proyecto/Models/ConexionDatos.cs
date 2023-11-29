@@ -17,6 +17,7 @@ namespace Proyecto.Models
         static string rutaJose = "Server=JOSEGARCIAB; Database=bd_pokemon; User ID=JOSEGARCIAB\\jluis; password=''; trustServerCertificate= true; Trusted_Connection=true";
         static string rutaAndres = "Server=PC-A; Database=bd_pokemon; User ID=sa; password=123; trustServerCertificate= true; Trusted_Connection=true";
 
+
         public SqlConnection conexion = new SqlConnection(rutaAndres);
 
         //Constructor
@@ -67,8 +68,17 @@ namespace Proyecto.Models
                         string desc = Convert.ToString(reader["DESCRIPCION"]);
                         string tipo1 = Convert.ToString(reader["TIPO1"]);
                         string tipo2 = Convert.ToString(reader["TIPO2"]);
+                        string movimiento1 = Convert.ToString(reader["MOVIMIENTO1"]);
+                        int poder1 = Convert.ToInt32(reader["MOV_1_PODER"]);
+                        string movimiento2 = Convert.ToString(reader["MOVIMIENTO2"]);
+                        int poder2 = Convert.ToInt32(reader["MOV_2_PODER"]);
+                        string movimiento3 = Convert.ToString(reader["MOVIMIENTO3"]);
+                        int poder3 = Convert.ToInt32(reader["MOV_3_PODER"]);
+                        string movimiento4 = Convert.ToString(reader["MOVIMIENTO4"]);
+                        int poder4 = Convert.ToInt32(reader["MOV_4_PODER"]);
 
-                        objetoPokemon pokemon = new objetoPokemon(id, nom, desc, tipo1, tipo2);
+
+                        objetoPokemon pokemon = new objetoPokemon(id, nom, desc, tipo1, tipo2, movimiento1, poder1, movimiento2, poder2, movimiento3, poder3, movimiento4, poder4);
 
                         pokeLista.Add(pokemon);
                         //int result = Convert.ToInt32(reader["ID"]);
