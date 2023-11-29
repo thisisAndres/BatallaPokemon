@@ -89,7 +89,7 @@ namespace Proyecto
             string rutasonido = Path.Combine(Archivos, "Resources", "sonidos", "success.wav");
             SoundPlayer player = new SoundPlayer();
             player.SoundLocation = rutasonido;
-            //player.Play();
+            //player.Play(); hola
         }
     }
 }
