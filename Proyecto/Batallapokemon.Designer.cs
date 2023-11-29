@@ -242,7 +242,7 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
-            label4.Location = new Point(453, 117);
+            label4.Location = new Point(423, 117);
             label4.Name = "label4";
             label4.Size = new Size(48, 15);
             label4.TabIndex = 25;
@@ -261,7 +261,7 @@
             // 
             // progressBar2
             // 
-            progressBar2.Location = new Point(453, 91);
+            progressBar2.Location = new Point(423, 91);
             progressBar2.Name = "progressBar2";
             progressBar2.Size = new Size(100, 23);
             progressBar2.TabIndex = 23;

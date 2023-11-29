@@ -61,7 +61,7 @@ namespace Proyecto
 
         public async void movimientoBot(int jugadorActual1, int jugadorActual2)
         {
-            
+
             if (jugadores[jugadorActual2].getIsBot())
             {
                 await Task.Delay(1000);
@@ -102,7 +102,7 @@ namespace Proyecto
                     progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
                     label3.Text = Convert.ToString(progressBar1.Value) + "/100";
 
-                    
+
                 }
                 else
                 {
@@ -142,7 +142,7 @@ namespace Proyecto
 
             }
 
-  
+
 
             if (progressBar1.Value <= 0)
             {
@@ -153,7 +153,7 @@ namespace Proyecto
                 actualizarPokemonJ2();
             }
 
-         
+
 
         }
 
@@ -227,8 +227,9 @@ namespace Proyecto
         }
 
 
-        private void restaurarEquipo() {
-            
+        private void restaurarEquipo()
+        {
+
             //for (int i = 0; i < 6; i++) {
             //    jugadores[jugadorActual1].pokemones[i].vida = 100;
             //}
@@ -355,7 +356,7 @@ namespace Proyecto
         {
             if (jugadores[jugadorActual1].isBot && jugadores[jugadorActual2].isBot)
             {
-                Random rnd = new Random(); 
+                Random rnd = new Random();
 
                 int nRandom = rnd.Next(1, 3);
 
@@ -434,7 +435,7 @@ namespace Proyecto
             if (pokemonActual1 == 4)
             {
 
-                MessageBox.Show("jugador "+ jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
+                MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
                 //jugadores.RemoveAt(jugadorActual2);
                 //Se setea el bot en este caso como perdedor y el jugador como ganador
                 jugadores[jugadorActual1].setPerdedor();
@@ -456,7 +457,7 @@ namespace Proyecto
 
         public void logicaMovimientoBot()
         {
-           // jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
+            // jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
             //     Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder),
             //     jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
             //     jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
@@ -477,7 +478,7 @@ namespace Proyecto
                 if (pokemonActual2 == 4)
                 {
 
-                    MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador +" ha ganado el combate pokemon!!!!");
+                    MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
                     //jugadores.RemoveAt(jugadorActual2);
                     //Se setea el bot en este caso como perdedor y el jugador como ganador
                     jugadores[jugadorActual2].setPerdedor();
@@ -505,7 +506,7 @@ namespace Proyecto
             logicaAmbosSonBots();
 
         }
-        
+
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -527,7 +528,7 @@ namespace Proyecto
 
 
         }
-        
+
         private void button6_Click(object sender, EventArgs e)
         {
 
@@ -648,7 +649,7 @@ namespace Proyecto
         }
         public void actualizarPokemonbot()
         {
-            
+
             try
             {
                 flowLayoutPanel4.Controls.Clear();
@@ -697,7 +698,7 @@ namespace Proyecto
                 //Actualizacion de la vida del nuevo pokemon!
                 progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].vida;
                 label3.Text = Convert.ToString(progressBar1.Value) + "/100";
-                
+
 
             }
             catch (Exception ex)
@@ -746,7 +747,7 @@ namespace Proyecto
             pokemonActual2 = 0;
             try
             {
-                
+
                 flowLayoutPanel2.Controls.Clear();
                 flowLayoutPanel1.Controls.Clear();
                 PictureBox pictureBox_Espalda = new PictureBox();

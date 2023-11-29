@@ -99,13 +99,13 @@ namespace Proyecto
 
                 HashSet<int> numerosUsados = new HashSet<int>(); // Almacena números ya utilizados
 
-                for (int i = 0; i < 4; i++)
+                for (int i = 1; i < 5; i++)
                 {
-                    int numeroImagen;
+                    int numeroImagen = i;
 
                     do
                     {
-                        numeroImagen = rand.Next(1, 17);
+                        //numeroImagen = rand.Next(1, 17);
                     } while (numerosUsados.Contains(numeroImagen));
 
                     numerosUsados.Add(numeroImagen);
@@ -135,13 +135,13 @@ namespace Proyecto
 
                 HashSet<int> numerosUsados = new HashSet<int>(); // Almacena números ya utilizados
 
-                for (int i = 0; i < 8; i++)
+                for (int i = 1; i < 9; i++)
                 {
-                    int numeroImagen;
+                    int numeroImagen = i;
 
                     do
                     {
-                        numeroImagen = rand.Next(1, 17);
+                        //numeroImagen = rand.Next(1, 17);
                     } while (numerosUsados.Contains(numeroImagen));
 
                     numerosUsados.Add(numeroImagen);
@@ -171,13 +171,13 @@ namespace Proyecto
 
                 HashSet<int> numerosUsados = new HashSet<int>(); // Almacena números ya utilizados
 
-                for (int i = 0; i < 16; i++)
+                for (int i = 1; i < 17; i++)
                 {
-                    int numeroImagen;
+                    int numeroImagen = i;
 
                     do
                     {
-                        numeroImagen = rand.Next(1, 17);
+                        //numeroImagen = rand.Next(1, 17);
                     } while (numerosUsados.Contains(numeroImagen));
 
                     numerosUsados.Add(numeroImagen);
