@@ -157,14 +157,14 @@ namespace Proyecto.Models
         {
 
             double bonusTipo = danioAtaque * Efectividad(atacante, tipoEnemigo);
-            MessageBox.Show("bonus de tipo "+Convert.ToString(bonusTipo));
+            //MessageBox.Show("bonus de tipo "+Convert.ToString(bonusTipo));
             double bonusArena = danioAtaque * bonificacionArena(arena, atacante);
-            MessageBox.Show("bonus de arena "+Convert.ToString(bonusArena));
+            //MessageBox.Show("bonus de arena "+Convert.ToString(bonusArena));
 
             danioAtaque += bonusTipo;
             danioAtaque += bonusArena;
 
-            MessageBox.Show("daño total "+Convert.ToString(danioAtaque));
+            //MessageBox.Show("daño total "+Convert.ToString(danioAtaque));
             if (danioAtaque >= this.vida)
             {
                 this.vida = 0;
