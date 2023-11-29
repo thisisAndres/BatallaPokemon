@@ -48,7 +48,7 @@
             imagen.SizeMode = PictureBoxSizeMode.CenterImage;
             imagen.TabIndex = 0;
             imagen.TabStop = false;
-            imagen.DoubleClick += pictureBox1_Click;
+            imagen.MouseHover += imagen_MouseHover_1;
             // 
             // nombre
             // 

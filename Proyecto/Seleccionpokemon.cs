@@ -72,7 +72,16 @@ namespace Proyecto
                         $"{pokemon.nombre}",
                         Image.FromFile(rutaImagen),
                         $"{pokemon.tipo1}",
-                        $"{pokemon.tipo2}"
+                        $"{pokemon.tipo2}",
+                        $"{pokemon.descripcion}",
+                        $"{pokemon.movimiento1}",
+                        pokemon.mov1Poder,
+                        $"{pokemon.movimiento2}",
+                         pokemon.mov2Poder,
+                        $"{pokemon.movimiento3}",
+                         pokemon.mov3Poder,
+                        $"{pokemon.movimiento4}",
+                         pokemon.mov4Poder
                         ));
                 }
 
@@ -118,7 +127,7 @@ namespace Proyecto
 
             if (jugadores[indiceJugadorActual].pokemones.Count != 6)
             {
-                for (int i = 0; i < 7; i++)
+                for (int i = 0; i < 6; i++)
                 {
                     int pokemonAleatorio = random.Next(1, 152);
                     jugadores[indiceJugadorActual].pokemones.Add(controlador.obtenerPokemonBot(pokemonAleatorio));
