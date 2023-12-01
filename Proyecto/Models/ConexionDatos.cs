@@ -18,7 +18,7 @@ namespace Proyecto.Models
         static string rutaAndres = "Server=PC-A; Database=bd_pokemon; User ID=sa; password=123; trustServerCertificate= true; Trusted_Connection=true";
 
 
-        public SqlConnection conexion = new SqlConnection(rutaJose);
+        public SqlConnection conexion = new SqlConnection(rutaAndres);
 
         //Constructor
         public ConexionDatos()
@@ -246,14 +246,13 @@ namespace Proyecto.Models
         {
             try
             {
-                using (SqlConnection connection = new SqlConnection(rutaJose))
-                {
-                    connection.Open();
+
+                    conexion.Open();
 
                     // Crear el comando SQL para el insert
                     string query = "INSERT INTO bitacora_peleas (FECHA, COMBATE, GANADOR, PERDEDOR) VALUES (GETDATE(), @combate, @ganadorId, @perdedorId)";
 
-                    using (SqlCommand command = new SqlCommand(query, connection))
+                    using (SqlCommand command = new SqlCommand(query, conexion))
                     {
                         // Agregar los parámetros
                         command.Parameters.AddWithValue("@combate", combate);
@@ -265,7 +264,7 @@ namespace Proyecto.Models
                     }
 
                     conexion.Close();
-                }
+                
 
                 MessageBox.Show("Registro en bitacora_peleas insertado correctamente.");
             }

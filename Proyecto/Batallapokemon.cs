@@ -30,8 +30,10 @@ namespace Proyecto
         private string arena = "";
         //Pokemones actuales
         int pokemonActual1 = 0;
-        int j1PokemonesElim = 0;
         int pokemonActual2 = 0;
+        //numero de eliminaciones
+        int j1PokemonesElimidados = 0;
+        int j2PokemonesElimidados = 0;
 
         public Batallapokemon()
         {
@@ -459,20 +461,20 @@ namespace Proyecto
             if (progressBar2.Value == 0)
             {
                 actualizarPokemonJ2();
-                j1PokemonesElim++;
+                j2PokemonesElimidados++;
             }
 
-            if (j1PokemonesElim == 4)
+            if (j2PokemonesElimidados == 4)
             {
 
-                MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
+                MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
                 //jugadores.RemoveAt(jugadorActual2);
                 //Se setea el bot en este caso como perdedor y el jugador como ganador
-                jugadores[jugadorActual2].setPerdedor();
-                jugadores[jugadorActual1].setGanador();
+                jugadores[jugadorActual1].setPerdedor();
+                jugadores[jugadorActual2].setGanador();
 
-                perdedorId = jugadores[jugadorActual2].IdJugador;
-                ganadorId = jugadores[jugadorActual1].IdJugador;
+                perdedorId = jugadores[jugadorActual1].IdJugador;
+                ganadorId = jugadores[jugadorActual2].IdJugador;
                 
                 jugadorActual1 = jugadorActual1 + 2;
                 jugadorActual2 = jugadorActual2 + 2;
@@ -546,20 +548,20 @@ namespace Proyecto
             if (progressBar1.Value == 0)
             {
                 actualizarPokemonJ1();
-                j1PokemonesElim++;
+                j1PokemonesElimidados++;
             }
 
-            if (j1PokemonesElim == 4)
+            if (j1PokemonesElimidados == 4)
             {
 
-                MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
+                MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
                 //jugadores.RemoveAt(jugadorActual2);
                 //Se setea el bot en este caso como perdedor y el jugador como ganador
-                jugadores[jugadorActual1].setPerdedor();
-                jugadores[jugadorActual2].setGanador();
+                jugadores[jugadorActual2].setPerdedor();
+                jugadores[jugadorActual1].setGanador();
 
-                perdedorId = jugadores[jugadorActual1].IdJugador;
-                ganadorId = jugadores[jugadorActual2].IdJugador;
+                perdedorId = jugadores[jugadorActual2].IdJugador;
+                ganadorId = jugadores[jugadorActual1].IdJugador;
 
                 jugadorActual1 = jugadorActual1 + 2;
                 jugadorActual2 = jugadorActual2 + 2;
@@ -631,10 +633,6 @@ namespace Proyecto
         }*/
         public (int ganadorId, int perdedorId, string combate) logicaMovimientoBot()
         {
-            // jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
-            //     Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder),
-            //     jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
-            //     jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
             int ganadorId = 0;
             int perdedorId = 0;
             string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
@@ -645,24 +643,23 @@ namespace Proyecto
 
             if (progressBar2.Value == 0)
             {
-                //int eliminarPokemon = 0;
-                //MessageBox.Show(Convert.ToString(jugadores[jugadorActual2].pokemones.Count()));
-                //jugadores[jugadorActual2].pokemones.RemoveAt(eliminarPokemon);
-                //MessageBox.Show(Convert.ToString(jugadores[jugadorActual2].pokemones.Count()));
-                //eliminarPokemon++;
-                pokemonActual2++;
+                
                 actualizarPokemonbot();
-                if (pokemonActual2 == 4)
+                j1PokemonesElimidados++;
+
+                if (j1PokemonesElimidados == 4)
                 {
 
-                    MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
+                    MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
                     //jugadores.RemoveAt(jugadorActual2);
                     //Se setea el bot en este caso como perdedor y el jugador como ganador
-                    jugadores[jugadorActual1].setPerdedor();
-                    jugadores[jugadorActual2].setGanador();
+                    jugadores[jugadorActual2].setPerdedor();
+                    jugadores[jugadorActual1].setGanador();
 
-                    perdedorId = jugadores[jugadorActual1].IdJugador;
-                    ganadorId = jugadores[jugadorActual2].IdJugador;
+
+
+                    perdedorId = jugadores[jugadorActual2].IdJugador;
+                    ganadorId = jugadores[jugadorActual1].IdJugador;
 
                     jugadorActual1 = jugadorActual1 + 2;
                     jugadorActual2 = jugadorActual2 + 2;
@@ -685,6 +682,8 @@ namespace Proyecto
             {
                 movimientoBot(jugadorActual1, jugadorActual2);
             }
+
+
 
             logicaAmbosSonBots();
 
@@ -832,9 +831,10 @@ namespace Proyecto
         }
         public void actualizarPokemonbot()
         {
-
+            pokemonActual2++;
             try
             {
+
                 flowLayoutPanel4.Controls.Clear();
                 PictureBox pictureBox_Frente = new PictureBox();
                 pictureBox_Frente.Image = Image.FromFile(frente + jugadores[jugadorActual2].pokemones[pokemonActual2].Id + ".gif");
