@@ -21,6 +21,7 @@ namespace Proyecto
         string frente = Path.Combine(Configuracion.Archivos, "Resources", "pokemonFrente\\");
         string espalda = Path.Combine(Configuracion.Archivos, "Resources", "pokemonEspalda\\");
         Controlador controlador = new Controlador();
+        ConexionDatos insertar_bitacora = new ConexionDatos();
         private string rutaDeLaImagen;
         int arenaAleatoria;
         //Jugadores actuales
@@ -142,8 +143,6 @@ namespace Proyecto
 
             }
 
-
-
             if (progressBar1.Value <= 0)
             {
                 actualizarPokemonJ1();
@@ -153,13 +152,7 @@ namespace Proyecto
                 actualizarPokemonJ2();
             }
 
-
-
         }
-
-
-
-
 
         private string tipoArena(int numArena)
         {
@@ -351,9 +344,37 @@ namespace Proyecto
         }
 
 
+        /*public void logicaAmbosSonBots()
+         {
+             if (jugadores[jugadorActual1].isBot && jugadores[jugadorActual2].isBot)
+             {
+                 Random rnd = new Random();
 
-        public void logicaAmbosSonBots()
+                 int nRandom = rnd.Next(1, 3);
+
+                 if (nRandom == 1)
+                 {
+                     jugadores[jugadorActual1].setPerdedor();
+                     jugadores[jugadorActual2].setGanador();
+
+                     MessageBox.Show("Gano el jugador: " + jugadores[jugadorActual2].IdJugador);
+                 }
+                 else
+                 {
+                     jugadores[jugadorActual1].setGanador();
+                     jugadores[jugadorActual2].setPerdedor();
+
+                     MessageBox.Show("Gano el jugador: " + jugadores[jugadorActual1].IdJugador);
+                 }
+
+             }
+         }*/
+        public (int ganadorId, int perdedorId, string combate) logicaAmbosSonBots()
         {
+            int ganadorId = 0;
+            int perdedorId = 0;
+            string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
+
             if (jugadores[jugadorActual1].isBot && jugadores[jugadorActual2].isBot)
             {
                 Random rnd = new Random();
@@ -365,22 +386,30 @@ namespace Proyecto
                     jugadores[jugadorActual1].setPerdedor();
                     jugadores[jugadorActual2].setGanador();
 
-                    MessageBox.Show("Gano el jugador: " + jugadores[jugadorActual2].IdJugador);
+                    ganadorId = jugadores[jugadorActual2].IdJugador;
+                    perdedorId = jugadores[jugadorActual1].IdJugador;
+
+                    MessageBox.Show("Gano el jugador: " + ganadorId);
                 }
                 else
                 {
                     jugadores[jugadorActual1].setGanador();
                     jugadores[jugadorActual2].setPerdedor();
 
-                    MessageBox.Show("Gano el jugador: " + jugadores[jugadorActual1].IdJugador);
-                }
+                    ganadorId = jugadores[jugadorActual1].IdJugador;
+                    perdedorId = jugadores[jugadorActual2].IdJugador;
 
+                    MessageBox.Show("Gano el jugador: " + ganadorId);
+                }
+                
+                insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
             }
 
-
+            return (ganadorId, perdedorId, combate);
         }
 
-        public void logicaMovimientoJ1()
+
+        /*public void logicaMovimientoJ1()
         {
             HabilitarBotonesRival();
             DeshabilitarBotonesJugador();
@@ -415,9 +444,56 @@ namespace Proyecto
 
                 logicaAmbosSonBots();
             }
+        }*/
+        public (int ganadorId, int perdedorId, string combate) logicaMovimientoJ1()
+        {
+            HabilitarBotonesRival();
+            DeshabilitarBotonesJugador();
+            int ganadorId = 0;
+            int perdedorId = 0;
+            string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
+
+            progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].getVidaRestante();
+            label4.Text = Convert.ToString(progressBar2.Value) + "/100";
+
+            if (progressBar2.Value == 0)
+            {
+                actualizarPokemonJ2();
+                j1PokemonesElim++;
+            }
+
+            if (j1PokemonesElim == 4)
+            {
+
+                MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
+                //jugadores.RemoveAt(jugadorActual2);
+                //Se setea el bot en este caso como perdedor y el jugador como ganador
+                jugadores[jugadorActual2].setPerdedor();
+                jugadores[jugadorActual1].setGanador();
+
+                perdedorId = jugadores[jugadorActual2].IdJugador;
+                ganadorId = jugadores[jugadorActual1].IdJugador;
+                
+                jugadorActual1 = jugadorActual1 + 2;
+                jugadorActual2 = jugadorActual2 + 2;
+
+                restaurarEquipo();
+                llamarPokemonesCampo();
+                CargarPokemonesEnEspera();
+                mostrarJugadores();
+                
+                insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
+
+                MessageBox.Show("Inicio siguiente combate");
+
+                logicaAmbosSonBots();
+
+            }
+
+            return (ganadorId, perdedorId, combate);
         }
 
-        public void logicaMovimientoJ2()
+        /*public void logicaMovimientoJ2()
         {
             reproducirSonido2();
             imagenGolpe();
@@ -453,9 +529,56 @@ namespace Proyecto
                 logicaAmbosSonBots();
             }
 
+        }*/
+        public (int ganadorId, int perdedorId, string combate) logicaMovimientoJ2()
+        {
+            reproducirSonido2();
+            imagenGolpe();
+            HabilitarBotonesJugador();
+            DeshabilitarBotonesRival();
+            int ganadorId = 0;
+            int perdedorId = 0;
+            string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
+
+            progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
+            label3.Text = Convert.ToString(progressBar1.Value) + "/100";
+
+            if (progressBar1.Value == 0)
+            {
+                actualizarPokemonJ1();
+                j1PokemonesElim++;
+            }
+
+            if (j1PokemonesElim == 4)
+            {
+
+                MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
+                //jugadores.RemoveAt(jugadorActual2);
+                //Se setea el bot en este caso como perdedor y el jugador como ganador
+                jugadores[jugadorActual1].setPerdedor();
+                jugadores[jugadorActual2].setGanador();
+
+                perdedorId = jugadores[jugadorActual1].IdJugador;
+                ganadorId = jugadores[jugadorActual2].IdJugador;
+
+                jugadorActual1 = jugadorActual1 + 2;
+                jugadorActual2 = jugadorActual2 + 2;
+
+                restaurarEquipo();
+                llamarPokemonesCampo();
+                CargarPokemonesEnEspera();
+                mostrarJugadores();
+
+                insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
+
+                MessageBox.Show("Inicio siguiente combate");
+
+                logicaAmbosSonBots();
+            }
+            return (ganadorId, perdedorId, combate);
         }
 
-        public void logicaMovimientoBot()
+        /*public void logicaMovimientoBot()
         {
             // jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
             //     Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder),
@@ -505,8 +628,68 @@ namespace Proyecto
 
             logicaAmbosSonBots();
 
-        }
+        }*/
+        public (int ganadorId, int perdedorId, string combate) logicaMovimientoBot()
+        {
+            // jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
+            //     Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder),
+            //     jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
+            //     jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
+            int ganadorId = 0;
+            int perdedorId = 0;
+            string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
 
+            progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].getVidaRestante();
+            label4.Text = Convert.ToString(progressBar2.Value) + "/100";
+
+
+            if (progressBar2.Value == 0)
+            {
+                //int eliminarPokemon = 0;
+                //MessageBox.Show(Convert.ToString(jugadores[jugadorActual2].pokemones.Count()));
+                //jugadores[jugadorActual2].pokemones.RemoveAt(eliminarPokemon);
+                //MessageBox.Show(Convert.ToString(jugadores[jugadorActual2].pokemones.Count()));
+                //eliminarPokemon++;
+                pokemonActual2++;
+                actualizarPokemonbot();
+                if (pokemonActual2 == 4)
+                {
+
+                    MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
+                    //jugadores.RemoveAt(jugadorActual2);
+                    //Se setea el bot en este caso como perdedor y el jugador como ganador
+                    jugadores[jugadorActual1].setPerdedor();
+                    jugadores[jugadorActual2].setGanador();
+
+                    perdedorId = jugadores[jugadorActual1].IdJugador;
+                    ganadorId = jugadores[jugadorActual2].IdJugador;
+
+                    jugadorActual1 = jugadorActual1 + 2;
+                    jugadorActual2 = jugadorActual2 + 2;
+
+                    restaurarEquipo();
+                    llamarPokemonesCampo();
+                    CargarPokemonesEnEspera();
+                    mostrarJugadores();
+
+                    insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
+
+                    MessageBox.Show("Inicio segundo combate");
+                }
+                else
+                {
+                    movimientoBot(jugadorActual1, jugadorActual2);
+                }
+            }
+            else
+            {
+                movimientoBot(jugadorActual1, jugadorActual2);
+            }
+
+            logicaAmbosSonBots();
+
+            return (ganadorId, perdedorId, combate);
+        }
 
         private void button5_Click(object sender, EventArgs e)
         {

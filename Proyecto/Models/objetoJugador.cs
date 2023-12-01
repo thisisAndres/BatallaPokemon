@@ -10,6 +10,7 @@ namespace Proyecto.Models
     {
         public bool isGanador;
         public bool isBot = false;
+
         public int IdJugador { get; set; }
         public List<string> nombrePokemones { get; set; } = new List<string>();
         public List<objetoPokemon> pokemones { get; set; } = new List<objetoPokemon>();
