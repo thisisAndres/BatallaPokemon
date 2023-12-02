@@ -81,40 +81,7 @@ namespace Proyecto
                 MessageBox.Show("No hay suficientes imágenes.");
                 return null;
             }
-            /*rutasImagenesAleatorias = imagenesrnd.ObtenerImagenesEntrenadores();
-            List<string> pictureBoxes = new List<string>();
 
-            if (rutasImagenesAleatorias != null && rutasImagenesAleatorias.Count >= 4)
-            {
-                pictureBox2.Image = Image.FromFile(rutasImagenesAleatorias[0]);
-                pictureBox3.Image = Image.FromFile(rutasImagenesAleatorias[1]);
-                pictureBox4.Image = Image.FromFile(rutasImagenesAleatorias[2]);
-                pictureBox5.Image = Image.FromFile(rutasImagenesAleatorias[3]);
-
-                return rutasImagenesAleatorias;
-            }
-            else
-            {
-                MessageBox.Show("No hay suficientes imágenes.");
-                return null;
-            }
-            List<string> rutasImagenes = imagenesrnd.ObtenerImagenesEntrenadores();
-            List<string> pictureBoxes = new List<string>();
-
-            if (rutasImagenes != null && rutasImagenes.Count >= 4)
-            {
-                pictureBox2.Image = Image.FromFile(rutasImagenes[0]);
-                pictureBox3.Image = Image.FromFile(rutasImagenes[1]);
-                pictureBox4.Image = Image.FromFile(rutasImagenes[2]);
-                pictureBox5.Image = Image.FromFile(rutasImagenes[3]);
-
-                return rutasImagenes; // Retornamos las rutas de las imágenes
-            }
-            else
-            {
-                MessageBox.Show("No hay suficientes imágenes.");
-                return null;
-            }*/
         }
 
         public void reproducirSonido()
@@ -122,7 +89,7 @@ namespace Proyecto
             string rutasonido = Path.Combine(Archivos, "Resources", "sonidos", "success.wav");
             SoundPlayer player = new SoundPlayer();
             player.SoundLocation = rutasonido;
-            //player.Play();
+            //player.Play(); hola
         }
     }
 }

@@ -242,6 +242,39 @@ namespace Proyecto.Models
             }
         }
 
+        public void InsertarEnBitacoraPeleas(int ganadorId, int perdedorId, string combate)
+        {
+            try
+            {
+
+                    conexion.Open();
+
+                    // Crear el comando SQL para el insert
+                    string query = "INSERT INTO bitacora_peleas (FECHA, COMBATE, GANADOR, PERDEDOR) VALUES (GETDATE(), @combate, @ganadorId, @perdedorId)";
+
+                    using (SqlCommand command = new SqlCommand(query, conexion))
+                    {
+                        // Agregar los parámetros
+                        command.Parameters.AddWithValue("@combate", combate);
+                        command.Parameters.AddWithValue("@ganadorId", ganadorId);
+                        command.Parameters.AddWithValue("@perdedorId", perdedorId);
+
+                        // Ejecutar el comando
+                        command.ExecuteNonQuery();
+                    }
+
+                    conexion.Close();
+                
+
+                MessageBox.Show("Registro en bitacora_peleas insertado correctamente.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al insertar en bitacora_peleas: " + ex.Message);
+            }
+        }
+
+
         internal void InfoPokemon(object text)
         {
             throw new NotImplementedException();

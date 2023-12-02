@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Proyecto/DesignTimeBuild/.dtbcache.v2
+/.vs/Proyecto/FileContentIndex/acb668fd-01e6-4344-bdd6-f0af5a004c97.vsidx
+/.vs/Proyecto/FileContentIndex/write.lock
+/.vs/Proyecto/FileContentIndex/9869f30c-7c84-471e-81f3-e2be7ec2bcd9.vsidx
+/.vs/Proyecto/FileContentIndex/e7cd7830-cb3e-4e06-92a7-8ec36472817e.vsidx
+/Proyecto/obj/Debug/net6.0-windows/refint/Proyecto.dll
+/Proyecto/obj/Debug/net6.0-windows/ref/Proyecto.dll
+/Proyecto/obj/Debug/net6.0-windows/refint/Proyecto.dll
