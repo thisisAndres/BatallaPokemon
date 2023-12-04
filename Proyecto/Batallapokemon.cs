@@ -346,31 +346,6 @@ namespace Proyecto
         }
 
 
-        /*public void logicaAmbosSonBots()
-         {
-             if (jugadores[jugadorActual1].isBot && jugadores[jugadorActual2].isBot)
-             {
-                 Random rnd = new Random();
-
-                 int nRandom = rnd.Next(1, 3);
-
-                 if (nRandom == 1)
-                 {
-                     jugadores[jugadorActual1].setPerdedor();
-                     jugadores[jugadorActual2].setGanador();
-
-                     MessageBox.Show("Gano el jugador: " + jugadores[jugadorActual2].IdJugador);
-                 }
-                 else
-                 {
-                     jugadores[jugadorActual1].setGanador();
-                     jugadores[jugadorActual2].setPerdedor();
-
-                     MessageBox.Show("Gano el jugador: " + jugadores[jugadorActual1].IdJugador);
-                 }
-
-             }
-         }*/
         public (int ganadorId, int perdedorId, string combate) logicaAmbosSonBots()
         {
             int ganadorId = 0;
@@ -410,43 +385,6 @@ namespace Proyecto
             return (ganadorId, perdedorId, combate);
         }
 
-
-        /*public void logicaMovimientoJ1()
-        {
-            HabilitarBotonesRival();
-            DeshabilitarBotonesJugador();
-
-            progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].getVidaRestante();
-            label4.Text = Convert.ToString(progressBar2.Value) + "/100";
-
-            if (progressBar2.Value == 0)
-            {
-
-                actualizarPokemonJ2();
-                j1PokemonesElim++;
-            }
-
-            if (j1PokemonesElim == 4)
-            {
-
-                MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
-                //jugadores.RemoveAt(jugadorActual2);
-                //Se setea el bot en este caso como perdedor y el jugador como ganador
-                jugadores[jugadorActual2].setPerdedor();
-                jugadores[jugadorActual1].setGanador();
-
-                jugadorActual1 = jugadorActual1 + 2;
-                jugadorActual2 = jugadorActual2 + 2;
-
-                restaurarEquipo();
-                llamarPokemonesCampo();
-                CargarPokemonesEnEspera();
-                mostrarJugadores();
-                MessageBox.Show("Inicio siguiente combate");
-
-                logicaAmbosSonBots();
-            }
-        }*/
         public (int ganadorId, int perdedorId, string combate) logicaMovimientoJ1()
         {
             HabilitarBotonesRival();
@@ -495,43 +433,6 @@ namespace Proyecto
             return (ganadorId, perdedorId, combate);
         }
 
-        /*public void logicaMovimientoJ2()
-        {
-            reproducirSonido2();
-            imagenGolpe();
-            HabilitarBotonesJugador();
-            DeshabilitarBotonesRival();
-            progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
-            label3.Text = Convert.ToString(progressBar1.Value) + "/100";
-
-            if (progressBar1.Value == 0)
-            {
-
-                actualizarPokemonJ1();
-            }
-
-            if (pokemonActual1 == 4)
-            {
-
-                MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
-                //jugadores.RemoveAt(jugadorActual2);
-                //Se setea el bot en este caso como perdedor y el jugador como ganador
-                jugadores[jugadorActual1].setPerdedor();
-                jugadores[jugadorActual2].setGanador();
-
-                jugadorActual1 = jugadorActual1 + 2;
-                jugadorActual2 = jugadorActual2 + 2;
-
-                restaurarEquipo();
-                llamarPokemonesCampo();
-                CargarPokemonesEnEspera();
-                mostrarJugadores();
-                MessageBox.Show("Inicio siguiente combate");
-
-                logicaAmbosSonBots();
-            }
-
-        }*/
         public (int ganadorId, int perdedorId, string combate) logicaMovimientoJ2()
         {
             reproducirSonido2();
@@ -580,57 +481,6 @@ namespace Proyecto
             return (ganadorId, perdedorId, combate);
         }
 
-        /*public void logicaMovimientoBot()
-        {
-            // jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
-            //     Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder),
-            //     jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
-            //     jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
-
-            progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].getVidaRestante();
-            label4.Text = Convert.ToString(progressBar2.Value) + "/100";
-
-
-            if (progressBar2.Value == 0)
-            {
-                //int eliminarPokemon = 0;
-                //MessageBox.Show(Convert.ToString(jugadores[jugadorActual2].pokemones.Count()));
-                //jugadores[jugadorActual2].pokemones.RemoveAt(eliminarPokemon);
-                //MessageBox.Show(Convert.ToString(jugadores[jugadorActual2].pokemones.Count()));
-                //eliminarPokemon++;
-                pokemonActual2++;
-                actualizarPokemonbot();
-                if (pokemonActual2 == 4)
-                {
-
-                    MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
-                    //jugadores.RemoveAt(jugadorActual2);
-                    //Se setea el bot en este caso como perdedor y el jugador como ganador
-                    jugadores[jugadorActual2].setPerdedor();
-                    jugadores[jugadorActual1].setGanador();
-
-                    jugadorActual1 = jugadorActual1 + 2;
-                    jugadorActual2 = jugadorActual2 + 2;
-
-                    restaurarEquipo();
-                    llamarPokemonesCampo();
-                    CargarPokemonesEnEspera();
-                    mostrarJugadores();
-                    MessageBox.Show("Inicio segundo combate");
-                }
-                else
-                {
-                    movimientoBot(jugadorActual1, jugadorActual2);
-                }
-            }
-            else
-            {
-                movimientoBot(jugadorActual1, jugadorActual2);
-            }
-
-            logicaAmbosSonBots();
-
-        }*/
         public (int ganadorId, int perdedorId, string combate) logicaMovimientoBot()
         {
             int ganadorId = 0;
@@ -698,15 +548,7 @@ namespace Proyecto
                                                                                            jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
                                                                                            jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
             logicaMovimientoJ2();
-            //reproducirSonido1();
-            //imagenGolpe_2();
-            //HabilitarBotonesJugador();
-            // DeshabilitarBotonesRival();
 
-            //progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
-
-            //movimiento del bot si lo hay
-            //movimientoBot(jugadorActual1, jugadorActual2);
 
 
         }
@@ -719,10 +561,7 @@ namespace Proyecto
                                                                                            jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
                                                                                            jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
             logicaMovimientoJ2();
-            //progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
-
-            //movimiento del bot si lo hay
-            //movimientoBot(jugadorActual1, jugadorActual2);
+  
 
         }
         private void button7_Click(object sender, EventArgs e)
@@ -732,10 +571,6 @@ namespace Proyecto
                                                                                            jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
                                                                                            jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
             logicaMovimientoJ2();
-            //progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
-
-            //movimiento del bot si lo hay
-            //movimientoBot(jugadorActual1, jugadorActual2);
 
         }
         private void button8_Click(object sender, EventArgs e)
@@ -746,10 +581,7 @@ namespace Proyecto
                                                                                            jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
                                                                                            jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
             logicaMovimientoJ2();
-            //progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
 
-            //movimiento del bot si lo hay
-            //movimientoBot(jugadorActual1, jugadorActual2);
 
         }
 
@@ -765,22 +597,27 @@ namespace Proyecto
         {
 
         }
-        private void PokemonEnEspera_Click(object sender, EventArgs e)
+
+        private void PokemonEnEspera_Click1(object sender, EventArgs e)
         {
             PictureBox pictureBoxEnEspera = sender as PictureBox;
 
             // Obtener el índice del PictureBox en el panel de Pokémon en espera
-            int indicePictureBox = flowLayoutPanel1.Controls.IndexOf(pictureBoxEnEspera);
-            string NombrePokemonEspera = pictureBoxEnEspera.Name;
-            string NombrePokemonCampo = flowLayoutPanel2.Controls[0].Name;
+            int indicePictureBoxEspera = flowLayoutPanel1.Controls.IndexOf(pictureBoxEnEspera);
 
+            // Obtener el nombre del Pokémon en el campo de batalla
+            string nombrePokemonCampo = flowLayoutPanel2.Controls[0].Name;
 
             int indicePokemonEspera = 0;
             int indicePokemonCampo = 0;
+
+            string pathEspera = Path.Combine(Archivos, "Resources", "pokemonFrente\\");
+            string pathBatalla = Path.Combine(Archivos, "Resources", "pokemonEspalda\\");
+
+            // Encontrar los índices de los Pokémon en base a los nombres
             foreach (var pokemon in jugadores[jugadorActual1].pokemones)
             {
-                
-                if (pokemon.nombre == NombrePokemonEspera)
+                if (pokemon.nombre == pictureBoxEnEspera.Name)
                 {
                     break;
                 }
@@ -789,42 +626,141 @@ namespace Proyecto
 
             foreach (var pokemon in jugadores[jugadorActual1].pokemones)
             {
-
-                if (pokemon.nombre == NombrePokemonCampo)
+                if (pokemon.nombre == nombrePokemonCampo)
                 {
                     break;
                 }
                 indicePokemonCampo++;
             }
 
-            MessageBox.Show("Nombre pokemon seleccionado: " + jugadores[jugadorActual1].pokemones[indicePokemonEspera].nombre);
-            MessageBox.Show("Nombre pokemon en campo: " + jugadores[jugadorActual1].pokemones[indicePokemonCampo].nombre);
-            
+            flowLayoutPanel1.Controls.RemoveAt(indicePictureBoxEspera);
 
-            /*// Obtener el PictureBox del campo de batalla correspondiente al mismo índice
-            PictureBox pictureBoxCampo = null;
-            if (jugadorActual1 == 0) // Si el jugador actual es el 1
-            {
-                pictureBoxCampo = flowLayoutPanel2.Controls[0] as PictureBox; // Obtener el PictureBox del campo de batalla
-            }
-            else if (jugadorActual2 == 0) // Si el jugador actual es el 2
-            {
-                pictureBoxCampo = flowLayoutPanel4.Controls[0] as PictureBox; // Obtener el PictureBox del campo de batalla
-            }
+           
 
-            // Realizar el intercambio de imágenes entre el campo de batalla y el Pokémon en espera
-            if (pictureBoxCampo != null)
-            {
-                // Guardar la imagen actual del campo de batalla antes de intercambiarla
-                Image imagenCampoActual = pictureBoxCampo.Image;
+            // Construir las rutas de las imágenes basadas en los índices
+            string rutaImagenEsperaAbatalla = Path.Combine(pathBatalla, $"{jugadores[jugadorActual1].pokemones[indicePokemonEspera].Id}.gif");
+            string rutaImagenBatallaAespera = Path.Combine(pathEspera, $"{jugadores[jugadorActual1].pokemones[indicePokemonCampo].Id}.gif");
 
-                // Asignar la imagen del Pokémon en espera al campo de batalla
-                pictureBoxCampo.Image = pictureBoxEnEspera.Image;
+            // Eliminar todos los Pokémon del campo de batalla antes de agregar uno nuevo
+            flowLayoutPanel2.Controls.Clear();
 
-                // Asignar la imagen guardada (anterior del campo de batalla) al Pokémon en espera
-                pictureBoxEnEspera.Image = imagenCampoActual;
-            }*/
+            //Se setean las propiedades del PictureBox
+            PictureBox pictureBox_Espalda = new PictureBox();
+            pictureBox_Espalda.Name = jugadores[jugadorActual1].pokemones[indicePokemonEspera].nombre;
+            pictureBox_Espalda.Image = new System.Drawing.Bitmap(rutaImagenEsperaAbatalla);
+            pictureBox_Espalda.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_Espalda.Size = new Size(125, 125);
+
+            //Se agrega la imagen del pokemon que antes estaba en espera al campo de batalla
+            flowLayoutPanel2.Controls.Add(pictureBox_Espalda);
+            flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
+
+            //Se le agregan los nombres 
+            button1.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento1;
+            button2.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento2;
+            button3.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento3;
+            button4.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento4;
+
+            progressBar1.Value = jugadores[jugadorActual1].pokemones[indicePokemonEspera].vida;
+            label3.Text = Convert.ToString(progressBar1.Value) + "/100";
+
+            pokemonActual1 = indicePokemonEspera;
+
+            PictureBox PictureBoxbatallaAespera = sender as PictureBox;
+            PictureBoxbatallaAespera.Image = new System.Drawing.Bitmap(rutaImagenBatallaAespera);
+            PictureBoxbatallaAespera.SizeMode = PictureBoxSizeMode.Zoom;
+            PictureBoxbatallaAespera.Size = new Size(70, 70);
+            PictureBoxbatallaAespera.Name = jugadores[jugadorActual1].pokemones[indicePokemonCampo].nombre;
+
+            flowLayoutPanel1.Controls.Add(PictureBoxbatallaAespera);
         }
+
+        private void RivalPokemonEnEspera_Click(object sender, EventArgs e)
+        {
+            PictureBox pictureBoxEnEspera = sender as PictureBox;
+
+            // Obtener el índice del PictureBox en el panel de Pokémon en espera
+            int indicePictureBoxEspera = flowLayoutPanel3.Controls.IndexOf(pictureBoxEnEspera);
+
+            // Obtener el nombre del Pokémon en el campo de batalla
+            string nombrePokemonCampo = flowLayoutPanel4.Controls[0].Name;
+
+            int indicePokemonEspera = 0;
+            int indicePokemonCampo = 0;
+
+            string pathEspera = Path.Combine(Archivos, "Resources", "pokemonFrente\\");
+            string pathBatalla = Path.Combine(Archivos, "Resources", "pokemonEspalda\\");
+
+            // Encontrar los índices de los Pokémon en base a los nombres
+            foreach (var pokemon in jugadores[jugadorActual2].pokemones)
+            {
+                if (pokemon.nombre == pictureBoxEnEspera.Name)
+                {
+                    break;
+                }
+                indicePokemonEspera++;
+            }
+
+            foreach (var pokemon in jugadores[jugadorActual2].pokemones)
+            {
+                if (pokemon.nombre == nombrePokemonCampo)
+                {
+                    break;
+                }
+                indicePokemonCampo++;
+            }
+
+            if (jugadores[jugadorActual2].pokemones[indicePokemonEspera].vida != 0)
+            {
+                flowLayoutPanel3.Controls.RemoveAt(indicePictureBoxEspera);
+
+                // Construir las rutas de las imágenes basadas en los índices
+                string rutaImagenEsperaAbatalla = Path.Combine(pathEspera, $"{jugadores[jugadorActual2].pokemones[indicePokemonCampo].Id}.gif");
+                string rutaImagenBatallaAespera = Path.Combine(pathEspera, $"{jugadores[jugadorActual2].pokemones[indicePokemonEspera].Id}.gif");
+
+                // Eliminar todos los Pokémon del campo de batalla antes de agregar uno nuevo
+                flowLayoutPanel4.Controls.Clear();
+
+                // Se setean las propiedades del PictureBox
+                PictureBox pictureBox_Frente = new PictureBox();
+                pictureBox_Frente.Name = jugadores[jugadorActual2].pokemones[indicePokemonEspera].nombre;
+                pictureBox_Frente.Image = new System.Drawing.Bitmap(rutaImagenBatallaAespera);
+                pictureBox_Frente.SizeMode = PictureBoxSizeMode.StretchImage;
+                pictureBox_Frente.Size = new Size(125, 125);
+
+                // Se agrega la imagen del pokemon que antes estaba en espera al campo de batalla
+                flowLayoutPanel4.Controls.Add(pictureBox_Frente);
+                flowLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
+
+                // Se le agregan los nombres de los ataques
+                button5.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento1;
+                button6.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento2;
+                button7.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento3;
+                button8.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento4;
+
+                progressBar2.Value = jugadores[jugadorActual2].pokemones[indicePokemonEspera].vida;
+                label4.Text = $"{progressBar2.Value}/100";
+
+                pokemonActual2 = indicePokemonEspera;
+
+
+                PictureBox PictureBoxbatallaAespera = sender as PictureBox;
+                PictureBoxbatallaAespera.Image = new System.Drawing.Bitmap(rutaImagenEsperaAbatalla);
+                PictureBoxbatallaAespera.SizeMode = PictureBoxSizeMode.Zoom;
+                PictureBoxbatallaAespera.Size = new Size(70, 70);
+                PictureBoxbatallaAespera.Name = jugadores[jugadorActual2].pokemones[indicePokemonCampo].nombre;
+
+                flowLayoutPanel3.Controls.Add(PictureBoxbatallaAespera);
+            }
+            else
+            {
+                MessageBox.Show(jugadores[jugadorActual2].pokemones[indicePokemonEspera].nombre + ": Estoy cansado jefe");
+            }
+
+        }
+
+
+
 
         public void CargarPokemonesEnEspera()
         {
@@ -838,11 +774,12 @@ namespace Proyecto
                     PictureBox pictureBox_pokemonesJugador1 = new PictureBox();
                     PictureBox pictureBox_pokemonesJugador2 = new PictureBox();
                     //Asignando el evento a los picturebox
-                    pictureBox_pokemonesJugador1.Click += PokemonEnEspera_Click;
-                    pictureBox_pokemonesJugador2.Click += PokemonEnEspera_Click;
+                    pictureBox_pokemonesJugador1.Click += PokemonEnEspera_Click1;
+                    pictureBox_pokemonesJugador2.Click += RivalPokemonEnEspera_Click;
 
                     //Asignando nombre a cada uno de los picture box
                     pictureBox_pokemonesJugador1.Name = jugadores[jugadorActual1].pokemones[i].nombre;
+
                     pictureBox_pokemonesJugador2.Name = jugadores[jugadorActual2].pokemones[i].nombre;
 
                     //Generando rutas de imagen
@@ -904,7 +841,7 @@ namespace Proyecto
             }
 
         }
-        public void actualizarPokemonJ1()
+       /* public void actualizarPokemonJ1()
         {
             pokemonActual1++;
             try
@@ -934,9 +871,129 @@ namespace Proyecto
                 MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
+        }*/
+
+        public void actualizarPokemonJ1()
+        {
+
+            // Buscar el primer Pokémon con 100 de vida
+            int indicePokemon = jugadores[jugadorActual1].pokemones.FindIndex(pokemon => pokemon.vida == 100);
+
+            // Si no se encuentra un Pokémon con 100 de vida, obtener el de mayor vida
+            if (indicePokemon == -1)
+            {
+                var pokemonMayorVida = jugadores[jugadorActual1].pokemones.OrderByDescending(pokemon => pokemon.vida).FirstOrDefault();
+
+                if (pokemonMayorVida != null)
+                {
+                    // Obtener el índice del Pokémon con mayor vida
+                    indicePokemon = jugadores[jugadorActual1].pokemones.IndexOf(pokemonMayorVida);
+                }
+            }
+
+            if (indicePokemon != -1) // Si se encuentra un Pokémon con 100 de vida
+            {
+                try
+                {
+                    flowLayoutPanel2.Controls.Clear();
+                    PictureBox pictureBox_Espalda = new PictureBox();
+                    pictureBox_Espalda.Image = new System.Drawing.Bitmap(espalda + jugadores[jugadorActual1].pokemones[indicePokemon].Id + ".gif");
+                    pictureBox_Espalda.SizeMode = PictureBoxSizeMode.StretchImage;
+                    pictureBox_Espalda.Size = new Size(125, 125);
+                    pictureBox_Espalda.Name = jugadores[jugadorActual1].pokemones[indicePokemon].nombre;
+                    flowLayoutPanel2.Controls.Add(pictureBox_Espalda);
+                    flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
+                    button1.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento1;
+                    button2.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento2;
+                    button3.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento3;
+                    button4.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento4;
+
+                    pokemonActual1 = indicePokemon;
+                    // Actualizar la vida del nuevo Pokémon
+                    progressBar1.Value = jugadores[jugadorActual1].pokemones[indicePokemon].vida;
+                    label3.Text = $"{progressBar1.Value}/100";
+
+                    flowLayoutPanel1.Controls.RemoveAt(0);
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se encontró un Pokémon con 100 de vida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
         public void actualizarPokemonJ2()
+        {
+
+            // Buscar el primer Pokémon con 100 de vida
+            int indicePokemon = jugadores[jugadorActual2].pokemones.FindIndex(pokemon => pokemon.vida == 100);
+
+            // Si no se encuentra un Pokémon con 100 de vida, obtener el de mayor vida
+            if (indicePokemon == -1)
+            {
+                var pokemonMayorVida = jugadores[jugadorActual2].pokemones.OrderByDescending(pokemon => pokemon.vida).FirstOrDefault();
+
+                if (pokemonMayorVida != null)
+                {
+                    // Obtener el índice del Pokémon con mayor vida
+                    indicePokemon = jugadores[jugadorActual2].pokemones.IndexOf(pokemonMayorVida);
+                }
+            }
+
+            if (indicePokemon != -1) // Si se encuentra un Pokémon con 100 de vida
+            {
+                try
+                {
+                    //Borramos el picturebox del pokemon en batalla
+                    flowLayoutPanel4.Controls.Clear();
+                    
+                    //Se crea un nuevo picture box con los atributos del siguiente pokemon
+                    PictureBox pictureBox_Frente = new PictureBox();
+                    pictureBox_Frente.Image = new System.Drawing.Bitmap(frente + jugadores[jugadorActual2].pokemones[indicePokemon].Id + ".gif");
+                    pictureBox_Frente.SizeMode = PictureBoxSizeMode.StretchImage;
+                    pictureBox_Frente.Size = new Size(110, 100);
+                    pictureBox_Frente.Name = jugadores[jugadorActual2].pokemones[indicePokemon].nombre;
+
+                    //Se agrega el picturebox con el pokemon siguiente
+                    flowLayoutPanel4.Controls.Add(pictureBox_Frente);
+                    flowLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
+
+                    //Se setean los valores del siguiente pokemon
+                    button1.Text = jugadores[jugadorActual2].pokemones[indicePokemon].movimiento1;
+                    button2.Text = jugadores[jugadorActual2].pokemones[indicePokemon].movimiento2;
+                    button3.Text = jugadores[jugadorActual2].pokemones[indicePokemon].movimiento3;
+                    button4.Text = jugadores[jugadorActual2].pokemones[indicePokemon].movimiento4;
+
+                    //Se actualiza el index del pokemon
+                    pokemonActual2 = indicePokemon;
+
+                    // Actualizar la vida del nuevo Pokémon
+                    progressBar2.Value = jugadores[jugadorActual2].pokemones[indicePokemon].vida;
+                    label4.Text = $"{progressBar1.Value}/100";
+
+                    flowLayoutPanel3.Controls.RemoveAt(0);
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se encontró un Pokémon con 100 de vida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+
+        /*ublic void actualizarPokemonJ2()
         {
             pokemonActual2++;
             try
@@ -966,11 +1023,12 @@ namespace Proyecto
                 MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-        }
+
+        }*/
+
         public void llamarPokemonesCampo()
         {
 
-            //pictureBox5.Image = Image.FromFile(espalda + jugadores[0].pokemones[0].Id + ".gif
             pokemonActual1 = 0;
             pokemonActual2 = 0;
             try
@@ -999,12 +1057,13 @@ namespace Proyecto
             }
 
 
-            //pictureBox6.Image = Image.FromFile(frente + jugadores[0].pokemones[1].Id + ".gif
             try
             {
                 flowLayoutPanel3.Controls.Clear();
                 flowLayoutPanel4.Controls.Clear();
                 PictureBox pictureBox_Frente = new PictureBox();
+
+                pictureBox_Frente.Name = jugadores[jugadorActual2].pokemones[pokemonActual2].nombre;
                 pictureBox_Frente.Image = new System.Drawing.Bitmap(frente + jugadores[jugadorActual2].pokemones[pokemonActual2].Id + ".gif");
                 pictureBox_Frente.SizeMode = PictureBoxSizeMode.StretchImage;
                 pictureBox_Frente.Size = new Size(110, 100);// Añadir el PictureBox al FlowLayoutPanel
