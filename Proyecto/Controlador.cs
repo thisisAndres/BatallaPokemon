@@ -67,6 +67,12 @@ namespace Proyecto
 
         }
 
+        public void insertarGanadorBitacora(int ganadorId, int perdedorId,string combate) { 
+        
+            db.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
+
+		}
+
         public objetoPokemon obtenerPokemonBot(int nombrePokemon)
         {
 

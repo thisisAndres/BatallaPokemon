@@ -48,6 +48,7 @@ namespace Proyecto
             this.cantidadbots = cantidadbots;
         }
 
+        //Carga inicial del form
         private void Form2_Load(object sender, EventArgs e)
         {
             cargarImagenBackground();
@@ -57,188 +58,7 @@ namespace Proyecto
             CargarPokemonesEnEspera();
             mostrarJugadores();
         }
-
-
-
-
-
-        public async void movimientoBot(int jugadorActual1, int jugadorActual2)
-        {
-
-            if (jugadores[jugadorActual2].getIsBot())
-            {
-                await Task.Delay(1000);
-
-                Random rnd = new Random();
-                int numeroAleatorio = rnd.Next(1, 5);
-
-                if (jugadores[jugadorActual2].IdJugador % 2 == 0)
-                {
-                    reproducirSonido2();
-                    imagenGolpe_2();
-                    HabilitarBotonesJugador();
-                    DeshabilitarBotonesRival();
-
-                    switch (numeroAleatorio)
-                    {
-                        case 1:
-                            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual1].mov1Poder),
-                                                                                                           jugadores[jugadorActual2].pokemones[pokemonActual1].tipo1,
-                                                                                                           jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-                            break;
-                        case 2:
-                            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual1].mov2Poder),
-                                                                                                           jugadores[jugadorActual2].pokemones[pokemonActual1].tipo1,
-                                                                                                           jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-                            break;
-                        case 3:
-                            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual1].mov3Poder),
-                                                                                                           jugadores[jugadorActual2].pokemones[pokemonActual1].tipo1,
-                                                                                                           jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-                            break;
-                        case 4:
-                            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual1].mov4Poder),
-                                                                                                           jugadores[jugadorActual2].pokemones[pokemonActual1].tipo1,
-                                                                                                           jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-                            break;
-                    }
-                    progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
-                    label3.Text = Convert.ToString(progressBar1.Value) + "/100";
-
-
-                }
-                else
-                {
-                    reproducirSonido1();
-                    imagenGolpe();
-                    HabilitarBotonesRival();
-                    DeshabilitarBotonesJugador();
-
-                    switch (numeroAleatorio)
-                    {
-                        case 1:
-                            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov1Poder),
-                                                                                              jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
-                                                                                              jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-                            progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
-                            break;
-                        case 2:
-                            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov2Poder),
-                                                                                          jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
-                                                                                          jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-                            progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
-                            break;
-                        case 3:
-                            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov3Poder),
-                                                                                          jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
-                                                                                          jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-                            progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
-                            break;
-                        case 4:
-                            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder),
-                                                                                          jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
-                                                                                          jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-                            progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
-                            break;
-                    }
-                }
-
-            }
-
-            if (progressBar1.Value <= 0)
-            {
-                actualizarPokemonJ1();
-            }
-            if (progressBar2.Value <= 0)
-            {
-                actualizarPokemonJ2();
-            }
-
-        }
-
-        private string tipoArena(int numArena)
-        {
-
-            switch (numArena)
-            {
-                case 12:
-                    arena = "Normal";
-                    break;
-                case 11:
-                    arena = "Fuego";
-                    break;
-                case 4:
-                    arena = "Agua";
-                    break;
-                case 2:
-                    arena = "Planta";
-                    break;
-                case 13:
-                    arena = "Electrico";
-                    break;
-                case 14:
-                    arena = "Hielo";
-                    break;
-                case 5:
-                    arena = "Lucha";
-                    break;
-                case 10:
-                    arena = "Veneno";
-                    break;
-                case 15:
-                    arena = "Tierra";
-                    break;
-                case 7:
-                    arena = "Volador";
-                    break;
-                case 16:
-                    arena = "Psiquico";
-                    break;
-                case 17:
-                    arena = "Bicho";
-                    break;
-                case 6:
-                    arena = "Roca";
-                    break;
-                case 9:
-                    arena = "Fantasma";
-                    break;
-                case 3:
-                    arena = "Dragon";
-                    break;
-                case 8:
-                    arena = "Acero";
-                    break;
-                case 1:
-                    arena = "Hada";
-                    break;
-                default:
-
-                    break;
-
-            }
-            return arena;
-
-        }
-
-
-        private void restaurarEquipo()
-        {
-
-            //for (int i = 0; i < 6; i++) {
-            //    jugadores[jugadorActual1].pokemones[i].vida = 100;
-            //}
-
-            foreach (var jugador in jugadores)
-            {
-                foreach (var pokemon in jugador.pokemones)
-                {
-                    pokemon.vida = 100;
-                }
-            }
-
-        }
-
+        //botones de ataques
         private void button1_Click(object sender, EventArgs e)
         {
             //efectos
@@ -248,7 +68,7 @@ namespace Proyecto
             if (jugadores[jugadorActual2].isBot)
             {
                 jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
-                              Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder),
+                              Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov1Poder),
                               jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
                               jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
                 logicaMovimientoBot();
@@ -257,10 +77,11 @@ namespace Proyecto
             else
             {
 
-                jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov1Poder),
-                                                                                               jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
-                                                                                               jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
-                logicaMovimientoJ1();
+				jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
+							 Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov1Poder),
+							 jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
+							 jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
+				logicaMovimientoJ1();
             }
 
 
@@ -283,9 +104,10 @@ namespace Proyecto
             else
             {
 
-                jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov2Poder),
-                                                                                               jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
-                                                                                               jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
+                jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
+                        Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov2Poder),
+                        jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
+                        jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
                 logicaMovimientoJ1();
             }
 
@@ -309,15 +131,14 @@ namespace Proyecto
             else
             {
 
-                jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov3Poder),
-                                                                                               jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
-                                                                                               jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
+                jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
+                        Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov3Poder),
+                        jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
+                        jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
                 logicaMovimientoJ1();
             }
 
         }
-
-
         private void button4_Click(object sender, EventArgs e)
         {
             //efectos
@@ -336,17 +157,60 @@ namespace Proyecto
             else
             {
                 //aqui deberia ir la logica si es otro jugador el enemigo
-                jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder),
-                                                                                               jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
-                                                                                               jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen());
+                jugadores[jugadorActual2].pokemones[pokemonActual2].restarVida(
+					      Convert.ToDouble(jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder),
+						  jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1,
+						  jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1, ObtenerNumeroImagen()); 
                 logicaMovimientoJ1();
 
             }
 
         }
+		private void button5_Click(object sender, EventArgs e)
+		{
 
 
-        public (int ganadorId, int perdedorId, string combate) logicaAmbosSonBots()
+			jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov1Poder),
+																						   jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
+																						   jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+			logicaMovimientoJ2();
+
+
+
+		}
+		private void button6_Click(object sender, EventArgs e)
+		{
+
+
+			jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov2Poder),
+																						   jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
+																						   jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+			logicaMovimientoJ2();
+
+
+		}
+		private void button7_Click(object sender, EventArgs e)
+		{
+
+			jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov3Poder),
+																						   jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
+																						   jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+			logicaMovimientoJ2();
+
+		}
+		private void button8_Click(object sender, EventArgs e)
+		{
+
+
+			jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder),
+																						   jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
+																						   jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+			logicaMovimientoJ2();
+
+
+		}
+        //Logica de ataques
+		public (int ganadorId, int perdedorId, string combate) logicaAmbosSonBots()
         {
             int ganadorId = 0;
             int perdedorId = 0;
@@ -360,21 +224,21 @@ namespace Proyecto
 
                 if (nRandom == 1)
                 {
-                    jugadores[jugadorActual1].setPerdedor();
-                    jugadores[jugadorActual2].setGanador();
+                    jugadores[jugadorActual1].setGanador();
+                    jugadores[jugadorActual2].setPerdedor();
 
-                    ganadorId = jugadores[jugadorActual2].IdJugador;
-                    perdedorId = jugadores[jugadorActual1].IdJugador;
+					ganadorId = jugadores[jugadorActual1].IdJugador;
+                    perdedorId = jugadores[jugadorActual2].IdJugador;
 
                     MessageBox.Show("Gano el jugador: " + ganadorId);
                 }
                 else
                 {
-                    jugadores[jugadorActual1].setGanador();
-                    jugadores[jugadorActual2].setPerdedor();
+                    jugadores[jugadorActual1].setPerdedor();
+                    jugadores[jugadorActual2].setGanador();
 
-                    ganadorId = jugadores[jugadorActual1].IdJugador;
-                    perdedorId = jugadores[jugadorActual2].IdJugador;
+					ganadorId = jugadores[jugadorActual2].IdJugador;
+                    perdedorId = jugadores[jugadorActual1].IdJugador;
 
                     MessageBox.Show("Gano el jugador: " + ganadorId);
                 }
@@ -384,7 +248,6 @@ namespace Proyecto
 
             return (ganadorId, perdedorId, combate);
         }
-
         public (int ganadorId, int perdedorId, string combate) logicaMovimientoJ1()
         {
             HabilitarBotonesRival();
@@ -402,37 +265,37 @@ namespace Proyecto
                 j2PokemonesElimidados++;
             }
 
-            if (j2PokemonesElimidados == 4)
-            {
+                if (j2PokemonesElimidados == 4)
+                {
 
-                MessageBox.Show("jugador " + jugadores[jugadorActual2].IdJugador + " ha ganado el combate pokemon!!!!");
-                //jugadores.RemoveAt(jugadorActual2);
-                //Se setea el bot en este caso como perdedor y el jugador como ganador
-                jugadores[jugadorActual1].setPerdedor();
-                jugadores[jugadorActual2].setGanador();
+                    MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
+                    //jugadores.RemoveAt(jugadorActual2);
+                    //Se setea el bot en este caso como perdedor y el jugador como ganador
+                    jugadores[jugadorActual1].setGanador();
+				    jugadores[jugadorActual2].setPerdedor();
 
-                perdedorId = jugadores[jugadorActual1].IdJugador;
-                ganadorId = jugadores[jugadorActual2].IdJugador;
+				    ganadorId = jugadores[jugadorActual1].IdJugador;
+                    perdedorId = jugadores[jugadorActual2].IdJugador;
                 
-                jugadorActual1 = jugadorActual1 + 2;
-                jugadorActual2 = jugadorActual2 + 2;
+                    jugadorActual1 += 2;
+                    jugadorActual2 += 2;
 
-                restaurarEquipo();
-                llamarPokemonesCampo();
-                CargarPokemonesEnEspera();
-                mostrarJugadores();
-                
-                insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
+                    restaurarEquipo();
+                    llamarPokemonesCampo();
+                    CargarPokemonesEnEspera();
+                    mostrarJugadores();
+                    
+                    controlador.insertarGanadorBitacora(ganadorId, perdedorId, combate);
+				
 
-                MessageBox.Show("Inicio siguiente combate");
+                    MessageBox.Show("Inicio siguiente combate");
 
-                logicaAmbosSonBots();
+                    logicaAmbosSonBots();
 
-            }
+                }
 
             return (ganadorId, perdedorId, combate);
         }
-
         public (int ganadorId, int perdedorId, string combate) logicaMovimientoJ2()
         {
             reproducirSonido2();
@@ -480,7 +343,6 @@ namespace Proyecto
             }
             return (ganadorId, perdedorId, combate);
         }
-
         public (int ganadorId, int perdedorId, string combate) logicaMovimientoBot()
         {
             int ganadorId = 0;
@@ -495,9 +357,9 @@ namespace Proyecto
             {
                 
                 actualizarPokemonbot();
-                j1PokemonesElimidados++;
+                j2PokemonesElimidados++;
 
-                if (j1PokemonesElimidados == 4)
+                if (j2PokemonesElimidados == 4)
                 {
 
                     MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
@@ -511,15 +373,16 @@ namespace Proyecto
                     perdedorId = jugadores[jugadorActual2].IdJugador;
                     ganadorId = jugadores[jugadorActual1].IdJugador;
 
-                    jugadorActual1 = jugadorActual1 + 2;
-                    jugadorActual2 = jugadorActual2 + 2;
+                    jugadorActual1 += 2;
+                    jugadorActual2 += 2;
 
                     restaurarEquipo();
                     llamarPokemonesCampo();
                     CargarPokemonesEnEspera();
                     mostrarJugadores();
 
-                    insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
+					controlador.insertarGanadorBitacora(ganadorId, perdedorId, combate);
+
 
                     MessageBox.Show("Inicio segundo combate");
                 }
@@ -534,70 +397,180 @@ namespace Proyecto
             }
 
 
-
+            
             logicaAmbosSonBots();
 
             return (ganadorId, perdedorId, combate);
         }
+		public async void movimientoBot(int jugadorActual1, int jugadorActual2)
+		{
 
-        private void button5_Click(object sender, EventArgs e)
-        {
+			if (jugadores[jugadorActual2].getIsBot())
+			{
+				await Task.Delay(1000);
+
+				Random rnd = new Random();
+				int numeroAleatorio = rnd.Next(1, 5);
+
+				if (jugadores[jugadorActual2].IdJugador % 2 == 0)
+				{
+					reproducirSonido2();
+					imagenGolpe_2();
+					HabilitarBotonesJugador();
+					DeshabilitarBotonesRival();
+
+					switch (numeroAleatorio)
+					{
+						case 1:
+							jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual1].mov1Poder),
+																										   jugadores[jugadorActual2].pokemones[pokemonActual1].tipo1,
+																										   jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+							break;
+						case 2:
+							jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual1].mov2Poder),
+																										   jugadores[jugadorActual2].pokemones[pokemonActual1].tipo1,
+																										   jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+							break;
+						case 3:
+							jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual1].mov3Poder),
+																										   jugadores[jugadorActual2].pokemones[pokemonActual1].tipo1,
+																										   jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+							break;
+						case 4:
+							jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual1].mov4Poder),
+																										   jugadores[jugadorActual2].pokemones[pokemonActual1].tipo1,
+																										   jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+							break;
+					}
+					progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
+					label3.Text = Convert.ToString(progressBar1.Value) + "/100";
 
 
-            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder),
-                                                                                           jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
-                                                                                           jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-            logicaMovimientoJ2();
+				}
+				else
+				{
+					reproducirSonido1();
+					imagenGolpe();
+					HabilitarBotonesRival();
+					DeshabilitarBotonesJugador();
 
+					switch (numeroAleatorio)
+					{
+						case 1:
+							jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov1Poder),
+																							  jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
+																							  jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+							progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
+							break;
+						case 2:
+							jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov2Poder),
+																						  jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
+																						  jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+							progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
+							break;
+						case 3:
+							jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov3Poder),
+																						  jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
+																						  jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+							progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
+							break;
+						case 4:
+							jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder),
+																						  jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
+																						  jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
+							progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
+							break;
+					}
+				}
 
+			}
 
-        }
+			if (progressBar1.Value <= 0)
+			{
+				actualizarPokemonJ1();
+			}
+			if (progressBar2.Value <= 0)
+			{
+				actualizarPokemonJ2();
+			}
 
-        private void button6_Click(object sender, EventArgs e)
-        {
+		}
+		private string tipoArena(int numArena)
+		{
 
+			switch (numArena)
+			{
+				case 12:
+					arena = "Normal";
+					break;
+				case 11:
+					arena = "Fuego";
+					break;
+				case 4:
+					arena = "Agua";
+					break;
+				case 2:
+					arena = "Planta";
+					break;
+				case 13:
+					arena = "Electrico";
+					break;
+				case 14:
+					arena = "Hielo";
+					break;
+				case 5:
+					arena = "Lucha";
+					break;
+				case 10:
+					arena = "Veneno";
+					break;
+				case 15:
+					arena = "Tierra";
+					break;
+				case 7:
+					arena = "Volador";
+					break;
+				case 16:
+					arena = "Psiquico";
+					break;
+				case 17:
+					arena = "Bicho";
+					break;
+				case 6:
+					arena = "Roca";
+					break;
+				case 9:
+					arena = "Fantasma";
+					break;
+				case 3:
+					arena = "Dragon";
+					break;
+				case 8:
+					arena = "Acero";
+					break;
+				case 1:
+					arena = "Hada";
+					break;
+				default:
 
-            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder),
-                                                                                           jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
-                                                                                           jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-            logicaMovimientoJ2();
-  
+					break;
 
-        }
-        private void button7_Click(object sender, EventArgs e)
-        {
+			}
+			return arena;
 
-            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder),
-                                                                                           jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
-                                                                                           jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-            logicaMovimientoJ2();
+		}
+		private void restaurarEquipo()
+		{
+			foreach (var jugador in jugadores)
+			{
+				foreach (var pokemon in jugador.pokemones)
+				{
+					pokemon.vida = 100;
+				}
+			}
 
-        }
-        private void button8_Click(object sender, EventArgs e)
-        {
-
-
-            jugadores[jugadorActual1].pokemones[pokemonActual1].restarVida(Convert.ToDouble(jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder),
-                                                                                           jugadores[jugadorActual2].pokemones[pokemonActual2].tipo1,
-                                                                                           jugadores[jugadorActual1].pokemones[pokemonActual1].tipo1, ObtenerNumeroImagen());
-            logicaMovimientoJ2();
-
-
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-        private void flowLayoutPanel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
+		}
+        //Cambio de pokemones
         private void PokemonEnEspera_Click1(object sender, EventArgs e)
         {
             PictureBox pictureBoxEnEspera = sender as PictureBox;
@@ -655,12 +628,12 @@ namespace Proyecto
             flowLayoutPanel2.Controls.Add(pictureBox_Espalda);
             flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
 
-            //Se le agregan los nombres 
-            button1.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento1;
-            button2.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento2;
-            button3.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento3;
-            button4.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento4;
-
+			//Se le agregan los nombres 
+			button1.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento1 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov1Poder;
+			button2.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento2 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov2Poder;
+			button3.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento3 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov3Poder;
+			button4.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento4 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder;
+		
             progressBar1.Value = jugadores[jugadorActual1].pokemones[indicePokemonEspera].vida;
             label3.Text = Convert.ToString(progressBar1.Value) + "/100";
 
@@ -674,7 +647,6 @@ namespace Proyecto
 
             flowLayoutPanel1.Controls.Add(PictureBoxbatallaAespera);
         }
-
         private void RivalPokemonEnEspera_Click(object sender, EventArgs e)
         {
             PictureBox pictureBoxEnEspera = sender as PictureBox;
@@ -733,12 +705,13 @@ namespace Proyecto
                 flowLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
 
                 // Se le agregan los nombres de los ataques
-                button5.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento1;
-                button6.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento2;
-                button7.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento3;
-                button8.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento4;
+    
+				button5.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento1 + "//" + jugadores[jugadorActual2].pokemones[indicePokemonEspera].mov1Poder;
+				button6.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento2 + "//" + jugadores[jugadorActual2].pokemones[indicePokemonEspera].mov2Poder;
+				button7.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento3 + "//" + jugadores[jugadorActual2].pokemones[indicePokemonEspera].mov3Poder;
+				button8.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento4 + "//" + jugadores[jugadorActual2].pokemones[indicePokemonEspera].mov4Poder;
 
-                progressBar2.Value = jugadores[jugadorActual2].pokemones[indicePokemonEspera].vida;
+				progressBar2.Value = jugadores[jugadorActual2].pokemones[indicePokemonEspera].vida;
                 label4.Text = $"{progressBar2.Value}/100";
 
                 pokemonActual2 = indicePokemonEspera;
@@ -758,10 +731,6 @@ namespace Proyecto
             }
 
         }
-
-
-
-
         public void CargarPokemonesEnEspera()
         {
             string pokemonesJugador1 = Path.Combine(Archivos, "Resources", "pokemonFrente\\");
@@ -811,6 +780,7 @@ namespace Proyecto
             }
 
         }
+        //Actualizacion de pokemones
         public void actualizarPokemonbot()
         {
             pokemonActual2++;
@@ -824,13 +794,13 @@ namespace Proyecto
                 pictureBox_Frente.Size = new Size(110, 100);
                 flowLayoutPanel4.Controls.Add(pictureBox_Frente);
                 flowLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
-                button5.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento1;
-                button6.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento2;
-                button7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento3;
-                button8.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento4;
+                button5.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento1 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov1Poder;
+				button6.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento2 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov2Poder;
+				button7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento3 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov3Poder;
+				button8.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento4 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder;
 
-                //Actualizacion de la vida del nuevo pokemon!
-                progressBar2.Value = 100;
+				//Actualizacion de la vida del nuevo pokemon!
+				progressBar2.Value = 100;
                 label4.Text = Convert.ToString(progressBar2.Value) + "/100";
 
 
@@ -841,38 +811,6 @@ namespace Proyecto
             }
 
         }
-       /* public void actualizarPokemonJ1()
-        {
-            pokemonActual1++;
-            try
-            {
-                flowLayoutPanel2.Controls.Clear();
-                PictureBox pictureBox_Espalda = new PictureBox();
-                pictureBox_Espalda.Image = new System.Drawing.Bitmap(espalda + jugadores[jugadorActual1].pokemones[pokemonActual1].Id + ".gif");
-                pictureBox_Espalda.SizeMode = PictureBoxSizeMode.StretchImage;
-                pictureBox_Espalda.Size = new Size(125, 125);
-                flowLayoutPanel2.Controls.Add(pictureBox_Espalda);
-                flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-                button1.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento1;
-                button2.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento2;
-                button3.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento3;
-                button4.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento4;
-
-
-
-                //Actualizacion de la vida del nuevo pokemon!
-                progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].vida;
-                label3.Text = Convert.ToString(progressBar1.Value) + "/100";
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-        }*/
-
         public void actualizarPokemonJ1()
         {
 
@@ -903,10 +841,10 @@ namespace Proyecto
                     pictureBox_Espalda.Name = jugadores[jugadorActual1].pokemones[indicePokemon].nombre;
                     flowLayoutPanel2.Controls.Add(pictureBox_Espalda);
                     flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-                    button1.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento1;
-                    button2.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento2;
-                    button3.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento3;
-                    button4.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento4;
+                    button1.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento1 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov1Poder;
+                    button2.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento2 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov2Poder;
+					button3.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento3 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov3Poder;
+                    button4.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento4 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder;
 
                     pokemonActual1 = indicePokemon;
                     // Actualizar la vida del nuevo Pokémon
@@ -927,7 +865,6 @@ namespace Proyecto
             }
 
         }
-
         public void actualizarPokemonJ2()
         {
 
@@ -991,41 +928,7 @@ namespace Proyecto
             }
 
         }
-
-
-        /*ublic void actualizarPokemonJ2()
-        {
-            pokemonActual2++;
-            try
-            {
-                flowLayoutPanel4.Controls.Clear();
-                PictureBox pictureBox_Frente = new PictureBox();
-                pictureBox_Frente.Image = new System.Drawing.Bitmap(frente + jugadores[jugadorActual2].pokemones[pokemonActual2].Id + ".gif");
-                pictureBox_Frente.SizeMode = PictureBoxSizeMode.StretchImage;
-                pictureBox_Frente.Size = new Size(110, 100);// Añadir el PictureBox al FlowLayoutPanel
-                flowLayoutPanel4.Controls.Add(pictureBox_Frente);
-                flowLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
-                button5.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento1 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov1Poder;
-                button6.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento2 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov2Poder;
-                button7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento3 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov3Poder;
-                button8.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].movimiento4 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder;
-
-
-
-                //Actualizacion de la vida del nuevo pokemon!
-                progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].vida;
-                label4.Text = Convert.ToString(progressBar2.Value) + "/100";
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-
-        }*/
-
+        //metodos para la precarga del form
         public void llamarPokemonesCampo()
         {
 
@@ -1046,11 +949,11 @@ namespace Proyecto
                 pictureBox_Espalda.Size = new Size(125, 125);
                 flowLayoutPanel2.Controls.Add(pictureBox_Espalda);
                 flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-                button1.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento1;
-                button2.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento2;
-                button3.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento3;
-                button4.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento4;
-            }
+                button1.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento1 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov1Poder;
+                button2.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento2 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov2Poder;
+				button3.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento3 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov3Poder;
+                button4.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento4 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder;
+			}
             catch (Exception ex)
             {
                 MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -1159,9 +1062,6 @@ namespace Proyecto
             player.SoundLocation = rutasonido;
             player.Play();
         }
-        //*********************************************************
-
-
         //igual para estos 2 metodos se puede unificar
         public void imagenGolpe()
         {
@@ -1247,10 +1147,6 @@ namespace Proyecto
                 MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        //*********************************************************
-
-
-
         //igual que estos metodos de habilitar o desabilitar botones
         private void DeshabilitarBotonesJugador()
         {
