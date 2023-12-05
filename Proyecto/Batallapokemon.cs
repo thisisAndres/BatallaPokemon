@@ -783,7 +783,58 @@ namespace Proyecto
         //Actualizacion de pokemones
         public void actualizarPokemonbot()
         {
-            pokemonActual2++;
+			int indicePokemon = jugadores[jugadorActual2].pokemones.FindIndex(pokemon => pokemon.vida == 100);
+
+			// Si no se encuentra un Pokémon con 100 de vida, obtener el de mayor vida
+			if (indicePokemon == -1)
+			{
+				var pokemonMayorVida = jugadores[jugadorActual2].pokemones.OrderByDescending(pokemon => pokemon.vida).FirstOrDefault();
+
+				if (pokemonMayorVida != null)
+				{
+					// Obtener el índice del Pokémon con mayor vida
+					indicePokemon = jugadores[jugadorActual2].pokemones.IndexOf(pokemonMayorVida);
+				}
+			}
+
+			if (indicePokemon != -1) // Si se encuentra un Pokémon con 100 de vida
+			{
+				try
+				{
+                    pokemonActual2++;
+					flowLayoutPanel4.Controls.Clear();
+					PictureBox pictureBox_Frente = new PictureBox();
+					pictureBox_Frente.Image = Image.FromFile(frente + jugadores[jugadorActual2].pokemones[pokemonActual2].Id + ".gif");
+					pictureBox_Frente.SizeMode = PictureBoxSizeMode.StretchImage;
+					pictureBox_Frente.Size = new Size(110, 100);
+                    pictureBox_Frente.Name = jugadores[jugadorActual2].pokemones[indicePokemon].nombre;
+					flowLayoutPanel4.Controls.Add(pictureBox_Frente);
+					flowLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
+					button5.Text = jugadores[jugadorActual2].pokemones[indicePokemon].movimiento1 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov1Poder;
+					button6.Text = jugadores[jugadorActual2].pokemones[indicePokemon].movimiento2 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov2Poder;
+					button7.Text = jugadores[jugadorActual2].pokemones[indicePokemon].movimiento3 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov3Poder;
+					button8.Text = jugadores[jugadorActual2].pokemones[indicePokemon].movimiento4 + "//" + jugadores[jugadorActual2].pokemones[pokemonActual2].mov4Poder;
+					pokemonActual2 = indicePokemon;
+					// Actualizar la vida del nuevo Pokémon
+					progressBar2.Value = jugadores[jugadorActual2].pokemones[indicePokemon].vida;
+					label4.Text = $"{progressBar2.Value}/100";
+
+					flowLayoutPanel3.Controls.RemoveAt(0);
+
+				}
+				catch (Exception ex)
+				{
+					MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				}
+			}
+			else
+			{
+				MessageBox.Show("No se encontró un Pokémon con 100 de vida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+
+
+            /*
+			pokemonActual2++;
             try
             {
 
@@ -809,7 +860,7 @@ namespace Proyecto
             {
                 MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
+            */
         }
         public void actualizarPokemonJ1()
         {
@@ -841,10 +892,10 @@ namespace Proyecto
                     pictureBox_Espalda.Name = jugadores[jugadorActual1].pokemones[indicePokemon].nombre;
                     flowLayoutPanel2.Controls.Add(pictureBox_Espalda);
                     flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-                    button1.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento1 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov1Poder;
-                    button2.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento2 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov2Poder;
-					button3.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento3 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov3Poder;
-                    button4.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento4 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder;
+                    button1.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento1 + "//" + jugadores[jugadorActual1].pokemones[indicePokemon].mov1Poder;
+                    button2.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento2 + "//" + jugadores[jugadorActual1].pokemones[indicePokemon].mov2Poder;
+					button3.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento3 + "//" + jugadores[jugadorActual1].pokemones[indicePokemon].mov3Poder;
+                    button4.Text = jugadores[jugadorActual1].pokemones[indicePokemon].movimiento4 + "//" + jugadores[jugadorActual1].pokemones[indicePokemon].mov4Poder;
 
                     pokemonActual1 = indicePokemon;
                     // Actualizar la vida del nuevo Pokémon
