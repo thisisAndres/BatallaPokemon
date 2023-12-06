@@ -88,7 +88,9 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("No se encontraron suficientes rutas de imágenes.");
+                //MessageBox.Show("No se encontraron suficientes rutas de imágenes.");
+                MessageBox.Show("No se encontraron suficientes rutas de imágenes.",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
 
@@ -105,13 +107,13 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("No todos los jugadores han seleccionado su equipo!!");
+                //MessageBox.Show("No todos los jugadores han seleccionado su equipo!!");
+                MessageBox.Show("No todos los jugadores han seleccionado su equipo!!",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
             }
 
         }
-
-
-
 
         public void agregarPokemon(string nombre)
         {
@@ -165,7 +167,10 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("LLego al limite de pokemones");
+                //MessageBox.Show("LLego al limite de pokemones");
+                MessageBox.Show("LLegó al limite de pokemones",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
 
         }
@@ -199,7 +204,7 @@ namespace Proyecto
 
                     foreach (var pokemon in jugadores[indiceJugadorActual].pokemones)
                     {
-                        /*  MessageBox.Show(
+                        /*MessageBox.Show(
                            "El jugador " + indiceJugadorActual + " ha seleccionado a:\n" +
                            "Nombre: " + pokemon.nombre + "\n\n" +
                            "Tipo: " + pokemon.tipo1 + "/" + pokemon.tipo2 + "\n" +
@@ -212,7 +217,9 @@ namespace Proyecto
                 }
                 else
                 {
-                    MessageBox.Show("No se ha seleccionado ningún Pokémon.");
+                    //MessageBox.Show("No se ha seleccionado ningún Pokémon.");
+                    MessageBox.Show("No se ha seleccionado ningún Pokémon.",
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
 
                 // Aumentar el indice al nuevo jugador
@@ -237,20 +244,20 @@ namespace Proyecto
                 }
                 else
                 {
-                    MessageBox.Show("Ya todos los jugadores han seleccionado su equipo\n\n A POKEJUGAR!!");
                     button2.Enabled = false;
-                    PokeVista pokeVista = null;
+                    //PokeVista pokeVista = null;
+                    flowLayoutPanel1.Enabled = false;
+
+                    MessageBox.Show("Ya todos los jugadores han seleccionado su equipo\n\n A POKEJUGAR!!",
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                     while (jugadores.Count != indiceJugadorActual)
                     {
-
-
                         agregarPokemonBot();
                         indiceJugadorActual++;
                     }
 
                 }
-
-
                 /*if (jugadores.Count != indiceJugadorActual)
                 {
                     mostrarJugador();
@@ -265,12 +272,11 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("Tu equipo no esta completo!! \n" + Convert.ToString(nPokemonesSeleccionados));
+                //MessageBox.Show("Tu equipo no esta completo!! \n" + Convert.ToString(nPokemonesSeleccionados));
+                MessageBox.Show($"Tu equipo no está completo!!\n Cantidad de Pokémon seleccionados: {nPokemonesSeleccionados}",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
-
-
-
-
         }
         public void mostrarJugador()
         {

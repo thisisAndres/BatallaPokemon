@@ -124,7 +124,9 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("El directorio de imágenes no existe.");
+                //MessageBox.Show("El directorio de imágenes no existe.");
+                MessageBox.Show("El directorio de imágenes no existe.",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null; // o un valor por defecto, dependiendo de tus necesidades
             }
         }
@@ -160,7 +162,9 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("El directorio de imágenes no existe.");
+                //MessageBox.Show("El directorio de imágenes no existe.");
+                MessageBox.Show("El directorio de imágenes no existe.",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null; // o un valor por defecto, dependiendo de tus necesidades
             }
         }
@@ -196,7 +200,9 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("El directorio de imágenes no existe.");
+                //MessageBox.Show("El directorio de imágenes no existe.");
+                MessageBox.Show("El directorio de imágenes no existe.",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null; // o un valor por defecto, dependiendo de tus necesidades
             }
 
