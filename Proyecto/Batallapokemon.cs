@@ -246,6 +246,9 @@ namespace Proyecto
                 insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
             }
 
+            jugadorActual1 = jugadorActual1 + 2;
+            jugadorActual2 = jugadorActual2 + 2;
+
             return (ganadorId, perdedorId, combate);
         }
         public (int ganadorId, int perdedorId, string combate) logicaMovimientoJ1()
