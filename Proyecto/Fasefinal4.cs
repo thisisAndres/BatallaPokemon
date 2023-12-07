@@ -98,7 +98,10 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("No hay suficientes imágenes.");
+                //MessageBox.Show("No hay suficientes imágenes.");
+                MessageBox.Show("No hay suficientes imágenes.",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 return null;
             }
 

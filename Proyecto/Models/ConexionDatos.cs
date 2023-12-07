@@ -18,7 +18,11 @@ namespace Proyecto.Models
         static string rutaAndres = "Server=PC-A; Database=bd_pokemon; User ID=sa; password=123; trustServerCertificate= true; Trusted_Connection=true";
 
 
+<<<<<<< HEAD
         public SqlConnection conexion = new SqlConnection(rutaAndres);
+=======
+        public SqlConnection conexion = new SqlConnection(rutaJose);
+>>>>>>> 7be031745b4d014c917a521344e90066d67928a8
 
         //Constructor
         public ConexionDatos()
@@ -92,7 +96,8 @@ namespace Proyecto.Models
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ha fallado la conexión getPokeLista \n" + ex.Message);
+                MessageBox.Show("Ha fallado la conexión getPokeLista \n" + ex.Message, 
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
 
@@ -133,7 +138,8 @@ namespace Proyecto.Models
                     }
                     else
                     {
-                        MessageBox.Show("No se encontro el pokemon");
+                        MessageBox.Show("No se encontro el pokemon",
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
 
@@ -144,8 +150,9 @@ namespace Proyecto.Models
             catch (Exception ex)
             {
                 conexion.Close();
-                MessageBox.Show("Ha fallado la conexión getPokemonSeleccionado \n" + ex.Message);
 
+                MessageBox.Show("Ha fallado la conexión getPokemonSeleccionado \n" + ex.Message,
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             return pokemon;
@@ -187,7 +194,8 @@ namespace Proyecto.Models
                     }
                     else
                     {
-                        MessageBox.Show("No se encontro el pokemon");
+                        MessageBox.Show("No se encontro el pokemon",
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
 
@@ -198,8 +206,10 @@ namespace Proyecto.Models
             catch (Exception ex)
             {
                 conexion.Close();
-                MessageBox.Show("Ha fallado la conexión getPokemonSeleccionado \n" + ex.Message);
-               
+
+                MessageBox.Show("Ha fallado la conexión getInfoPokemonSeleccionado \n" + ex.Message,
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
 
             return pokemon;
@@ -237,7 +247,8 @@ namespace Proyecto.Models
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ha fallado la conexión InfoPokemon \n" + ex.Message);
+                MessageBox.Show("Ha fallado la conexión InfoPokemon \n" + ex.Message,
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
         }
@@ -246,7 +257,6 @@ namespace Proyecto.Models
         {
             try
             {
-
                     conexion.Open();
 
                     // Crear el comando SQL para el insert
@@ -266,10 +276,15 @@ namespace Proyecto.Models
                     conexion.Close();
                 
 
+<<<<<<< HEAD
+=======
+                //MessageBox.Show("Registro en bitacora_peleas insertado correctamente.");
+>>>>>>> 7be031745b4d014c917a521344e90066d67928a8
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al insertar en bitacora_peleas: " + ex.Message);
+                MessageBox.Show("Error al insertar en la tabla bitacora_peleas: " + ex.Message,
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

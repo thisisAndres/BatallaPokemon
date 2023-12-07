@@ -58,6 +58,9 @@ namespace Proyecto
             llamarPokemonesCampo();
             CargarPokemonesEnEspera();
             mostrarJugadores();
+            //MessageBox.Show(jugadores.Count.ToString());
+            //MessageBox.Show(jugadores.Count.ToString(),
+                            //"Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         //botones de ataques
         private void button1_Click(object sender, EventArgs e)
@@ -232,7 +235,10 @@ namespace Proyecto
 					ganadorId = jugadores[jugadorActual1].IdJugador;
                     perdedorId = jugadores[jugadorActual2].IdJugador;
 
-                    MessageBox.Show("Gano el jugador: " + ganadorId);
+                    //MessageBox.Show("Gano el jugador: " + ganadorId);
+                    MessageBox.Show("Gano el jugador: " + ganadorId,
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 }
                 else
                 {
@@ -242,7 +248,9 @@ namespace Proyecto
 					ganadorId = jugadores[jugadorActual2].IdJugador;
                     perdedorId = jugadores[jugadorActual1].IdJugador;
 
-                    MessageBox.Show("Gano el jugador: " + ganadorId);
+                    //MessageBox.Show("Gano el jugador: " + ganadorId);
+                    MessageBox.Show("Gano el jugador: " + ganadorId,
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 
                 insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
@@ -286,7 +294,10 @@ namespace Proyecto
 
             }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7be031745b4d014c917a521344e90066d67928a8
             return (ganadorId, perdedorId, combate);
         }
 
@@ -347,10 +358,12 @@ namespace Proyecto
                 if (j2PokemonesElimidados == 4)
                 {
 
-                    MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
-                    //jugadores.RemoveAt(jugadorActual2);
-                    //Se setea el bot en este caso como perdedor y el jugador como ganador
-                    jugadores[jugadorActual1].setGanador();
+                    //MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
+                    MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!",
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //jugadores.RemoveAt(jugadorActual2);
+                //Se setea el bot en este caso como perdedor y el jugador como ganador
+                jugadores[jugadorActual1].setGanador();
 				    jugadores[jugadorActual2].setPerdedor();
 
 				    ganadorId = jugadores[jugadorActual1].IdJugador;
@@ -368,12 +381,18 @@ namespace Proyecto
 				
 
                     MessageBox.Show("Inicio siguiente combate");
+                    MessageBox.Show("Inicio siguiente combate",
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
+<<<<<<< HEAD
                     if (jugadores[jugadorActual1].getIsBot() && jugadores[jugadorActual2].getIsBot())
                     {
                         logicaAmbosSonBots();
                     }
 
+=======
+                logicaAmbosSonBots();
+>>>>>>> 7be031745b4d014c917a521344e90066d67928a8
 
                 }
 
@@ -401,7 +420,9 @@ namespace Proyecto
             if (j1PokemonesElimidados == 4)
             {
 
-                MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
+                //MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
+                MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!",
+                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 //jugadores.RemoveAt(jugadorActual2);
                 //Se setea el bot en este caso como perdedor y el jugador como ganador
                 jugadores[jugadorActual2].setPerdedor();
@@ -420,7 +441,9 @@ namespace Proyecto
 
                 insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
 
-                MessageBox.Show("Inicio siguiente combate");
+                //MessageBox.Show("Inicio siguiente combate");
+                MessageBox.Show("Inicio siguiente combate",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
                 logicaAmbosSonBots();
             }
@@ -445,7 +468,9 @@ namespace Proyecto
                 if (j2PokemonesElimidados == 4)
                 {
 
-                    MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
+                    //MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!");
+                    MessageBox.Show("jugador " + jugadores[jugadorActual1].IdJugador + " ha ganado el combate pokemon!!!!",
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     //jugadores.RemoveAt(jugadorActual2);
                     //Se setea el bot en este caso como perdedor y el jugador como ganador
                     jugadores[jugadorActual2].setPerdedor();
@@ -466,8 +491,9 @@ namespace Proyecto
 
 					controlador.insertarGanadorBitacora(ganadorId, perdedorId, combate);
 
-
-                    MessageBox.Show("Inicio segundo combate");
+                    //MessageBox.Show("Inicio segundo combate");
+                    MessageBox.Show("Inicio siguiente combate",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 else
                 {
@@ -810,7 +836,9 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show(jugadores[jugadorActual2].pokemones[indicePokemonEspera].nombre + ": Estoy cansado jefe");
+               //MessageBox.Show(jugadores[jugadorActual2].pokemones[indicePokemonEspera].nombre + ": Estoy cansado jefe");
+                MessageBox.Show(jugadores[jugadorActual2].pokemones[indicePokemonEspera].nombre + ": Estoy cansado jefe",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }
@@ -853,13 +881,15 @@ namespace Proyecto
                     }
                     else
                     {
-                        MessageBox.Show($"Error: La imagen {rutaImagen} no existe o puede ser la imagen {rutaImagen2} ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show($"Error: La imagen {rutaImagen} no existe o puede ser la imagen {rutaImagen2}", 
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al cargar las imágenes del jugador 1: {ex.Message} o del jugador 2", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error al cargar las imágenes del jugador 1: {ex.Message} o del jugador 2",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -907,12 +937,14 @@ namespace Proyecto
 				}
 				catch (Exception ex)
 				{
-					MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+					MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}",
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
 				}
 			}
 			else
 			{
-				MessageBox.Show("No se encontró un Pokémon con 100 de vida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show("No se encontró un Pokémon con 100 de vida.",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 
 
@@ -990,12 +1022,14 @@ namespace Proyecto
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}",
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("No se encontró un Pokémon con 100 de vida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("No se encontró un Pokémon con 100 de vida.",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -1053,12 +1087,14 @@ namespace Proyecto
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}",
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("No se encontró un Pokémon con 100 de vida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("No se encontró un Pokémon con 100 de vida.",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -1090,7 +1126,8 @@ namespace Proyecto
 			}
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
 
@@ -1113,7 +1150,8 @@ namespace Proyecto
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -1138,7 +1176,8 @@ namespace Proyecto
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al cargar la imagen del campo de batalla: {ex.Message}\n{ex.StackTrace}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error al cargar la imagen del campo de batalla: {ex.Message}\n{ex.StackTrace}",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         public int ObtenerNumeroImagen()
@@ -1231,12 +1270,14 @@ namespace Proyecto
                 }
                 else
                 {
-                    MessageBox.Show("El archivo de imagen no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("El archivo de imagen no existe.",
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         public void imagenGolpe_2()
@@ -1273,12 +1314,14 @@ namespace Proyecto
                 }
                 else
                 {
-                    MessageBox.Show("El archivo de imagen no existe.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("El archivo de imagen no existe.", 
+                                    "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error al cargar la imagen GIF: {ex.Message}",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         //igual que estos metodos de habilitar o desabilitar botones

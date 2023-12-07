@@ -36,7 +36,6 @@ namespace Proyecto
 
         private void PantallaInicio_Load(object sender, EventArgs e)
         {
-
             // Construir la ruta relativa desde el directorio del ejecutable
             string ruta = Path.Combine(Archivos, "Resources", "inicio\\");
             panel1.BackgroundImage = Image.FromFile(ruta + "p_ini.jpg");
@@ -77,7 +76,9 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("No has seleccionado ninguna opción");
+                //MessageBox.Show("No has seleccionado ninguna opción");
+                MessageBox.Show("No has seleccionado ninguna opción",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
         }
@@ -137,17 +138,24 @@ namespace Proyecto
             }
             else
             {
-                MessageBox.Show("Se ha alcanzado el máximo de jugadores permitidos para esta opción.");
+                //MessageBox.Show("Se ha alcanzado el máximo de jugadores permitidos para esta opción.");
+                MessageBox.Show("Se ha alcanzado el máximo de jugadores permitidos para esta opción.",
+                                "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             reproducirSonido();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (CantidadJugadores != 1)
+            
+            if (CantidadJugadores > 1)
             {
                 CantidadJugadores--;
                 label1.Text = Convert.ToString(CantidadJugadores);
+            }
+            else
+            {
+                //MessageBox.Show("La cantidad mínima de jugadores es 1");
             }
 
             reproducirSonido();
@@ -155,16 +163,35 @@ namespace Proyecto
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
+            
+
+            if (radioButton1.Checked)
+            {
+                CantidadJugadores = 1;
+                label1.Text = Convert.ToString("1");
+            }
             reproducirSonido();
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
+
+            if (radioButton2.Checked)
+            {
+                CantidadJugadores = 1;
+                label1.Text = Convert.ToString("1");
+            }
             reproducirSonido();
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
+
+            if (radioButton3.Checked)
+            {
+                CantidadJugadores = 1;
+                label1.Text = Convert.ToString("1");
+            }
             reproducirSonido();
         }
 
