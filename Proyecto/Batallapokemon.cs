@@ -294,10 +294,7 @@ namespace Proyecto
 
             }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 7be031745b4d014c917a521344e90066d67928a8
             return (ganadorId, perdedorId, combate);
         }
 
@@ -384,15 +381,14 @@ namespace Proyecto
                     MessageBox.Show("Inicio siguiente combate",
                                     "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
-<<<<<<< HEAD
+
                     if (jugadores[jugadorActual1].getIsBot() && jugadores[jugadorActual2].getIsBot())
                     {
                         logicaAmbosSonBots();
                     }
 
-=======
                 logicaAmbosSonBots();
->>>>>>> 7be031745b4d014c917a521344e90066d67928a8
+
 
                 }
 

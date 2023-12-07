@@ -18,11 +18,8 @@ namespace Proyecto.Models
         static string rutaAndres = "Server=PC-A; Database=bd_pokemon; User ID=sa; password=123; trustServerCertificate= true; Trusted_Connection=true";
 
 
-<<<<<<< HEAD
         public SqlConnection conexion = new SqlConnection(rutaAndres);
-=======
-        public SqlConnection conexion = new SqlConnection(rutaJose);
->>>>>>> 7be031745b4d014c917a521344e90066d67928a8
+
 
         //Constructor
         public ConexionDatos()
@@ -276,10 +273,7 @@ namespace Proyecto.Models
                     conexion.Close();
                 
 
-<<<<<<< HEAD
-=======
-                //MessageBox.Show("Registro en bitacora_peleas insertado correctamente.");
->>>>>>> 7be031745b4d014c917a521344e90066d67928a8
+
             }
             catch (Exception ex)
             {
