@@ -20,8 +20,9 @@ namespace Proyecto
         Controlador imagenesrnd = new Controlador();
         int cantidadbots;
         public List<string> rutasImagenesAleatorias;
+		bool siguienteRonda;
 
-        public Fasefinal4()
+		public Fasefinal4()
         {
             InitializeComponent();
         }
@@ -30,13 +31,19 @@ namespace Proyecto
         {
             InitializeComponent();
             this.jugadores = listaGanadores;
-
-                mostrarGanadores();
-            
+			siguienteRonda = true;
+			siguienteFase();
 
         }
+		public void siguienteFase()
+		{
+			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
 
-        public Fasefinal4(List<objetoJugador> listaJugadores, int cantidadbots)
+			pictureBox6.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+			pictureBox7.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
+			button1.Text = "Siguiente fase";
+		}
+		public Fasefinal4(List<objetoJugador> listaJugadores, int cantidadbots)
         {
             InitializeComponent();
             // Cargar el archivo de sonido
@@ -50,10 +57,21 @@ namespace Proyecto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Seleccionpokemon equipo = new Seleccionpokemon(jugadores, cantidadbots);
-            equipo.Show();
-            this.Hide();
-        }
+
+			if (siguienteRonda)
+			{
+				Batallapokemon siguienteFase = new Batallapokemon(jugadores);
+				siguienteFase.Show();
+				this.Hide();
+			}
+			else
+			{
+				// Mantén el código original si la condición no se cumple
+				Seleccionpokemon equipo = new Seleccionpokemon(jugadores, cantidadbots);
+				equipo.Show();
+				this.Hide();
+			}
+		}
 
         private void Fasefinal4_Load(object sender, EventArgs e)
         {
@@ -62,14 +80,7 @@ namespace Proyecto
             reproducirSonido();
         }
 
-        public void mostrarGanadores()
-        {
-            string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
-
-            pictureBox6.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
-            pictureBox7.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
-
-        }
+        
 
         public void mostrarImagenes()
         {

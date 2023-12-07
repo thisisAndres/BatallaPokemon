@@ -19,9 +19,12 @@ namespace Pokemons
         List<objetoJugador> jugadores = new List<objetoJugador>();
         Controlador imagenesrnd = new Controlador();
         int cantidadbots;
+        bool siguienteRonda;
         public Fasefinal8()
         {
             InitializeComponent();
+            siguienteRonda = false;
+
         }
 
         public Fasefinal8(List<objetoJugador> listaJugadores, int cantidadbots)
@@ -37,14 +40,40 @@ namespace Pokemons
             InitializeComponent();
             // Cargar el archivo de sonido
             this.jugadores = listaGanadores;
-        }
+            siguienteRonda = true;
+            siguienteFase();
 
+		}
+		public void siguienteFase()
+		{
+			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
 
-        private void button1_Click(object sender, EventArgs e)
+			pictureBox10.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+			pictureBox11.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
+			pictureBox12.Image = Image.FromFile(directorioImagenesGanadores + jugadores[2].IdJugador + ".png");
+			pictureBox13.Image = Image.FromFile(directorioImagenesGanadores + jugadores[3].IdJugador + ".png");
+
+            button1.Text = "Siguiente fase";
+
+		}
+
+		private void button1_Click(object sender, EventArgs e)
         {
-            Seleccionpokemon equipo = new Seleccionpokemon(jugadores, cantidadbots);
-            equipo.Show();
-            this.Hide();
+            
+			if (siguienteRonda)
+			{
+				Batallapokemon siguienteFase = new Batallapokemon(jugadores);
+				siguienteFase.Show();
+				this.Hide();
+			}
+			else
+			{
+				// Mantén el código original si la condición no se cumple
+				Seleccionpokemon equipo = new Seleccionpokemon(jugadores, cantidadbots);
+				equipo.Show();
+				this.Hide();
+			}
+			
         }
 
         private void Fasefinal8_Load(object sender, EventArgs e)

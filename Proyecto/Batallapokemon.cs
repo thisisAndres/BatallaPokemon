@@ -40,7 +40,7 @@ namespace Proyecto
         {
             InitializeComponent();
             this.TransparencyKey = System.Drawing.Color.FromKnownColor(KnownColor.Control);
-
+            MessageBox.Show("hola");
         }
         public Batallapokemon(List<objetoJugador> listaJugadores, int cantidadbots)
         {
@@ -48,9 +48,15 @@ namespace Proyecto
             this.jugadores = listaJugadores;
             this.cantidadbots = cantidadbots;
         }
+		public Batallapokemon(List<objetoJugador> listaJugadores)
+		{
+			InitializeComponent();
+			this.jugadores = listaJugadores;
+			
+		}
 
-        //Carga inicial del form
-        private void Form2_Load(object sender, EventArgs e)
+		//Carga inicial del form
+		private void Form2_Load(object sender, EventArgs e)
         {
             cargarImagenBackground();
             CargarImagenesCampos();
@@ -270,7 +276,13 @@ namespace Proyecto
                 }
                 else
                 {
-                    if (jugadores.Count == 4)
+					jugadorActual1 = 0;
+					jugadorActual2 = 1;
+					pokemonActual1 = 0;
+					pokemonActual2 = 0;
+					j1PokemonesElimidados = 0;
+					j2PokemonesElimidados = 0;
+					if (jugadores.Count == 4)
                     {
   
                         eliminarPerdedores();
@@ -283,7 +295,7 @@ namespace Proyecto
                         siguinteFase(8);
 
                     }
-                    else
+                    else if (jugadores.Count == 16)
                     {
                         eliminarPerdedores();
                         siguinteFase(16);
