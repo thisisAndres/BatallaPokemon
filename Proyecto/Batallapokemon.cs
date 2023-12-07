@@ -1,4 +1,5 @@
-﻿using Proyecto.Models;
+﻿using Pokemons;
+using Proyecto.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -214,6 +215,7 @@ namespace Proyecto
         {
             int ganadorId = 0;
             int perdedorId = 0;
+            //MessageBox.Show(jugadorActual1.ToString() + "//" + jugadorActual2.ToString());
             string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
 
             if (jugadores[jugadorActual1].isBot && jugadores[jugadorActual2].isBot)
@@ -244,13 +246,87 @@ namespace Proyecto
                 }
                 
                 insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
+
+
+
+
+                MessageBox.Show(jugadorActual2 + " // " + (jugadores.Count - 1));
+
+                if (jugadorActual2 != jugadores.Count - 1)
+                {
+                    jugadorActual1 = jugadorActual1 + 2;
+                    jugadorActual2 = jugadorActual2 + 2;
+
+                    restaurarEquipo();
+                    logicaAmbosSonBots();
+                }
+                else
+                {
+                    if (jugadores.Count == 4)
+                    {
+  
+                        eliminarPerdedores();
+                        siguinteFase(4);
+                    }
+                    else if (jugadores.Count == 8)
+                    {
+
+                        eliminarPerdedores();
+                        siguinteFase(8);
+
+                    }
+                    else
+                    {
+                        eliminarPerdedores();
+                        siguinteFase(16);
+                       
+
+                    }
+                }
+
             }
 
-            jugadorActual1 = jugadorActual1 + 2;
-            jugadorActual2 = jugadorActual2 + 2;
 
             return (ganadorId, perdedorId, combate);
         }
+
+        public void eliminarPerdedores()
+        {
+            for (int i = jugadores.Count - 1; i >= 0; i--)
+            {
+                if (!jugadores[i].getIsGanador())
+                {
+                    jugadores.RemoveAt(i);
+                }
+            }
+        }
+
+        public void siguinteFase(int tipoFase)
+        {
+
+            MessageBox.Show("Iniciando siguiente fase del torneo de " + tipoFase + " jugadores");
+
+            if (tipoFase == 4)
+            {
+                Fasefinal4 faseFinal4 = new Fasefinal4(jugadores);
+                this.Hide();
+                faseFinal4.Show();
+            }
+            else if (tipoFase == 8)
+            {
+                Fasefinal8 faseFinal8 = new Fasefinal8(jugadores);
+                this.Hide();
+                faseFinal8.Show();
+            }
+            else
+            {
+                Fasefinal16 faseFinal16 = new Fasefinal16(jugadores);
+                this.Hide();
+                faseFinal16.Show();
+            }
+
+        }
+
         public (int ganadorId, int perdedorId, string combate) logicaMovimientoJ1()
         {
             HabilitarBotonesRival();
@@ -293,7 +369,11 @@ namespace Proyecto
 
                     MessageBox.Show("Inicio siguiente combate");
 
-                    logicaAmbosSonBots();
+                    if (jugadores[jugadorActual1].getIsBot() && jugadores[jugadorActual2].getIsBot())
+                    {
+                        logicaAmbosSonBots();
+                    }
+
 
                 }
 
@@ -1253,15 +1333,30 @@ namespace Proyecto
         //**********************************************************
         public void mostrarJugadores()
         {
-            Fasefinal4 faseFinalForm = new Fasefinal4(jugadores, cantidadbots);
+            List<string> rutasImagenes;
+            if (jugadores.Count == 4)
+            {
+                Fasefinal4 faseFinal4 = new Fasefinal4(jugadores, cantidadbots);
+                // Obtener las rutas de imágenes aleatorias
+                rutasImagenes = faseFinal4.MostrarImagenesAleatorias();
+            }
+            else if (jugadores.Count == 8)
+            {
+                Fasefinal8 faseFinal8 = new Fasefinal8(jugadores, cantidadbots);
+                rutasImagenes = faseFinal8.MostrarImagenesAleatorias();
+            }
+            else
+            {
+                Fasefinal16 faseFinal16 = new Fasefinal16(jugadores, cantidadbots);
+                rutasImagenes = faseFinal16.MostrarImagenesAleatorias();
+            }
 
-            progressBar1.Value = jugadores[jugadorActual1].pokemones[0].vida;
-            progressBar2.Value = jugadores[jugadorActual2].pokemones[0].vida;
+            progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].vida;
+            progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].vida;
             label1.Text = "Jugador" + Convert.ToString(jugadores[jugadorActual1].IdJugador);
             label2.Text = "Jugador" + Convert.ToString(jugadores[jugadorActual2].IdJugador);
 
-            // Obtener las rutas de imágenes aleatorias
-            List<string> rutasImagenes = faseFinalForm.MostrarImagenesAleatorias();
+
 
             if (rutasImagenes != null && rutasImagenes.Count >= 2)
             {

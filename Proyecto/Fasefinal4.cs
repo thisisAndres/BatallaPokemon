@@ -16,6 +16,7 @@ namespace Proyecto
     {
         string Archivos = Configuracion.Archivos;
         List<objetoJugador> jugadores = new List<objetoJugador>();
+        List<objetoJugador> jugadoresCiclo2 = new List<objetoJugador>();
         Controlador imagenesrnd = new Controlador();
         int cantidadbots;
         public List<string> rutasImagenesAleatorias;
@@ -23,6 +24,16 @@ namespace Proyecto
         public Fasefinal4()
         {
             InitializeComponent();
+        }
+
+        public Fasefinal4(List<objetoJugador> listaGanadores)
+        {
+            InitializeComponent();
+            this.jugadores = listaGanadores;
+
+                mostrarGanadores();
+            
+
         }
 
         public Fasefinal4(List<objetoJugador> listaJugadores, int cantidadbots)
@@ -49,6 +60,15 @@ namespace Proyecto
             mostrarImagenes();
             MostrarImagenesAleatorias();
             reproducirSonido();
+        }
+
+        public void mostrarGanadores()
+        {
+            string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
+
+            pictureBox6.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+            pictureBox7.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
+
         }
 
         public void mostrarImagenes()

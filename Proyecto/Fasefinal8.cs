@@ -32,6 +32,13 @@ namespace Pokemons
             this.cantidadbots = cantidadbots;
         }
 
+        public Fasefinal8(List<objetoJugador> listaGanadores)
+        {
+            InitializeComponent();
+            // Cargar el archivo de sonido
+            this.jugadores = listaGanadores;
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -79,6 +86,31 @@ namespace Pokemons
             {
                 MessageBox.Show("No hay suficientes imágenes.");
             }
+        }
+
+        public List<string> MostrarImagenesAleatorias()
+        {
+            List<string> rutasImagenes = imagenesrnd.ObtenerImagenesEntrenadores_8();
+
+            if (rutasImagenes != null && rutasImagenes.Count >= 8)
+            {
+
+                pictureBox2.Image = Image.FromFile(rutasImagenes[0]);
+                pictureBox3.Image = Image.FromFile(rutasImagenes[1]);
+                pictureBox4.Image = Image.FromFile(rutasImagenes[2]);
+                pictureBox5.Image = Image.FromFile(rutasImagenes[3]);
+                pictureBox6.Image = Image.FromFile(rutasImagenes[4]);
+                pictureBox7.Image = Image.FromFile(rutasImagenes[5]);
+                pictureBox8.Image = Image.FromFile(rutasImagenes[6]);
+                pictureBox9.Image = Image.FromFile(rutasImagenes[7]);
+            }
+            else
+            {
+                MessageBox.Show("No hay suficientes imágenes.");
+            }
+
+            return rutasImagenes;
+
         }
 
         public void reproducirSonido()

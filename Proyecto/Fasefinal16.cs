@@ -24,6 +24,13 @@ namespace Pokemons
             InitializeComponent();
         }
 
+        public Fasefinal16(List<objetoJugador> listaGanadores)
+        {
+            InitializeComponent();
+            // Cargar el archivo de sonido
+            this.jugadores = listaGanadores;
+        }
+
         public Fasefinal16(List<objetoJugador> listaJugadores, int cantidadbots)
         {
             InitializeComponent();
@@ -87,6 +94,41 @@ namespace Pokemons
             {
                 MessageBox.Show("No hay suficientes imágenes.");
             }
+        }
+
+        public List<string> MostrarImagenesAleatorias()
+        {
+            List<string> rutasImagenes = imagenesrnd.ObtenerImagenesEntrenadores_16();
+
+            if (rutasImagenes != null && rutasImagenes.Count >= 16)
+            {
+                pictureBox2.Image = Image.FromFile(rutasImagenes[0]);
+                pictureBox3.Image = Image.FromFile(rutasImagenes[1]);
+                pictureBox4.Image = Image.FromFile(rutasImagenes[2]);
+                pictureBox5.Image = Image.FromFile(rutasImagenes[3]);
+                pictureBox6.Image = Image.FromFile(rutasImagenes[4]);
+                pictureBox7.Image = Image.FromFile(rutasImagenes[5]);
+                pictureBox8.Image = Image.FromFile(rutasImagenes[6]);
+                pictureBox9.Image = Image.FromFile(rutasImagenes[7]);
+                pictureBox10.Image = Image.FromFile(rutasImagenes[8]);
+                pictureBox11.Image = Image.FromFile(rutasImagenes[9]);
+                pictureBox12.Image = Image.FromFile(rutasImagenes[10]);
+                pictureBox13.Image = Image.FromFile(rutasImagenes[11]);
+                pictureBox14.Image = Image.FromFile(rutasImagenes[12]);
+                pictureBox15.Image = Image.FromFile(rutasImagenes[13]);
+                pictureBox16.Image = Image.FromFile(rutasImagenes[14]);
+                pictureBox17.Image = Image.FromFile(rutasImagenes[15]);
+
+
+
+            }
+            else
+            {
+                MessageBox.Show("No hay suficientes imágenes.");
+            }
+
+            return rutasImagenes;
+
         }
         public void reproducirSonido()
         {
