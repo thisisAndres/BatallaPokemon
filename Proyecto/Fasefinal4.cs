@@ -20,8 +20,9 @@ namespace Proyecto
         Controlador imagenesrnd = new Controlador();
         int cantidadbots;
         public List<string> rutasImagenesAleatorias;
-		bool siguienteRonda;
-
+		bool segundaRonda;
+        
+		
 		public Fasefinal4()
         {
             InitializeComponent();
@@ -31,17 +32,34 @@ namespace Proyecto
         {
             InitializeComponent();
             this.jugadores = listaGanadores;
-			siguienteRonda = true;
-			siguienteFase();
+            segundaRonda = true;
+			    
+            if (listaGanadores.Count < 2)
+            {
+                ganadorTorneo();
 
+            }
+            else { 
+                segundaFase();
+            
+            }
         }
-		public void siguienteFase()
+		public void segundaFase()
 		{
 			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
 
 			pictureBox6.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
 			pictureBox7.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
 			button1.Text = "Siguiente fase";
+		}
+		public void ganadorTorneo()
+		{
+			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
+            
+			pictureBox8.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+			MessageBox.Show("El jugador #" + jugadores[0].IdJugador + " ha ganado el torneo, felicidades!!!");
+
+
 		}
 		public Fasefinal4(List<objetoJugador> listaJugadores, int cantidadbots)
         {
@@ -58,9 +76,9 @@ namespace Proyecto
         private void button1_Click(object sender, EventArgs e)
         {
 
-			if (siguienteRonda)
+			if (segundaRonda)
 			{
-				Batallapokemon siguienteFase = new Batallapokemon(jugadores);
+				Batallapokemon siguienteFase = new Batallapokemon(jugadores, cantidadbots);
 				siguienteFase.Show();
 				this.Hide();
 			}

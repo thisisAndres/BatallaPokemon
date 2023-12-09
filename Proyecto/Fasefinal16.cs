@@ -19,7 +19,7 @@ namespace Pokemons
         List<objetoJugador> jugadores = new List<objetoJugador>();
         Controlador imagenesrnd = new Controlador();
         int cantidadbots;
-        bool siguienteRonda;
+        bool segundaRonda;
         public Fasefinal16()
         {
             InitializeComponent();
@@ -30,11 +30,11 @@ namespace Pokemons
             InitializeComponent();
             // Cargar el archivo de sonido
             this.jugadores = listaGanadores;
-			siguienteRonda = true;
-			siguienteFase();
+			segundaRonda = true;
+			segundaFase();
 
 		}
-		public void siguienteFase()
+		public void segundaFase()
 		{
 			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
 
@@ -49,6 +49,34 @@ namespace Pokemons
 			button1.Text = "Siguiente fase";
 
 		}
+		public void terceraFase()
+		{
+			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
+
+			pictureBox27.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+			pictureBox28.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
+			pictureBox29.Image = Image.FromFile(directorioImagenesGanadores + jugadores[2].IdJugador + ".png");
+			pictureBox30.Image = Image.FromFile(directorioImagenesGanadores + jugadores[3].IdJugador + ".png");
+			button1.Text = "Siguiente fase";
+		}
+
+		public void cuartaFase()
+		{
+			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
+
+			pictureBox31.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+			pictureBox32.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
+			button1.Text = "Siguiente fase";
+		}
+
+		public void ganadorTorneo()
+		{
+			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
+
+			pictureBox18.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+            MessageBox.Show("El jugador #"+ jugadores[0].IdJugador + " ha ganado el torneo, felicidades!!!");
+			
+		}
 		public Fasefinal16(List<objetoJugador> listaJugadores, int cantidadbots)
         {
             InitializeComponent();
@@ -58,7 +86,7 @@ namespace Pokemons
         }
         private void button1_Click(object sender, EventArgs e)
         {
-			if (siguienteRonda)
+			if (segundaRonda)
 			{
 				Batallapokemon siguienteFase = new Batallapokemon(jugadores);
 				siguienteFase.Show();
