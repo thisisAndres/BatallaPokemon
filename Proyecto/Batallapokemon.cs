@@ -36,9 +36,13 @@ namespace Proyecto
 		//numero de eliminaciones
 		int j1PokemonesElimidados = 0;
 		int j2PokemonesElimidados = 0;
-		bool faseFinal;
 
-		public Batallapokemon()
+		bool faseFinal;
+		bool tipoTorneo4 = false;
+        bool tipoTorneo8 = false;
+        bool tipoTorneo16 = false;
+
+        public Batallapokemon()
 		{
 			InitializeComponent();
 			this.TransparencyKey = System.Drawing.Color.FromKnownColor(KnownColor.Control);
@@ -59,8 +63,18 @@ namespace Proyecto
 
 		}
 
-		//Carga inicial del form
-		private void Form2_Load(object sender, EventArgs e)
+        public Batallapokemon(List<objetoJugador> listaJugadores, bool fase4, bool fase8, bool fase16)
+        {
+            InitializeComponent();
+            this.jugadores = listaJugadores;
+			this.tipoTorneo4 = fase4;
+			this.tipoTorneo8 = fase8;
+			this.tipoTorneo16 = fase16;
+
+        }
+
+        //Carga inicial del form
+        private void Form2_Load(object sender, EventArgs e)
 		{
 			cargarImagenBackground();
 			CargarImagenesCampos();
@@ -259,47 +273,57 @@ namespace Proyecto
 				}
 			}
 		}
-		public int contarGanadores()
-		{
-			int ganadores = 0;
-			for (int i = jugadores.Count - 1; i >= 0; i--)
-			{
-				if (jugadores[i].getIsGanador())
-				{
-					ganadores++;
-				}
-			}
-			return ganadores;
-		}
-		public void eliminarPerdedor(int numJugador)
-		{
 
-			jugadores.RemoveAt(numJugador);
 
-		}
 
 		public void siguinteFase(int tipoFase)
 		{
 
-			MessageBox.Show("Iniciando siguiente fase del torneo de " + tipoFase + " jugadores");
+			//MessageBox.Show("Iniciando siguiente fase del torneo de " + tipoFase + " jugadores");
 
-			if (tipoFase == 4)
+			if (tipoTorneo4)
 			{
-				Fasefinal4 faseFinal4 = new Fasefinal4(jugadores);
+                MessageBox.Show("Iniciando siguiente fase del torneo de " + 4 + " jugadores");
+                Fasefinal4 faseFinal4 = new Fasefinal4(jugadores);
 				this.Hide();
 				faseFinal4.Show();
 			}
-			else if (tipoFase == 8)
+			else if (tipoTorneo8)
 			{
-				Fasefinal8 faseFinal8 = new Fasefinal8(jugadores);
+                MessageBox.Show("Iniciando siguiente fase del torneo de " + 8 + " jugadores");
+                Fasefinal8 faseFinal8 = new Fasefinal8(jugadores);
 				this.Hide();
 				faseFinal8.Show();
 			}
-			else
+			else if (tipoTorneo16)
 			{
-				Fasefinal16 faseFinal16 = new Fasefinal16(jugadores);
+                MessageBox.Show("Iniciando siguiente fase del torneo de " + 16 + " jugadores");
+                Fasefinal16 faseFinal16 = new Fasefinal16(jugadores);
 				this.Hide();
 				faseFinal16.Show();
+			}
+			else
+			{
+				if (tipoFase == 4)
+				{
+                    MessageBox.Show("Iniciando siguiente fase del torneo de " + 4 + " jugadores");
+                    Fasefinal4 faseFinal4 = new Fasefinal4(jugadores);
+                    this.Hide();
+                    faseFinal4.Show();
+                }else if (tipoFase == 8)
+				{
+                    MessageBox.Show("Iniciando siguiente fase del torneo de " + 8 + " jugadores");
+                    Fasefinal8 faseFinal8 = new Fasefinal8(jugadores);
+                    this.Hide();
+                    faseFinal8.Show();
+				}
+				else
+				{
+                    MessageBox.Show("Iniciando siguiente fase del torneo de " + 16 + " jugadores");
+                    Fasefinal16 faseFinal16 = new Fasefinal16(jugadores);
+                    this.Hide();
+                    faseFinal16.Show();
+                }
 			}
 
 		}
@@ -313,10 +337,8 @@ namespace Proyecto
 			int ganadorId = 0;
 			int perdedorId = 0;
 			string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
-
 			progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].getVidaRestante();
 			label4.Text = Convert.ToString(progressBar2.Value) + "/100";
-
 			if (progressBar2.Value == 0)
 			{
 				actualizarPokemonJ2();
@@ -329,7 +351,7 @@ namespace Proyecto
 					ganadorId = jugadores[jugadorActual1].IdJugador;
 					perdedorId = jugadores[jugadorActual2].IdJugador;
 					controlador.insertarGanadorBitacora(ganadorId, perdedorId, combate);
-					MessageBox.Show("METODO MOVIMIENTO J1" + jugadorActual2 + "//  " + Convert.ToString(jugadores.Count - 1));
+
 
 					if (jugadorActual2 != jugadores.Count - 1)
 					{
@@ -350,6 +372,7 @@ namespace Proyecto
 						pokemonActual2 = 0;
 						j1PokemonesElimidados = 0;
 						j2PokemonesElimidados = 0;
+
 						if (jugadores.Count == 4)
 						{
 
@@ -367,44 +390,14 @@ namespace Proyecto
 						{
 							eliminarPerdedores();
 							siguinteFase(16);
-
-
 						}
+						else
+						{
+                            eliminarPerdedores();
+                            siguinteFase(16);
+                        }
 					}
 
-
-					/*
-					jugadorActual1 += 2;
-					jugadorActual2 += 2;
-					pokemonActual1 = 0;
-					pokemonActual2 = 0;
-					j1PokemonesElimidados = 0;
-					j2PokemonesElimidados = 0;
-
-
-					if (jugadores.Count >= 2)
-					{
-						restaurarEquipo();
-						llamarPokemonesCampo();
-						CargarPokemonesEnEspera();
-						mostrarJugadores();
-
-					}
-					else if (jugadores.Count < 2)
-					{
-						eliminarPerdedores();
-
-						faseFinal = true;
-
-
-						siguinteFase(4);
-					}
-
-
-					
-
-
-					*/
 					logicaAmbosSonBots();
 
 
@@ -440,7 +433,6 @@ namespace Proyecto
 					perdedorId = jugadores[jugadorActual1].IdJugador;
 					insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
 
-					MessageBox.Show("METODO MOVIMIENTO J2" + jugadorActual2 + "//  " + Convert.ToString(jugadores.Count - 1));
 
 					if (jugadorActual2 != jugadores.Count - 1)
 					{
@@ -461,6 +453,7 @@ namespace Proyecto
 						pokemonActual2 = 0;
 						j1PokemonesElimidados = 0;
 						j2PokemonesElimidados = 0;
+
 						if (jugadores.Count == 4)
 						{
 
@@ -478,42 +471,14 @@ namespace Proyecto
 						{
 							eliminarPerdedores();
 							siguinteFase(16);
-
-
 						}
+						else
+						{
+                            eliminarPerdedores();
+                            siguinteFase(16);
+                        }
 					}
 
-
-
-					/*jugadorActual1 += 2;
-					jugadorActual2 += 2;
-					pokemonActual1 = 0;
-					pokemonActual2 = 0;
-					j1PokemonesElimidados = 0;
-					j2PokemonesElimidados = 0;
-					if (jugadores.Count >= 2)
-					{
-						restaurarEquipo();
-						llamarPokemonesCampo();
-						CargarPokemonesEnEspera();
-						mostrarJugadores();
-					}
-					else if (jugadores.Count < 2)
-					{
-						eliminarPerdedores();
-						//MessageBox.Show("Jugador 2 es el ganador!!");
-						faseFinal = true;
-
-
-						siguinteFase(4);
-					}*/
-
-
-
-
-					//MessageBox.Show("Inicio siguiente combate");
-					//MessageBox.Show("Inicio siguiente combate",
-					//       "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
 					logicaAmbosSonBots();
 				}
@@ -529,14 +494,10 @@ namespace Proyecto
 			int ganadorId = 0;
 			int perdedorId = 0;
 			string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
-
 			progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].getVidaRestante();
 			label4.Text = Convert.ToString(progressBar2.Value) + "/100";
-
-
 			if (progressBar2.Value == 0)
 			{
-
 				actualizarPokemonbot();
 				j2PokemonesElimidados++;
 
@@ -547,11 +508,11 @@ namespace Proyecto
 					perdedorId = jugadores[jugadorActual2].IdJugador;
 					ganadorId = jugadores[jugadorActual1].IdJugador;
 					controlador.insertarGanadorBitacora(ganadorId, perdedorId, combate);
-					/*-jugadorActual1 += 2;
-					jugadorActual2 += 2;*/
-					MessageBox.Show("METODO MOVIMIENTO BOT" + jugadorActual2 + "//  " + Convert.ToString(jugadores.Count - 1));
 
-					if (jugadorActual2 != jugadores.Count - 1)
+
+					MessageBox.Show(jugadorActual2 + " // " + (jugadores.Count - 1));
+
+                    if (jugadorActual2 != jugadores.Count - 1)
 					{
 						jugadorActual1 = jugadorActual1 + 2;
 						jugadorActual2 = jugadorActual2 + 2;
@@ -570,6 +531,7 @@ namespace Proyecto
 						pokemonActual2 = 0;
 						j1PokemonesElimidados = 0;
 						j2PokemonesElimidados = 0;
+
 						if (jugadores.Count == 4)
 						{
 
@@ -587,37 +549,14 @@ namespace Proyecto
 						{
 							eliminarPerdedores();
 							siguinteFase(16);
-
-
-						}
+						}else
+						{
+                            eliminarPerdedores();
+                            siguinteFase(16);
+                        }
 					}
-
-					/*
-										if (jugadores.Count >= 3)
-										{
-											restaurarEquipo();
-											llamarPokemonesCampo();
-											CargarPokemonesEnEspera();
-											mostrarJugadores();
-
-										}
-										else if (jugadores.Count <= 2)
-										{
-											eliminarPerdedores();
-											MessageBox.Show("Jugador " + ganadorId + "es el ganador!!");
-											faseFinal = true;
-											siguinteFase(4);
-
-										}
-					*/
-
-
-
-					//MessageBox.Show("Inicio segundo combate");
-					MessageBox.Show("Inicio siguiente combate",
-								"Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 				}
-				else
+				else 
 				{
 					movimientoBot(jugadorActual1, jugadorActual2);
 				}
@@ -627,21 +566,19 @@ namespace Proyecto
 				movimientoBot(jugadorActual1, jugadorActual2);
 			}
 
-			if (faseFinal == false)
+			/*if (faseFinal == false)
 			{
 				logicaAmbosSonBots();
-			}
-
-
+			}*/
 
 			return (ganadorId, perdedorId, combate);
 		}
+
 		public (int ganadorId, int perdedorId, string combate) logicaAmbosSonBots()
 		{
 			int ganadorId = 0;
 			int perdedorId = 0;
 			string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
-
 			if (jugadores[jugadorActual1].isBot && jugadores[jugadorActual2].isBot)
 			{
 				Random rnd = new Random();
@@ -660,11 +597,8 @@ namespace Proyecto
 					ganadorId = jugadores[jugadorActual2].IdJugador;
 					perdedorId = jugadores[jugadorActual1].IdJugador;
 				}
-
 				insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
-
-				MessageBox.Show("El ganador de esta batalla es el jugador #" + ganadorId);
-
+				//MessageBox.Show("El ganador de esta batalla es el jugador #" + ganadorId);
 				if (jugadorActual2 != jugadores.Count - 1)
 				{
 					jugadorActual1 = jugadorActual1 + 2;
@@ -701,14 +635,14 @@ namespace Proyecto
 					{
 						eliminarPerdedores();
 						siguinteFase(16);
-
-
 					}
+					else
+					{
+                        eliminarPerdedores();
+                        siguinteFase(16);
+                    }
 				}
-
 			}
-
-
 			return (ganadorId, perdedorId, combate);
 		}
 
@@ -832,169 +766,7 @@ namespace Proyecto
 			}
 
 		}
-		//Cambio de pokemones
-		private void PokemonEnEspera_Click1(object sender, EventArgs e)
-		{
-			PictureBox pictureBoxEnEspera = sender as PictureBox;
 
-			// Obtener el índice del PictureBox en el panel de Pokémon en espera
-			int indicePictureBoxEspera = flowLayoutPanel1.Controls.IndexOf(pictureBoxEnEspera);
-
-			// Obtener el nombre del Pokémon en el campo de batalla
-			string nombrePokemonCampo = flowLayoutPanel2.Controls[0].Name;
-
-			int indicePokemonEspera = 0;
-			int indicePokemonCampo = 0;
-
-			string pathEspera = Path.Combine(Archivos, "Resources", "pokemonFrente\\");
-			string pathBatalla = Path.Combine(Archivos, "Resources", "pokemonEspalda\\");
-
-			// Encontrar los índices de los Pokémon en base a los nombres
-			foreach (var pokemon in jugadores[jugadorActual1].pokemones)
-			{
-				if (pokemon.nombre == pictureBoxEnEspera.Name)
-				{
-					break;
-				}
-				indicePokemonEspera++;
-			}
-
-			foreach (var pokemon in jugadores[jugadorActual1].pokemones)
-			{
-				if (pokemon.nombre == nombrePokemonCampo)
-				{
-					break;
-				}
-				indicePokemonCampo++;
-			}
-
-			flowLayoutPanel1.Controls.RemoveAt(indicePictureBoxEspera);
-
-
-
-			// Construir las rutas de las imágenes basadas en los índices
-			string rutaImagenEsperaAbatalla = Path.Combine(pathBatalla, $"{jugadores[jugadorActual1].pokemones[indicePokemonEspera].Id}.gif");
-			string rutaImagenBatallaAespera = Path.Combine(pathEspera, $"{jugadores[jugadorActual1].pokemones[indicePokemonCampo].Id}.gif");
-
-			// Eliminar todos los Pokémon del campo de batalla antes de agregar uno nuevo
-			flowLayoutPanel2.Controls.Clear();
-
-			//Se setean las propiedades del PictureBox
-			PictureBox pictureBox_Espalda = new PictureBox();
-			pictureBox_Espalda.Name = jugadores[jugadorActual1].pokemones[indicePokemonEspera].nombre;
-			pictureBox_Espalda.Image = new System.Drawing.Bitmap(rutaImagenEsperaAbatalla);
-			pictureBox_Espalda.SizeMode = PictureBoxSizeMode.StretchImage;
-			pictureBox_Espalda.Size = new Size(125, 125);
-
-			//Se agrega la imagen del pokemon que antes estaba en espera al campo de batalla
-			flowLayoutPanel2.Controls.Add(pictureBox_Espalda);
-			flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-
-			//Se le agregan los nombres 
-			button1.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento1 + "//" + jugadores[jugadorActual1].pokemones[indicePokemonEspera].mov1Poder;
-			button2.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento2 + "//" + jugadores[jugadorActual1].pokemones[indicePokemonEspera].mov2Poder;
-			button3.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento3 + "//" + jugadores[jugadorActual1].pokemones[indicePokemonEspera].mov3Poder;
-			button4.Text = jugadores[jugadorActual1].pokemones[indicePokemonEspera].movimiento4 + "//" + jugadores[jugadorActual1].pokemones[indicePokemonEspera].mov4Poder;
-
-			progressBar1.Value = jugadores[jugadorActual1].pokemones[indicePokemonEspera].vida;
-			label3.Text = Convert.ToString(progressBar1.Value) + "/100";
-
-			pokemonActual1 = indicePokemonEspera;
-
-			PictureBox PictureBoxbatallaAespera = sender as PictureBox;
-			PictureBoxbatallaAespera.Image = new System.Drawing.Bitmap(rutaImagenBatallaAespera);
-			PictureBoxbatallaAespera.SizeMode = PictureBoxSizeMode.Zoom;
-			PictureBoxbatallaAespera.Size = new Size(70, 70);
-			PictureBoxbatallaAespera.Name = jugadores[jugadorActual1].pokemones[indicePokemonCampo].nombre;
-
-			flowLayoutPanel1.Controls.Add(PictureBoxbatallaAespera);
-		}
-		private void RivalPokemonEnEspera_Click(object sender, EventArgs e)
-		{
-			PictureBox pictureBoxEnEspera = sender as PictureBox;
-
-			// Obtener el índice del PictureBox en el panel de Pokémon en espera
-			int indicePictureBoxEspera = flowLayoutPanel3.Controls.IndexOf(pictureBoxEnEspera);
-
-			// Obtener el nombre del Pokémon en el campo de batalla
-			string nombrePokemonCampo = flowLayoutPanel4.Controls[0].Name;
-
-			int indicePokemonEspera = 0;
-			int indicePokemonCampo = 0;
-
-			string pathEspera = Path.Combine(Archivos, "Resources", "pokemonFrente\\");
-			string pathBatalla = Path.Combine(Archivos, "Resources", "pokemonEspalda\\");
-
-			// Encontrar los índices de los Pokémon en base a los nombres
-			foreach (var pokemon in jugadores[jugadorActual2].pokemones)
-			{
-				if (pokemon.nombre == pictureBoxEnEspera.Name)
-				{
-					break;
-				}
-				indicePokemonEspera++;
-			}
-
-			foreach (var pokemon in jugadores[jugadorActual2].pokemones)
-			{
-				if (pokemon.nombre == nombrePokemonCampo)
-				{
-					break;
-				}
-				indicePokemonCampo++;
-			}
-
-			if (jugadores[jugadorActual2].pokemones[indicePokemonEspera].vida != 0)
-			{
-				flowLayoutPanel3.Controls.RemoveAt(indicePictureBoxEspera);
-
-				// Construir las rutas de las imágenes basadas en los índices
-				string rutaImagenEsperaAbatalla = Path.Combine(pathEspera, $"{jugadores[jugadorActual2].pokemones[indicePokemonCampo].Id}.gif");
-				string rutaImagenBatallaAespera = Path.Combine(pathEspera, $"{jugadores[jugadorActual2].pokemones[indicePokemonEspera].Id}.gif");
-
-				// Eliminar todos los Pokémon del campo de batalla antes de agregar uno nuevo
-				flowLayoutPanel4.Controls.Clear();
-
-				// Se setean las propiedades del PictureBox
-				PictureBox pictureBox_Frente = new PictureBox();
-				pictureBox_Frente.Name = jugadores[jugadorActual2].pokemones[indicePokemonEspera].nombre;
-				pictureBox_Frente.Image = new System.Drawing.Bitmap(rutaImagenBatallaAespera);
-				pictureBox_Frente.SizeMode = PictureBoxSizeMode.StretchImage;
-				pictureBox_Frente.Size = new Size(125, 125);
-
-				// Se agrega la imagen del pokemon que antes estaba en espera al campo de batalla
-				flowLayoutPanel4.Controls.Add(pictureBox_Frente);
-				flowLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
-
-				// Se le agregan los nombres de los ataques
-
-				button5.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento1 + "//" + jugadores[jugadorActual2].pokemones[indicePokemonEspera].mov1Poder;
-				button6.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento2 + "//" + jugadores[jugadorActual2].pokemones[indicePokemonEspera].mov2Poder;
-				button7.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento3 + "//" + jugadores[jugadorActual2].pokemones[indicePokemonEspera].mov3Poder;
-				button8.Text = jugadores[jugadorActual2].pokemones[indicePokemonEspera].movimiento4 + "//" + jugadores[jugadorActual2].pokemones[indicePokemonEspera].mov4Poder;
-
-				progressBar2.Value = jugadores[jugadorActual2].pokemones[indicePokemonEspera].vida;
-				label4.Text = $"{progressBar2.Value}/100";
-
-				pokemonActual2 = indicePokemonEspera;
-
-
-				PictureBox PictureBoxbatallaAespera = sender as PictureBox;
-				PictureBoxbatallaAespera.Image = new System.Drawing.Bitmap(rutaImagenEsperaAbatalla);
-				PictureBoxbatallaAespera.SizeMode = PictureBoxSizeMode.Zoom;
-				PictureBoxbatallaAespera.Size = new Size(70, 70);
-				PictureBoxbatallaAespera.Name = jugadores[jugadorActual2].pokemones[indicePokemonCampo].nombre;
-
-				flowLayoutPanel3.Controls.Add(PictureBoxbatallaAespera);
-			}
-			else
-			{
-				//MessageBox.Show(jugadores[jugadorActual2].pokemones[indicePokemonEspera].nombre + ": Estoy cansado jefe");
-				MessageBox.Show(jugadores[jugadorActual2].pokemones[indicePokemonEspera].nombre + ": Estoy cansado jefe",
-								"Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
-			}
-
-		}
 		public void CargarPokemonesEnEspera()
 		{
 			string pokemonesJugador1 = Path.Combine(Archivos, "Resources", "pokemonFrente\\");
@@ -1007,8 +779,8 @@ namespace Proyecto
 					PictureBox pictureBox_pokemonesJugador1 = new PictureBox();
 					PictureBox pictureBox_pokemonesJugador2 = new PictureBox();
 					//Asignando el evento a los picturebox
-					pictureBox_pokemonesJugador1.Click += PokemonEnEspera_Click1;
-					pictureBox_pokemonesJugador2.Click += RivalPokemonEnEspera_Click;
+					//pictureBox_pokemonesJugador1.Click += PokemonEnEspera_Click1;
+					//pictureBox_pokemonesJugador2.Click += RivalPokemonEnEspera_Click;
 
 					//Asignando nombre a cada uno de los picture box
 					pictureBox_pokemonesJugador1.Name = jugadores[jugadorActual1].pokemones[i].nombre;
@@ -1529,7 +1301,8 @@ namespace Proyecto
 		//**********************************************************
 		public void mostrarJugadores()
 		{
-			List<string> rutasImagenes;
+			List<string> rutasImagenes = null;
+
 			if (jugadores.Count == 4)
 			{
 				Fasefinal4 faseFinal4 = new Fasefinal4(jugadores, cantidadbots);
@@ -1541,23 +1314,33 @@ namespace Proyecto
 				Fasefinal8 faseFinal8 = new Fasefinal8(jugadores, cantidadbots);
 				rutasImagenes = faseFinal8.MostrarImagenesAleatorias();
 			}
-			else
+			else if(jugadores.Count == 16)
 			{
-				MessageBox.Show("aqui no tiene que entrar, metodo mostrar jugadores, else");
+				//MessageBox.Show("aqui no tiene que entrar, metodo mostrar jugadores, else");
 				Fasefinal16 faseFinal16 = new Fasefinal16(jugadores, cantidadbots);
 				rutasImagenes = faseFinal16.MostrarImagenesAleatorias();
-			}
+			} 
+
+			
+			if (tipoTorneo4)
+			{
+                Fasefinal8 faseFinal4 = new Fasefinal8();
+                rutasImagenes = faseFinal4.MostrarImagenesAleatorias();
+            }else if (tipoTorneo8)
+            {
+                Fasefinal8 faseFinal8 = new Fasefinal8();
+                rutasImagenes = faseFinal8.MostrarImagenesAleatorias();
+            }else if (tipoTorneo16)
+			{
+                Fasefinal8 faseFinal16 = new Fasefinal8();
+                rutasImagenes = faseFinal16.MostrarImagenesAleatorias();
+            }
 
 
-
-			progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].vida;
+            progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].vida;
 			progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].vida;
 			label1.Text = "Jugador" + Convert.ToString(jugadores[jugadorActual1].IdJugador);
 			label2.Text = "Jugador" + Convert.ToString(jugadores[jugadorActual2].IdJugador);
-
-
-
-
 
 
 			if (rutasImagenes != null && rutasImagenes.Count >= 2)

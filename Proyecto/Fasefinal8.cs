@@ -20,6 +20,10 @@ namespace Pokemons
         Controlador imagenesrnd = new Controlador();
         int cantidadbots;
         bool siguienteRonda;
+        bool noHayMasRondas;
+        bool ronda2;
+        bool ronda3;
+
         public Fasefinal8()
         {
             InitializeComponent();
@@ -39,9 +43,27 @@ namespace Pokemons
         {
             InitializeComponent();
             // Cargar el archivo de sonido
-            this.jugadores = listaGanadores;
-            siguienteRonda = true;
-            siguienteFase();
+            if (listaGanadores.Count == 4)
+            {
+                this.jugadores = listaGanadores;
+                siguienteRonda = true;
+                noHayMasRondas = false;
+                siguienteFase();
+            }else if (listaGanadores.Count == 2)
+            {
+                this.jugadores = listaGanadores;
+                siguienteRonda = true;
+                noHayMasRondas = false;
+                siguienteFase2();
+            }else 
+            {
+                this.jugadores = listaGanadores;
+                siguienteRonda = false;
+                noHayMasRondas = true;
+                ganadorTorneo();
+
+            }
+
 
 		}
 		public void siguienteFase()
@@ -57,22 +79,48 @@ namespace Pokemons
 
 		}
 
-		private void button1_Click(object sender, EventArgs e)
+        public void siguienteFase2()
+        {
+            string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
+
+            pictureBox14.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+            pictureBox15.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
+
+
+            button1.Text = "Siguiente fase";
+
+        }
+
+        public void ganadorTorneo()
+        {
+            string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
+
+            pictureBox16.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+            MessageBox.Show("El jugador #" + jugadores[0].IdJugador + " ha ganado el torneo, felicidades!!!");
+            button1.Text = "Terminar";
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             
 			if (siguienteRonda)
 			{
-				Batallapokemon siguienteFase = new Batallapokemon(jugadores);
+                Batallapokemon siguienteFase = new Batallapokemon(jugadores, false, true, false);
 				siguienteFase.Show();
 				this.Hide();
 			}
-			else
+			else if (noHayMasRondas)
 			{
-				// Mantén el código original si la condición no se cumple
-				Seleccionpokemon equipo = new Seleccionpokemon(jugadores, cantidadbots);
-				equipo.Show();
-				this.Hide();
-			}
+                this.Close();
+            }
+            else
+            {
+                // Mantén el código original si la condición no se cumple
+                Seleccionpokemon equipo = new Seleccionpokemon(jugadores, cantidadbots);
+                equipo.Show();
+                this.Hide();
+            }
 			
         }
 

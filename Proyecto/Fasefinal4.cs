@@ -91,7 +91,7 @@ namespace Proyecto
             }
             else if (segundaRonda)
             {
-                Batallapokemon siguienteFase = new Batallapokemon(jugadores, cantidadbots);
+                Batallapokemon siguienteFase = new Batallapokemon(jugadores, true, false, false);
                 siguienteFase.Show();
                 this.Hide();
             }
