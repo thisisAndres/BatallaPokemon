@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Media;
@@ -21,8 +22,8 @@ namespace Proyecto
         int cantidadbots;
         public List<string> rutasImagenesAleatorias;
 		bool segundaRonda;
-        
-		
+        bool primerRonda = true;
+
 		public Fasefinal4()
         {
             InitializeComponent();
@@ -32,7 +33,7 @@ namespace Proyecto
         {
             InitializeComponent();
             this.jugadores = listaGanadores;
-            segundaRonda = true;
+            
 			    
             if (listaGanadores.Count < 2)
             {
@@ -51,6 +52,8 @@ namespace Proyecto
 			pictureBox6.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
 			pictureBox7.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
 			button1.Text = "Siguiente fase";
+            primerRonda = false;
+			segundaRonda = true;
 		}
 		public void ganadorTorneo()
 		{
@@ -58,7 +61,9 @@ namespace Proyecto
             
 			pictureBox8.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
 			MessageBox.Show("El jugador #" + jugadores[0].IdJugador + " ha ganado el torneo, felicidades!!!");
-
+			button1.Text = "Terminar";
+			primerRonda = false;
+            segundaRonda = false;
 
 		}
 		public Fasefinal4(List<objetoJugador> listaJugadores, int cantidadbots)
@@ -76,19 +81,26 @@ namespace Proyecto
         private void button1_Click(object sender, EventArgs e)
         {
 
-			if (segundaRonda)
-			{
-				Batallapokemon siguienteFase = new Batallapokemon(jugadores, cantidadbots);
-				siguienteFase.Show();
-				this.Hide();
-			}
-			else
-			{
-				// Mantén el código original si la condición no se cumple
-				Seleccionpokemon equipo = new Seleccionpokemon(jugadores, cantidadbots);
-				equipo.Show();
-				this.Hide();
-			}
+            if (primerRonda)
+            {
+                // Mantén el código original si la condición no se cumple
+                Seleccionpokemon equipo = new Seleccionpokemon(jugadores, cantidadbots);
+                equipo.Show();
+                this.Hide();
+
+            }
+            else if (segundaRonda)
+            {
+                Batallapokemon siguienteFase = new Batallapokemon(jugadores, cantidadbots);
+                siguienteFase.Show();
+                this.Hide();
+            }
+            else { 
+            
+                this.Close();
+            
+            }
+           
 		}
 
         private void Fasefinal4_Load(object sender, EventArgs e)
