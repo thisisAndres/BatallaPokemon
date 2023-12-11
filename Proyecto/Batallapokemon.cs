@@ -293,21 +293,24 @@ namespace Proyecto
 
             if (tipoTorneo4)
             {
-                MessageBox.Show("Iniciando siguiente fase del torneo de " + 4 + " jugadores");
+                MessageBox.Show("Iniciando siguiente fase del torneo de " + 4 + " jugadores",
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 Fasefinal4 faseFinal4 = new Fasefinal4(jugadores);
                 this.Hide();
                 faseFinal4.Show();
             }
             else if (tipoTorneo8)
             {
-                MessageBox.Show("Iniciando siguiente fase del torneo de " + 8 + " jugadores");
+                MessageBox.Show("Iniciando siguiente fase del torneo de " + 8 + " jugadores",
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 Fasefinal8 faseFinal8 = new Fasefinal8(jugadores);
                 this.Hide();
                 faseFinal8.Show();
             }
             else if (tipoTorneo16)
             {
-                MessageBox.Show("Iniciando siguiente fase del torneo de " + 16 + " jugadores");
+                MessageBox.Show("Iniciando siguiente fase del torneo de " + 16 + " jugadores",
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 Fasefinal16 faseFinal16 = new Fasefinal16(jugadores);
                 this.Hide();
                 faseFinal16.Show();
@@ -316,21 +319,24 @@ namespace Proyecto
             {
                 if (tipoFase == 4)
                 {
-                    MessageBox.Show("Iniciando siguiente fase del torneo de " + 4 + " jugadores");
+                    MessageBox.Show("Iniciando siguiente fase del torneo de " + 4 + " jugadores",
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     Fasefinal4 faseFinal4 = new Fasefinal4(jugadores);
                     this.Hide();
                     faseFinal4.Show();
                 }
                 else if (tipoFase == 8)
                 {
-                    MessageBox.Show("Iniciando siguiente fase del torneo de " + 8 + " jugadores");
+                    MessageBox.Show("Iniciando siguiente fase del torneo de " + 8 + " jugadores",
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     Fasefinal8 faseFinal8 = new Fasefinal8(jugadores);
                     this.Hide();
                     faseFinal8.Show();
                 }
                 else
                 {
-                    MessageBox.Show("Iniciando siguiente fase del torneo de " + 16 + " jugadores");
+                    MessageBox.Show("Iniciando siguiente fase del torneo de " + 16 + " jugadores",
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     Fasefinal16 faseFinal16 = new Fasefinal16(jugadores);
                     this.Hide();
                     faseFinal16.Show();
@@ -367,6 +373,8 @@ namespace Proyecto
                     ganadorId = jugadores[jugadorActual1].IdJugador;
                     perdedorId = jugadores[jugadorActual2].IdJugador;
                     controlador.insertarGanadorBitacora(ganadorId, perdedorId, combate);
+                    MessageBox.Show("El ganador de esta batalla es el jugador #" + ganadorId,
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
                     if (jugadorActual2 != jugadores.Count - 1)
@@ -449,6 +457,8 @@ namespace Proyecto
                     ganadorId = jugadores[jugadorActual2].IdJugador;
                     perdedorId = jugadores[jugadorActual1].IdJugador;
                     insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
+                    MessageBox.Show("El ganador de esta batalla es el jugador #" + ganadorId,
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
                     if (jugadorActual2 != jugadores.Count - 1)
@@ -530,9 +540,10 @@ namespace Proyecto
                     perdedorId = jugadores[jugadorActual2].IdJugador;
                     ganadorId = jugadores[jugadorActual1].IdJugador;
                     controlador.insertarGanadorBitacora(ganadorId, perdedorId, combate);
+                    MessageBox.Show("El ganador de esta batalla es el jugador #" + ganadorId,
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-
-                    MessageBox.Show(jugadorActual2 + " // " + (jugadores.Count - 1));
+                    //MessageBox.Show(jugadorActual2 + " // " + (jugadores.Count - 1));
 
                     if (jugadorActual2 != jugadores.Count - 1)
                     {
@@ -608,9 +619,9 @@ namespace Proyecto
 
             if (jugadores[jugadorActual1].isBot && jugadores[jugadorActual2].isBot)
             {
-                 ganadorId = 0;
-                 perdedorId = 0;
-                 combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
+                ganadorId = 0;
+                perdedorId = 0;
+                combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
 
                 Random rnd = new Random();
                 int nRandom = rnd.Next(1, 3);
@@ -629,7 +640,10 @@ namespace Proyecto
                     perdedorId = jugadores[jugadorActual1].IdJugador;
                 }
                 insertar_bitacora.InsertarEnBitacoraPeleas(ganadorId, perdedorId, combate);
-                //MessageBox.Show("El ganador de esta batalla es el jugador #" + ganadorId);
+
+                MessageBox.Show("El ganador de esta batalla es el jugador #" + ganadorId,
+                                        "Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 if (jugadorActual2 != jugadores.Count - 1)
                 {
                     jugadorActual1 = jugadorActual1 + 2;
@@ -1362,7 +1376,6 @@ namespace Proyecto
             }
             else if (jugadores.Count == 16)
             {
-                //MessageBox.Show("aqui no tiene que entrar, metodo mostrar jugadores, else");
                 Fasefinal16 faseFinal16 = new Fasefinal16(jugadores, cantidadbots);
                 rutasImagenes = faseFinal16.MostrarImagenesAleatorias();
             }

@@ -260,7 +260,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(4, 28);
+            pictureBox2.Location = new Point(84, 28);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(19, 19);
             pictureBox2.TabIndex = 32;
@@ -270,7 +270,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(44, 1);
+            label7.Location = new Point(2, 1);
             label7.Name = "label7";
             label7.Size = new Size(40, 15);
             label7.TabIndex = 27;
@@ -278,7 +278,7 @@
             // 
             // progressBar2
             // 
-            progressBar2.Location = new Point(3, 17);
+            progressBar2.Location = new Point(4, 17);
             progressBar2.Name = "progressBar2";
             progressBar2.Size = new Size(100, 10);
             progressBar2.TabIndex = 23;
@@ -288,7 +288,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(49, 33);
+            label4.Location = new Point(3, 33);
             label4.Name = "label4";
             label4.Size = new Size(54, 15);
             label4.TabIndex = 25;
@@ -309,7 +309,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(83, 28);
+            pictureBox1.Location = new Point(84, 28);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(19, 19);
             pictureBox1.TabIndex = 22;

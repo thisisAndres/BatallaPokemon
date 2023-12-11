@@ -21,10 +21,10 @@ namespace Proyecto
         Controlador imagenesrnd = new Controlador();
         int cantidadbots;
         public List<string> rutasImagenesAleatorias;
-		bool segundaRonda;
+        bool segundaRonda;
         bool primerRonda = true;
 
-		public Fasefinal4()
+        public Fasefinal4()
         {
             InitializeComponent();
         }
@@ -33,8 +33,8 @@ namespace Proyecto
         {
             InitializeComponent();
             this.jugadores = listaGanadores;
-            
-			    
+
+
             if (listaGanadores.Count < 2)
             {
                 ganadorTorneo();
@@ -45,7 +45,8 @@ namespace Proyecto
                 pictureBox6.Dispose();
                 pictureBox7.Dispose();
             }
-            else { 
+            else
+            {
                 segundaFase();
                 pictureBox2.Dispose();
                 pictureBox3.Dispose();
@@ -53,28 +54,28 @@ namespace Proyecto
                 pictureBox5.Dispose();
             }
         }
-		public void segundaFase()
-		{
-			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
-            
-			pictureBox6.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
-			pictureBox7.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
-			button1.Text = "Siguiente fase";
+        public void segundaFase()
+        {
+            string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
+
+            pictureBox6.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+            pictureBox7.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
+            button1.Text = "Siguiente fase";
             primerRonda = false;
-			segundaRonda = true;
-		}
-		public void ganadorTorneo()
-		{
-			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
-           
+            segundaRonda = true;
+        }
+        public void ganadorTorneo()
+        {
+            string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
+
             pictureBox8.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
-			MessageBox.Show("El jugador #" + jugadores[0].IdJugador + " ha ganado el torneo, felicidades!!!");
-			button1.Text = "Terminar";
-			primerRonda = false;
+            MessageBox.Show("El jugador #" + jugadores[0].IdJugador + " ha ganado el torneo, felicidades!!!");
+            button1.Text = "Terminar";
+            primerRonda = false;
             segundaRonda = false;
 
-		}
-		public Fasefinal4(List<objetoJugador> listaJugadores, int cantidadbots)
+        }
+        public Fasefinal4(List<objetoJugador> listaJugadores, int cantidadbots)
         {
             InitializeComponent();
             // Cargar el archivo de sonido
@@ -103,13 +104,14 @@ namespace Proyecto
                 siguienteFase.Show();
                 this.Hide();
             }
-            else { 
-            
+            else
+            {
+
                 this.Close();
-            
+
             }
-           
-		}
+
+        }
 
         private void Fasefinal4_Load(object sender, EventArgs e)
         {
@@ -118,7 +120,7 @@ namespace Proyecto
             reproducirSonido();
         }
 
-        
+
 
         public void mostrarImagenes()
         {

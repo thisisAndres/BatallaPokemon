@@ -38,6 +38,23 @@ namespace Pokemons
                 siguienteRonda = true;
                 noHayMasRondas = false;
                 segundaFase();
+                pictureBox2.Dispose();
+                pictureBox3.Dispose();
+                pictureBox4.Dispose();
+                pictureBox5.Dispose();
+                pictureBox6.Dispose();
+                pictureBox7.Dispose();
+                pictureBox8.Dispose();
+                pictureBox8.Dispose();
+                pictureBox9.Dispose();
+                pictureBox10.Dispose();
+                pictureBox11.Dispose();
+                pictureBox12.Dispose();
+                pictureBox13.Dispose();
+                pictureBox14.Dispose();
+                pictureBox15.Dispose();
+                pictureBox16.Dispose();
+                pictureBox17.Dispose();
 
             }
             else if(listaGanadores.Count == 4)
@@ -46,6 +63,31 @@ namespace Pokemons
                 siguienteRonda = true;
                 noHayMasRondas = false;
                 terceraFase();
+                pictureBox2.Dispose();
+                pictureBox3.Dispose();
+                pictureBox4.Dispose();
+                pictureBox5.Dispose();
+                pictureBox6.Dispose();
+                pictureBox7.Dispose();
+                pictureBox8.Dispose();
+                pictureBox8.Dispose();
+                pictureBox9.Dispose();
+                pictureBox10.Dispose();
+                pictureBox11.Dispose();
+                pictureBox12.Dispose();
+                pictureBox13.Dispose();
+                pictureBox14.Dispose();
+                pictureBox15.Dispose();
+                pictureBox16.Dispose();
+                pictureBox17.Dispose();
+                pictureBox19.Dispose();
+                pictureBox20.Dispose();
+                pictureBox21.Dispose();
+                pictureBox22.Dispose();
+                pictureBox23.Dispose();
+                pictureBox24.Dispose();
+                pictureBox25.Dispose();
+                pictureBox26.Dispose();
             }
             else if (listaGanadores.Count == 2)
             {
@@ -53,6 +95,35 @@ namespace Pokemons
                 siguienteRonda = true;
                 noHayMasRondas = false;
                 cuartaFase();
+                pictureBox2.Dispose();
+                pictureBox3.Dispose();
+                pictureBox4.Dispose();
+                pictureBox5.Dispose();
+                pictureBox6.Dispose();
+                pictureBox7.Dispose();
+                pictureBox8.Dispose();
+                pictureBox8.Dispose();
+                pictureBox9.Dispose();
+                pictureBox10.Dispose();
+                pictureBox11.Dispose();
+                pictureBox12.Dispose();
+                pictureBox13.Dispose();
+                pictureBox14.Dispose();
+                pictureBox15.Dispose();
+                pictureBox16.Dispose();
+                pictureBox17.Dispose();
+                pictureBox19.Dispose();
+                pictureBox20.Dispose();
+                pictureBox21.Dispose();
+                pictureBox22.Dispose();
+                pictureBox23.Dispose();
+                pictureBox24.Dispose();
+                pictureBox25.Dispose();
+                pictureBox26.Dispose();
+                pictureBox27.Dispose();
+                pictureBox28.Dispose();
+                pictureBox29.Dispose();
+                pictureBox30.Dispose();
             }
             else
             {
@@ -60,6 +131,37 @@ namespace Pokemons
                 siguienteRonda = false;
                 noHayMasRondas = true;
                 ganadorTorneo();
+                pictureBox2.Dispose();
+                pictureBox3.Dispose();
+                pictureBox4.Dispose();
+                pictureBox5.Dispose();
+                pictureBox6.Dispose();
+                pictureBox7.Dispose();
+                pictureBox8.Dispose();
+                pictureBox8.Dispose();
+                pictureBox9.Dispose();
+                pictureBox10.Dispose();
+                pictureBox11.Dispose();
+                pictureBox12.Dispose();
+                pictureBox13.Dispose();
+                pictureBox14.Dispose();
+                pictureBox15.Dispose();
+                pictureBox16.Dispose();
+                pictureBox17.Dispose();
+                pictureBox19.Dispose();
+                pictureBox20.Dispose();
+                pictureBox21.Dispose();
+                pictureBox22.Dispose();
+                pictureBox23.Dispose();
+                pictureBox24.Dispose();
+                pictureBox25.Dispose();
+                pictureBox26.Dispose();
+                pictureBox27.Dispose();
+                pictureBox28.Dispose();
+                pictureBox29.Dispose();
+                pictureBox30.Dispose();
+                pictureBox31.Dispose();
+                pictureBox32.Dispose();
             }
 
 		}
