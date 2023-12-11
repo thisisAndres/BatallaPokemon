@@ -49,19 +49,54 @@ namespace Pokemons
                 siguienteRonda = true;
                 noHayMasRondas = false;
                 siguienteFase();
-            }else if (listaGanadores.Count == 2)
+                pictureBox2.Dispose();
+                pictureBox3.Dispose();
+                pictureBox4.Dispose();
+                pictureBox5.Dispose();
+                pictureBox6.Dispose();
+                pictureBox7.Dispose();
+                pictureBox8.Dispose();
+                pictureBox9.Dispose();
+            }
+            else if (listaGanadores.Count == 2)
             {
                 this.jugadores = listaGanadores;
                 siguienteRonda = true;
                 noHayMasRondas = false;
                 siguienteFase2();
+                pictureBox2.Dispose();
+                pictureBox3.Dispose();
+                pictureBox4.Dispose();
+                pictureBox5.Dispose();
+                pictureBox6.Dispose();
+                pictureBox7.Dispose();
+                pictureBox8.Dispose();
+                pictureBox9.Dispose();
+                pictureBox10.Dispose();
+                pictureBox11.Dispose();
+                pictureBox12.Dispose();
+                pictureBox13.Dispose();
+                
             }else 
             {
                 this.jugadores = listaGanadores;
                 siguienteRonda = false;
                 noHayMasRondas = true;
                 ganadorTorneo();
-
+                pictureBox2.Dispose();
+                pictureBox3.Dispose();
+                pictureBox4.Dispose();
+                pictureBox5.Dispose();
+                pictureBox6.Dispose();
+                pictureBox7.Dispose();
+                pictureBox8.Dispose();
+                pictureBox9.Dispose();
+                pictureBox10.Dispose();
+                pictureBox11.Dispose();
+                pictureBox12.Dispose();
+                pictureBox13.Dispose();
+                pictureBox14.Dispose();
+                pictureBox15.Dispose();
             }
 
 

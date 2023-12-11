@@ -38,17 +38,25 @@ namespace Proyecto
             if (listaGanadores.Count < 2)
             {
                 ganadorTorneo();
-
+                pictureBox2.Dispose();
+                pictureBox3.Dispose();
+                pictureBox4.Dispose();
+                pictureBox5.Dispose();
+                pictureBox6.Dispose();
+                pictureBox7.Dispose();
             }
             else { 
                 segundaFase();
-            
+                pictureBox2.Dispose();
+                pictureBox3.Dispose();
+                pictureBox4.Dispose();
+                pictureBox5.Dispose();
             }
         }
 		public void segundaFase()
 		{
 			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
-
+            
 			pictureBox6.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
 			pictureBox7.Image = Image.FromFile(directorioImagenesGanadores + jugadores[1].IdJugador + ".png");
 			button1.Text = "Siguiente fase";
@@ -58,8 +66,8 @@ namespace Proyecto
 		public void ganadorTorneo()
 		{
 			string directorioImagenesGanadores = Path.Combine(Archivos, "Resources", "entrenadores2\\");
-            
-			pictureBox8.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
+           
+            pictureBox8.Image = Image.FromFile(directorioImagenesGanadores + jugadores[0].IdJugador + ".png");
 			MessageBox.Show("El jugador #" + jugadores[0].IdJugador + " ha ganado el torneo, felicidades!!!");
 			button1.Text = "Terminar";
 			primerRonda = false;

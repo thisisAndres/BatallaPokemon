@@ -2047,23 +2047,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\50686\\.nuget\\packages\\": {},
+    "C:\\Users\\jluis\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\50686\\OneDrive - Universidad Internacional de las Américas (UIA)\\UIA\\Programacion IV\\ProyectoProgra4\\BatallaPokemon\\Proyecto\\Proyecto.csproj",
+      "projectUniqueName": "C:\\Users\\jluis\\OneDrive\\Desktop\\BatallaPokemon\\Proyecto\\Proyecto.csproj",
       "projectName": "Proyecto",
-      "projectPath": "C:\\Users\\50686\\OneDrive - Universidad Internacional de las Américas (UIA)\\UIA\\Programacion IV\\ProyectoProgra4\\BatallaPokemon\\Proyecto\\Proyecto.csproj",
-      "packagesPath": "C:\\Users\\50686\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\50686\\OneDrive - Universidad Internacional de las Américas (UIA)\\UIA\\Programacion IV\\ProyectoProgra4\\BatallaPokemon\\Proyecto\\obj\\",
+      "projectPath": "C:\\Users\\jluis\\OneDrive\\Desktop\\BatallaPokemon\\Proyecto\\Proyecto.csproj",
+      "packagesPath": "C:\\Users\\jluis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jluis\\OneDrive\\Desktop\\BatallaPokemon\\Proyecto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\50686\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jluis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2118,7 +2118,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
