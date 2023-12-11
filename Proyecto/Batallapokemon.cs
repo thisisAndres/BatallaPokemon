@@ -98,6 +98,8 @@ namespace Proyecto
                 DeshabilitarBotonesRival();
 
             }
+
+            restaurarEquipo();
             //MessageBox.Show(jugadores.Count.ToString());
             //MessageBox.Show(jugadores.Count.ToString(),
             //"Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -289,8 +291,6 @@ namespace Proyecto
         public void siguinteFase(int tipoFase)
         {
 
-            //MessageBox.Show("Iniciando siguiente fase del torneo de " + tipoFase + " jugadores");
-
             if (tipoTorneo4)
             {
                 MessageBox.Show("Iniciando siguiente fase del torneo de " + 4 + " jugadores");
@@ -358,6 +358,7 @@ namespace Proyecto
             {
                 actualizarPokemonJ2();
                 j2PokemonesElimidados++;
+
                 if (j2PokemonesElimidados == 4)
                 {
                     jugadores[jugadorActual1].setGanador();
@@ -377,6 +378,9 @@ namespace Proyecto
                         llamarPokemonesCampo();
                         CargarPokemonesEnEspera();
                         mostrarJugadores();
+
+                        j1PokemonesElimidados = 0;
+                        j2PokemonesElimidados = 0;
 
                     }
                     else if (jugadorActual2 == jugadores.Count - 1)
@@ -456,6 +460,9 @@ namespace Proyecto
                         llamarPokemonesCampo();
                         CargarPokemonesEnEspera();
                         mostrarJugadores();
+
+                        j1PokemonesElimidados = 0;
+                        j2PokemonesElimidados = 0;
 
                     }
                     else if (jugadorActual2 == jugadores.Count - 1)
@@ -537,6 +544,9 @@ namespace Proyecto
                         CargarPokemonesEnEspera();
                         mostrarJugadores();
                         logicaAmbosSonBots();
+
+                        j1PokemonesElimidados = 0;
+                        j2PokemonesElimidados = 0;
                     }
                     else if (jugadorActual2 == jugadores.Count - 1)
                     {
@@ -594,9 +604,14 @@ namespace Proyecto
         {
             int ganadorId = 0;
             int perdedorId = 0;
-            string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
+            string combate = "";
+
             if (jugadores[jugadorActual1].isBot && jugadores[jugadorActual2].isBot)
             {
+                 ganadorId = 0;
+                 perdedorId = 0;
+                 combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
+
                 Random rnd = new Random();
                 int nRandom = rnd.Next(1, 3);
                 if (nRandom == 1)
@@ -1055,6 +1070,7 @@ namespace Proyecto
 
             pokemonActual1 = 0;
             pokemonActual2 = 0;
+
             try
             {
 
@@ -1076,6 +1092,8 @@ namespace Proyecto
                 button4.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].movimiento4 + "//" + jugadores[jugadorActual1].pokemones[pokemonActual1].mov4Poder;
                 label6.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].nombre;
                 label7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].nombre;
+
+
             }
             catch (Exception ex)
             {
@@ -1352,7 +1370,7 @@ namespace Proyecto
 
             if (tipoTorneo4)
             {
-                Fasefinal8 faseFinal4 = new Fasefinal8();
+                Fasefinal4 faseFinal4 = new Fasefinal4();
                 rutasImagenes = faseFinal4.MostrarImagenesAleatorias();
             }
             else if (tipoTorneo8)
@@ -1362,7 +1380,7 @@ namespace Proyecto
             }
             else if (tipoTorneo16)
             {
-                Fasefinal8 faseFinal16 = new Fasefinal8();
+                Fasefinal16 faseFinal16 = new Fasefinal16();
                 rutasImagenes = faseFinal16.MostrarImagenesAleatorias();
             }
 
