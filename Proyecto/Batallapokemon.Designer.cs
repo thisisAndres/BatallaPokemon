@@ -46,10 +46,12 @@
             flowLayoutPanel2 = new FlowLayoutPanel();
             panel1 = new Panel();
             panel3 = new Panel();
+            pictureBox2 = new PictureBox();
             label7 = new Label();
             progressBar2 = new ProgressBar();
             label4 = new Label();
             panel2 = new Panel();
+            pictureBox1 = new PictureBox();
             label6 = new Label();
             label3 = new Label();
             progressBar1 = new ProgressBar();
@@ -60,7 +62,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -236,28 +240,37 @@
             panel1.Controls.Add(flowLayoutPanel4);
             panel1.Controls.Add(flowLayoutPanel2);
             panel1.Controls.Add(flowLayoutPanel5);
-            panel1.Location = new Point(182, 29);
+            panel1.Location = new Point(181, 29);
             panel1.Name = "panel1";
             panel1.Size = new Size(633, 393);
             panel1.TabIndex = 20;
             // 
             // panel3
             // 
-            panel3.BackColor = Color.Silver;
+            panel3.BackColor = Color.LightGray;
             panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(pictureBox2);
             panel3.Controls.Add(label7);
             panel3.Controls.Add(progressBar2);
             panel3.Controls.Add(label4);
-            panel3.Location = new Point(445, 62);
+            panel3.Location = new Point(445, 82);
             panel3.Name = "panel3";
-            panel3.Size = new Size(108, 70);
+            panel3.Size = new Size(108, 50);
             panel3.TabIndex = 31;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Location = new Point(4, 28);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(19, 19);
+            pictureBox2.TabIndex = 32;
+            pictureBox2.TabStop = false;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(65, 12);
+            label7.Location = new Point(44, 1);
             label7.Name = "label7";
             label7.Size = new Size(40, 15);
             label7.TabIndex = 27;
@@ -265,7 +278,7 @@
             // 
             // progressBar2
             // 
-            progressBar2.Location = new Point(3, 30);
+            progressBar2.Location = new Point(3, 17);
             progressBar2.Name = "progressBar2";
             progressBar2.Size = new Size(100, 10);
             progressBar2.TabIndex = 23;
@@ -275,7 +288,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(49, 47);
+            label4.Location = new Point(49, 33);
             label4.Name = "label4";
             label4.Size = new Size(54, 15);
             label4.TabIndex = 25;
@@ -283,21 +296,30 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.Silver;
+            panel2.BackColor = Color.LightGray;
             panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(label6);
             panel2.Controls.Add(label3);
             panel2.Controls.Add(progressBar1);
-            panel2.Location = new Point(123, 170);
+            panel2.Location = new Point(123, 192);
             panel2.Name = "panel2";
-            panel2.Size = new Size(108, 70);
+            panel2.Size = new Size(108, 50);
             panel2.TabIndex = 30;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(83, 28);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(19, 19);
+            pictureBox1.TabIndex = 22;
+            pictureBox1.TabStop = false;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(3, 14);
+            label6.Location = new Point(4, 1);
             label6.Name = "label6";
             label6.Size = new Size(40, 15);
             label6.TabIndex = 26;
@@ -309,7 +331,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(3, 45);
+            label3.Location = new Point(3, 32);
             label3.Name = "label3";
             label3.Size = new Size(54, 15);
             label3.TabIndex = 24;
@@ -317,7 +339,7 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(3, 32);
+            progressBar1.Location = new Point(3, 17);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(100, 10);
             progressBar1.TabIndex = 22;
@@ -384,8 +406,10 @@
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -419,5 +443,7 @@
         private Label label6;
         private Label label3;
         private ProgressBar progressBar1;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

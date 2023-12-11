@@ -1,4 +1,5 @@
-﻿using Pokemons;
+﻿using Microsoft.VisualBasic.Logging;
+using Pokemons;
 using Proyecto.Models;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,8 @@ namespace Proyecto
         int cantidadbots;
         string frente = Path.Combine(Configuracion.Archivos, "Resources", "pokemonFrente\\");
         string espalda = Path.Combine(Configuracion.Archivos, "Resources", "pokemonEspalda\\");
+        string pokebola = Path.Combine(Configuracion.Archivos, "Resources", "pokebola.ico");
+        PictureBox imagenPokebola = new PictureBox();
         Controlador controlador = new Controlador();
         ConexionDatos insertar_bitacora = new ConexionDatos();
         private string rutaDeLaImagen;
@@ -76,6 +79,14 @@ namespace Proyecto
         //Carga inicial del form
         private void Form2_Load(object sender, EventArgs e)
         {
+            pictureBox1.Image = Image.FromFile(pokebola);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.BackColor = System.Drawing.Color.Transparent;
+
+            pictureBox2.Image = Image.FromFile(pokebola);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.BackColor = System.Drawing.Color.Transparent;
+
             cargarImagenBackground();
             CargarImagenesCampos();
             reproducirSonidoBatalla();
@@ -91,6 +102,7 @@ namespace Proyecto
             //MessageBox.Show(jugadores.Count.ToString(),
             //"Pokemon Primera Generación", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
         //botones de ataques del primer jugador
         private void button1_Click(object sender, EventArgs e)
         {
@@ -338,7 +350,9 @@ namespace Proyecto
             string combate = $"Jugador {jugadores[jugadorActual1].IdJugador} VS Jugador {jugadores[jugadorActual2].IdJugador}";
             progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].getVidaRestante();
             label4.Text = Convert.ToString(progressBar2.Value) + "/100";
+            label6.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].nombre;
             label7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].nombre;
+
 
             if (progressBar2.Value == 0)
             {
@@ -418,6 +432,7 @@ namespace Proyecto
             progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
             label3.Text = Convert.ToString(progressBar1.Value) + "/100";
             label6.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].nombre;
+            label7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].nombre;
 
             if (progressBar1.Value == 0)
             {
@@ -494,6 +509,7 @@ namespace Proyecto
             progressBar2.Value = jugadores[jugadorActual2].pokemones[pokemonActual2].getVidaRestante();
             label4.Text = Convert.ToString(progressBar2.Value) + "/100";
             label6.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].nombre;
+            label7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].nombre;
 
             if (progressBar2.Value == 0)
             {
@@ -684,6 +700,9 @@ namespace Proyecto
                 }
                 progressBar1.Value = jugadores[jugadorActual1].pokemones[pokemonActual1].getVidaRestante();
                 label3.Text = Convert.ToString(progressBar1.Value) + "/100";
+                label6.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].nombre;
+                label7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].nombre;
+
                 if (progressBar1.Value <= 0)
                 {
                     actualizarPokemonJ1();
@@ -856,6 +875,8 @@ namespace Proyecto
                     // Actualizar la vida del nuevo Pokémon
                     progressBar2.Value = jugadores[jugadorActual2].pokemones[indicePokemon].vida;
                     label4.Text = $"{progressBar2.Value}/100";
+                    label6.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].nombre;
+                    label7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].nombre;
 
                     flowLayoutPanel3.Controls.RemoveAt(0);
 
@@ -941,7 +962,9 @@ namespace Proyecto
                     // Actualizar la vida del nuevo Pokémon
                     progressBar1.Value = jugadores[jugadorActual1].pokemones[indicePokemon].vida;
                     label3.Text = $"{progressBar1.Value}/100";
-                    label6.Text = jugadores[jugadorActual1].pokemones[indicePokemon].nombre;
+                    label6.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].nombre;
+                    label7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].nombre;
+
 
                     flowLayoutPanel1.Controls.RemoveAt(0);
 
@@ -1007,7 +1030,8 @@ namespace Proyecto
                     // Actualizar la vida del nuevo Pokémon
                     progressBar2.Value = jugadores[jugadorActual2].pokemones[indicePokemon].vida;
                     label4.Text = $"{progressBar2.Value}/100";
-                    label7.Text = jugadores[jugadorActual2].pokemones[indicePokemon].nombre;
+                    label6.Text = jugadores[jugadorActual1].pokemones[pokemonActual1].nombre;
+                    label7.Text = jugadores[jugadorActual2].pokemones[pokemonActual2].nombre;
 
                     flowLayoutPanel3.Controls.RemoveAt(0);
 
